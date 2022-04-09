@@ -3,13 +3,13 @@ from users.models import User
 
 class UserService:
     @staticmethod
-    def create(name, email):
-        user = UserService.assemble(name, email)
+    def create(email, name):
+        user = UserService.assemble(email, name)
         user.save()
         return user
 
     @staticmethod
-    def assemble(name, email):
+    def assemble(email, name):
         try:
             user = User.objects.get(email__icontains=email)
         except User.DoesNotExist:

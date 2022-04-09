@@ -5,8 +5,8 @@ from users.services import UserService
 
 class BetService:
     @staticmethod
-    def create(user_name, user_email, teams):
-        user = UserService.create(user_name, user_email)
+    def create(user_email, user_name, teams):
+        user = UserService.create(user_email, user_name)
         BetService.set_inactive(user)
         bet = BetService.assemble(user)
         bet.save()
