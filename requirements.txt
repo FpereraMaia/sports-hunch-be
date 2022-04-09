@@ -2,3 +2,5 @@ django==4.0.0
 djangorestframework==3.13.1
 django-filter==21.1
 Markdown==3.3.6
+django-environ==0.8.1
+PyMySQL==1.0.2
