@@ -22,10 +22,10 @@ from seed.viewsets import SportsHunchViewSet
 from teams.viewsets import TeamViewSet
 
 router = routers.DefaultRouter()
-router.register(r'api/teams', TeamViewSet, basename='Team')
-router.register(r'api/bets', BetsViewSet, basename='Bet')
+#router.register(r'api/teams', TeamViewSet, basename='Team')
+#router.register(r'api/bets', BetsViewSet, basename='Bet')
 
-router.register(r'api/manager/seed', SportsHunchViewSet, basename='Bet')
+#router.register(r'api/manager/seed', SportsHunchViewSet, basename='Bet')
 
 urlpatterns = [
     path('', include(router.urls)),
