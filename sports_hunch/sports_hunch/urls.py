@@ -19,6 +19,7 @@ from rest_framework import routers
 from bet_details.viewsets import BetsDetailsByUserViewSet
 from bets.viewsets import BetsViewSet
 from seed.viewsets import SportsHunchViewSet, SeedStandingsViewSet
+from standings.viewsets import CurrentStandingsViewSet
 
 from teams.viewsets import TeamViewSet
 from users.viewsets import ActiveUsersListViewSet
@@ -33,6 +34,9 @@ router.register(
 router.register(r"api/manager/seed", SportsHunchViewSet, basename="ManagerSeed")
 router.register(
     r"api/manager/seed/standings", SeedStandingsViewSet, basename="ManagerStandingsSeed"
+)
+router.register(
+    r"api/standings/current", CurrentStandingsViewSet, basename="CurrentViewSet"
 )
 
 urlpatterns = [
