@@ -16,16 +16,19 @@ Including another URLconf
 from django.urls import path, include
 from rest_framework import routers
 
+from bet_details.viewsets import BetsDetailsByUserViewSet
 from bets.viewsets import BetsViewSet
 from seed.viewsets import SportsHunchViewSet
 
 from teams.viewsets import TeamViewSet
+from users.viewsets import ActiveUsersListViewSet
 
 router = routers.DefaultRouter()
-#router.register(r'api/teams', TeamViewSet, basename='Team')
-#router.register(r'api/bets', BetsViewSet, basename='Bet')
-
-#router.register(r'api/manager/seed', SportsHunchViewSet, basename='Bet')
+router.register(r'api/teams', TeamViewSet, basename='Team')
+router.register(r'api/bets', BetsViewSet, basename='Bet')
+router.register(r'api/users', ActiveUsersListViewSet, basename='User')
+router.register(r'api/bets/details/user', BetsDetailsByUserViewSet, basename='BetDetails')
+router.register(r'api/manager/seed', SportsHunchViewSet, basename='ManagerSeed')
 
 urlpatterns = [
     path('', include(router.urls)),

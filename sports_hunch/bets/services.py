@@ -1,6 +1,13 @@
+from enum import Enum
+
 from bet_details.services import BetDetailsService
 from bets.models import Bet
 from users.services import UserService
+
+
+class BetStatus(Enum):
+    ACTIVE = True
+    INACTIVE = False
 
 
 class BetService:
@@ -32,3 +39,12 @@ class BetService:
     @staticmethod
     def set_inactive(user):
         Bet.objects.filter(user_id=user.pk).update(is_inactive=True)
+
+    @staticmethod
+    def _get_bets_by_status(status: bool):
+        status_for_filter = not status
+        return Bet.objects.filter(is_inactive=status_for_filter).select_related().all()
+
+    @staticmethod
+    def get_all_active_bets():
+        return BetService._get_bets_by_status(BetStatus.ACTIVE.value)
