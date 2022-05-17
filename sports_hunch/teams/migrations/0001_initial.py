@@ -7,19 +7,18 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Team',
+            name="Team",
             fields=[
-                ('team_id', models.BigAutoField(primary_key=True, serialize=False)),
-                ('name', models.CharField(max_length=45)),
-                ('abbreviation', models.CharField(max_length=5)),
-                ('crest', models.TextField()),
-                ('created_at', models.DateTimeField(auto_now_add=True)),
-                ('updated_at', models.DateTimeField(auto_now=True)),
+                ("team_id", models.BigAutoField(primary_key=True, serialize=False)),
+                ("name", models.CharField(max_length=45)),
+                ("abbreviation", models.CharField(max_length=5)),
+                ("crest", models.TextField()),
+                ("created_at", models.DateTimeField(auto_now_add=True)),
+                ("updated_at", models.DateTimeField(auto_now=True)),
             ],
         ),
     ]

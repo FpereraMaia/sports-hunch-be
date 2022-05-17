@@ -9,20 +9,38 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('bets', '0001_initial'),
-        ('teams', '0001_initial'),
+        ("bets", "0001_initial"),
+        ("teams", "0001_initial"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='BetDetails',
+            name="BetDetails",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('position', models.IntegerField()),
-                ('created_at', models.DateTimeField(auto_now_add=True)),
-                ('updated_at', models.DateTimeField(auto_now=True)),
-                ('bet', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='bets.bet')),
-                ('team', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='teams.team')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("position", models.IntegerField()),
+                ("created_at", models.DateTimeField(auto_now_add=True)),
+                ("updated_at", models.DateTimeField(auto_now=True)),
+                (
+                    "bet",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE, to="bets.bet"
+                    ),
+                ),
+                (
+                    "team",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE, to="teams.team"
+                    ),
+                ),
             ],
         ),
     ]

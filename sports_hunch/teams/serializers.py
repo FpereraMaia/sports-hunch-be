@@ -6,7 +6,7 @@ from teams.models import Team
 class TeamSeedSerializer(serializers.ModelSerializer):
     class Meta:
         model = Team
-        fields = ['team_id', 'name', 'abbreviation', 'crest']
+        fields = ["team_id", "name", "abbreviation", "crest"]
 
 
 class TeamSerializer(TeamSeedSerializer):

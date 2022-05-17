@@ -23,12 +23,7 @@ class BetService:
             bet.delete()
             raise err
 
-        return {
-            "id": bet.pk,
-            "name": user.name,
-            "email": user.email,
-            "teams": teams
-        }
+        return {"id": bet.pk, "name": user.name, "email": user.email, "teams": teams}
 
     @staticmethod
     def assemble(user):

@@ -12,7 +12,9 @@ class BetsViewSet(mixins.CreateModelMixin, viewsets.GenericViewSet):
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         data = serializer.data
-        reponse = BetService.create(data.get("email"), data.get("name"), data.get("teams"))
+        reponse = BetService.create(
+            data.get("email"), data.get("name"), data.get("teams")
+        )
         headers = self.get_success_headers(serializer.data)
 
         return Response(reponse, status=status.HTTP_201_CREATED, headers=headers)

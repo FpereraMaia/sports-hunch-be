@@ -5,3 +5,4 @@ Markdown==3.3.6
 django-environ==0.8.1
 PyMySQL==1.0.2
 django-cors-headers==3.11.0
+requests==2.27.1
