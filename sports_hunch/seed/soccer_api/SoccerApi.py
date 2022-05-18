@@ -8,4 +8,3 @@ class SoccerApi(SoccerApiInterface):
 
     def get_standings(self):
         return self.standings_service.get_standings()
-

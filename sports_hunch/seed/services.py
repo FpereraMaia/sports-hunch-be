@@ -24,7 +24,9 @@ class Seed:
 
         championship_current = current_championship.get()
         current_standings = championship_current.standings_set.all()
-        standings_is_equal = Seed.verify_api_standings_is_equal_current(current_standings, standings)
+        standings_is_equal = Seed.verify_api_standings_is_equal_current(
+            current_standings, standings
+        )
 
         if not standings_is_equal:
             return Seed.create_new_championship_table(standings)
@@ -72,10 +74,17 @@ class Seed:
     def verify_api_standings_is_equal_current(current_standings, standings):
         is_equal = True
         for current_standing in current_standings:
-            api_standing = list(filter(
-                lambda standing: standing.get("time").get("time_id") == current_standing.team_id, standings))
+            api_standing = list(
+                filter(
+                    lambda standing: standing.get("time").get("time_id")
+                    == current_standing.team_id,
+                    standings,
+                )
+            )
 
-            if api_standing and current_standing.position != api_standing[0].get("posicao"):
+            if api_standing and current_standing.position != api_standing[0].get(
+                "posicao"
+            ):
                 is_equal = False
                 break
         return is_equal
