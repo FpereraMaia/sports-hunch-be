@@ -35,6 +35,9 @@ router.register(r"api/users", ActiveUsersListViewSet, basename="User")
 router.register(
     r"api/bets/details/user", BetsDetailsByUserViewSet, basename="BetDetails"
 )
+router.register(
+    r"api/bets/details/user/ranking", CurrentRankingViewSet, basename="BetDetails"
+)
 router.register(r"api/manager/seed", SportsHunchViewSet, basename="ManagerSeed")
 router.register(
     r"api/manager/seed/standings", SeedStandingsViewSet, basename="ManagerStandingsSeed"
