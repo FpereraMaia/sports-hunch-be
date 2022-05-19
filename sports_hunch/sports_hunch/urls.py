@@ -17,8 +17,8 @@ from django.urls import path, include
 from rest_framework import routers
 
 from bet_details.viewsets import BetsDetailsByUserViewSet
-from bets.viewsets import BetsViewSet
-from seed.viewsets import SportsHunchViewSet, SeedStandingsViewSet
+from bets.viewsets import BetsViewSet, CurrentRankingViewSet
+from seed.viewsets import SportsHunchViewSet, SeedStandingsViewSet, SeedBetRankingViewSet
 from standings.viewsets import CurrentStandingsViewSet
 
 from teams.viewsets import TeamViewSet
@@ -36,7 +36,13 @@ router.register(
     r"api/manager/seed/standings", SeedStandingsViewSet, basename="ManagerStandingsSeed"
 )
 router.register(
-    r"api/standings/current", CurrentStandingsViewSet, basename="CurrentViewSet"
+    r"api/standings/current", CurrentStandingsViewSet, basename="CurrentStandingViewSet"
+)
+router.register(
+    r"api/ranking/current", CurrentRankingViewSet, basename="CurrentRankingViewSet"
+)
+router.register(
+    r"api/manager/seed/championship/bets/ranking", SeedBetRankingViewSet, basename="CurrentViewSet"
 )
 
 urlpatterns = [

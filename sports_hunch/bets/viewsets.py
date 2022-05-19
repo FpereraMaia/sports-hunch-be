@@ -1,7 +1,8 @@
 from rest_framework import mixins, viewsets, status
 from rest_framework.response import Response
 
-from bets.serializers import BetPostSerializer
+from bets.models import BetRanking
+from bets.serializers import BetPostSerializer, CurrentRankingSerializer
 from bets.services import BetService
 
 
@@ -18,3 +19,8 @@ class BetsViewSet(mixins.CreateModelMixin, viewsets.GenericViewSet):
         headers = self.get_success_headers(serializer.data)
 
         return Response(reponse, status=status.HTTP_201_CREATED, headers=headers)
+
+
+class CurrentRankingViewSet(mixins.ListModelMixin, viewsets.GenericViewSet):
+    queryset = BetRanking.objects.filter(championship_table__is_current=True).order_by("-total_points")
+    serializer_class = CurrentRankingSerializer
