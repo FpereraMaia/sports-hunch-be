@@ -22,5 +22,7 @@ class BetsViewSet(mixins.CreateModelMixin, viewsets.GenericViewSet):
 
 
 class CurrentRankingViewSet(mixins.ListModelMixin, viewsets.GenericViewSet):
-    queryset = BetRanking.objects.filter(championship_table__is_current=True).order_by("-total_points")
+    queryset = BetRanking.objects.filter(championship_table__is_current=True).order_by(
+        "-total_points"
+    )
     serializer_class = CurrentRankingSerializer

@@ -30,5 +30,3 @@ class UserService:
     def _get_users_by_bet_status(status: str):
         status = not status
         return User.objects.filter(bet__is_inactive=status).all()
-
-

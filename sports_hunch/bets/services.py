@@ -42,7 +42,9 @@ class BetService:
     @staticmethod
     def generate_ranking():
         # TODO isolate entities better. reorganize project
-        championship_tables = ChampionshipTable.objects.filter(betranking__pk__isnull=True).all()
+        championship_tables = ChampionshipTable.objects.filter(
+            betranking__pk__isnull=True
+        ).all()
         users = UserService.get_users_with_active_bets()
         bet_ranking_list = []
         deitaled_pontuations = []
@@ -50,8 +52,15 @@ class BetService:
             standings = championship_table.standings_set.all()
             for user in users:
                 # pra cada usuário tenhos que pegar as apostas dele em betdetails e calcular em cima da classificação
-                user_standings = user.bet_set.filter(is_inactive=False).get().betdetails_set.order_by("position").all()
-                total_points, detailed_pontuation = BetService.calculate_points_by_user(standings, user_standings, user.name)
+                user_standings = (
+                    user.bet_set.filter(is_inactive=False)
+                    .get()
+                    .betdetails_set.order_by("position")
+                    .all()
+                )
+                total_points, detailed_pontuation = BetService.calculate_points_by_user(
+                    standings, user_standings, user.name
+                )
                 bet_ranking = BetRanking()
                 bet_ranking.user = user
                 bet_ranking.championship_table = championship_table
@@ -70,7 +79,9 @@ class BetService:
         detailed_pontuation = []
         for user_standing in user_standings:
             filtered_standing = filter(
-                lambda standing: standing.team_id == user_standing.team_id, championship_standings)
+                lambda standing: standing.team_id == user_standing.team_id,
+                championship_standings,
+            )
             team_position_details = next(filtered_standing, None)
 
             one_position_above = team_position_details.position + 1
@@ -78,16 +89,22 @@ class BetService:
             g6_positions = [x for x in range(1, 7)]
             z4_positions = [x for x in range(17, 21)]
             between_7_and_12_positions = [x for x in range(7, 13)]
-            is_in_g6 = (user_standing.position in g6_positions) and (team_position_details.position in g6_positions)
-            is_in_z4 = (user_standing.position in z4_positions) and (team_position_details.position in z4_positions)
-            between_7_and_12 = (user_standing.position in between_7_and_12_positions) and (team_position_details.position in between_7_and_12_positions)
+            is_in_g6 = (user_standing.position in g6_positions) and (
+                team_position_details.position in g6_positions
+            )
+            is_in_z4 = (user_standing.position in z4_positions) and (
+                team_position_details.position in z4_positions
+            )
+            between_7_and_12 = (
+                user_standing.position in between_7_and_12_positions
+            ) and (team_position_details.position in between_7_and_12_positions)
             dict_log = {
                 "team_id": team_position_details.team_id,
                 "team_name": team_position_details.team.name,
                 "user_name": user_name,
                 "user_positinn": user_standing.position,
                 "table_position": team_position_details.position,
-                "point": 0
+                "point": 0,
             }
 
             if user_standing.position == team_position_details.position:

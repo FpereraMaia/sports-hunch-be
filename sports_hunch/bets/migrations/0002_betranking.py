@@ -7,19 +7,38 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('seed', '0002_standings'),
-        ('users', '0001_initial'),
-        ('bets', '0001_initial'),
+        ("seed", "0002_standings"),
+        ("users", "0001_initial"),
+        ("bets", "0001_initial"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='BetRanking',
+            name="BetRanking",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('total_points', models.IntegerField()),
-                ('championship_table', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='seed.championshiptable')),
-                ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='users.user')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("total_points", models.IntegerField()),
+                (
+                    "championship_table",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to="seed.championshiptable",
+                    ),
+                ),
+                (
+                    "user",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE, to="users.user"
+                    ),
+                ),
             ],
         ),
     ]
