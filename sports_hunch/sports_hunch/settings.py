@@ -36,19 +36,18 @@ ALLOWED_HOSTS = ["*"]
 # Application definition
 
 INSTALLED_APPS = [
-    "django.contrib.admin",
-    "django.contrib.auth",
     "django.contrib.contenttypes",
-    "django.contrib.sessions",
-    "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    'rest_framework_swagger',
     "corsheaders",
+    'drf_yasg',
     "users",
     "bets",
     "teams",
     "bet_details",
     "seed",
+    "v1.ranking",
 ]
 
 MIDDLEWARE = [
@@ -57,10 +56,15 @@ MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
-    "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
-    "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "django.middleware.clickjacking.XFrameOptionsMiddleware"
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
+    'UNAUTHENTICATED_USER': None
+}
+
 
 CORS_ALLOWED_ORIGINS = ["http://localhost:3000", "https://apostadoscorno.herokuapp.com"]
 

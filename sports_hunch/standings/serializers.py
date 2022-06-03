@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
-from seed.models import Standings
 from teams.serializers import TeamSerializer
+from v1.ranking.models import Standings
 
 
 class StandingsModelSerializer(serializers.ModelSerializer):

@@ -1,5 +1,5 @@
 from seed.interfaces.SoccerApiInterface import SoccerApiInterface
-from seed.models import ChampionshipTable, Standings
+from seed.models import ChampionshipTable
 from seed.seed_data.teams import teams_data_seed
 from teams.services import TeamService
 

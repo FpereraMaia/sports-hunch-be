@@ -1,5 +1,3 @@
-from django.db.models import Q
-
 from bets.enums import BetStatus
 from users.models import User
 

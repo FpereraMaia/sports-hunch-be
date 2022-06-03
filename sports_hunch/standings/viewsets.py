@@ -1,7 +1,7 @@
 from rest_framework import mixins, viewsets
 
-from seed.models import Standings
 from standings.serializers import StandingsModelSerializer
+from v1.ranking.models import Standings
 
 
 class CurrentStandingsViewSet(mixins.ListModelMixin, viewsets.GenericViewSet):
