@@ -2,7 +2,7 @@ from attr import define, field
 
 
 @define
-class Standings:
+class BetStandings:
     position: int
     team_name: str
     team_abbreviation: str
@@ -12,12 +12,12 @@ class Standings:
 
 @define
 class Championship:
-    standings: list[Standings]
+    standings: list[BetStandings]
 
 
 @define
 class Bet:
-    standings: list[Standings]
+    standings: list[BetStandings]
     rules = {
         "exact"
         "is_in_g6": {

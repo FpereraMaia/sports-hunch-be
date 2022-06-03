@@ -9,7 +9,8 @@ from bet_details.services import BetDetailsService
 class BetsDetailsByUserViewSet(mixins.RetrieveModelMixin, viewsets.GenericViewSet):
     queryset = BetDetails.objects.all()
 
-    def retrieve(self, request, *args, **kwargs):
+    @staticmethod
+    def retrieve(request, *args, **kwargs):
         user_id = kwargs.get("pk", None)
         active_bets = BetDetailsService.get_standings_by_user(user_id)
         serializer = BetDetailsListSerializer(active_bets, many=True)
