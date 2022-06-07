@@ -1,4 +1,5 @@
 from attr import define
+from typing import List
 
 
 @define
@@ -32,7 +33,7 @@ class ChampionshipStandingsPosition:
 class Bet:
     bettor_id: int
     bettor_name: str
-    standings: list[Standings]
+    standings: List[Standings]
 
     def get_total_points(self, championship_standings):
         pass

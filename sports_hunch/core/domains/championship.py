@@ -1,4 +1,5 @@
 from attr import define, field
+from typing import List
 
 
 @define
@@ -12,12 +13,12 @@ class BetStandings:
 
 @define
 class Championship:
-    standings: list[BetStandings]
+    standings: List[BetStandings]
 
 
 @define
 class Bet:
-    standings: list[BetStandings]
+    standings: List[BetStandings]
     rules = {
         "exact"
         "is_in_g6": {
