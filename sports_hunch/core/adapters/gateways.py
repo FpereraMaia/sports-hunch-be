@@ -1,17 +1,24 @@
 from abc import ABC, abstractmethod
 
-from core.domains.championship import Championship, BetStandings
-from core.entities import Ranking
+from core.entities import Ranking, ChampionshipStandingsPosition, Championship
 from typing import List
 
 
 class ChampionshipAdapter(ABC):
     @abstractmethod
+    def update_all(self, attributes):
+        pass
+
+    @abstractmethod
+    def create(self, standings: List[ChampionshipStandingsPosition]) -> Championship:
+        pass
+
+    @abstractmethod
     def get_championships_without_ranking(self) -> List[Championship]:
         pass
 
     @abstractmethod
-    def get_championship_current_standings(self) -> List[BetStandings]:
+    def get_championship_current_standings(self) -> List[ChampionshipStandingsPosition]:
         pass
 
     @abstractmethod
@@ -20,6 +27,10 @@ class ChampionshipAdapter(ABC):
 
     @abstractmethod
     def get_bet_ranking_by_user(self, user_id: int) -> List[Ranking]:
+        pass
+
+    @abstractmethod
+    def search(self, is_current: bool) -> List[Championship]:
         pass
 
 
@@ -32,4 +43,10 @@ class BettorAdapter(ABC):
 class BetAdapter(ABC):
     @abstractmethod
     def get_bet_by_user(self, user_id: int):
+        pass
+
+
+class StandingsAdapter(ABC):
+    @abstractmethod
+    def get_standings(self) -> List[ChampionshipStandingsPosition]:
         pass

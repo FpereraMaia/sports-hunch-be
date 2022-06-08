@@ -3,11 +3,12 @@ from typing import List
 
 
 @define
-class Standings:
+class BetStandings:
     position: int
     team_name: str
     team_abbreviation: str
     team_crest: str
+    team_id: int
 
 
 @define
@@ -16,6 +17,7 @@ class ChampionshipStandingsPosition:
     team_name: str
     team_abbreviation: str
     team_crest: str
+    team_id: int
     points: int
     games: int
     won: int
@@ -30,10 +32,31 @@ class ChampionshipStandingsPosition:
 
 
 @define
+class Championship:
+    standings: List[ChampionshipStandingsPosition]
+
+    def compare_championship_standings(self, standings_to_compare: List[ChampionshipStandingsPosition]):
+        is_equal = True
+        for current_standing in self.standings:
+            standings = list(
+                filter(
+                    lambda standing: standing.team_id
+                    == current_standing.team_id,
+                    standings_to_compare,
+                )
+            )
+
+            if standings and current_standing.position != standings[0].position:
+                is_equal = False
+                break
+        return is_equal
+
+
+@define
 class Bet:
     bettor_id: int
     bettor_name: str
-    standings: List[Standings]
+    standings: List[BetStandings]
 
     def get_total_points(self, championship_standings):
         pass
@@ -44,3 +67,10 @@ class Ranking:
     user_id: int
     user_name: str
     total_points: int
+
+
+@define
+class Bettor:
+    name: str
+    email: str
+    bet: Bet

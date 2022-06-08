@@ -3,7 +3,7 @@ from attrs import asdict
 from core.adapters.gateways import ChampionshipAdapter
 
 
-class ChampionshipUsecase:
+class ChampionshipUseCase:
 
     def __init__(self, championship_gateway: ChampionshipAdapter):
         self.championship_gateway = championship_gateway

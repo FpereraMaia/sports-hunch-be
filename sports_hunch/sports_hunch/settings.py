@@ -41,11 +41,11 @@ INSTALLED_APPS = [
     "rest_framework",
     "corsheaders",
     'drf_yasg',
-    "users",
-    "bets",
-    "teams",
-    "bet_details",
-    "seed",
+    'v1.bet',
+    'v1.teams',
+    'v1.users',
+    'v1.championship',
+    'v1.standings',
     "v1.ranking",
 ]
 

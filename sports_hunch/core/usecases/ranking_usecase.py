@@ -3,7 +3,7 @@ from attrs import asdict
 from core.adapters.gateways import ChampionshipAdapter, BettorAdapter
 
 
-class RankingUseCases:
+class RankingUseCase:
 
     def __init__(self, championship_gateway: ChampionshipAdapter, bettor_gateway: BettorAdapter):
         self.championship_gateway = championship_gateway
