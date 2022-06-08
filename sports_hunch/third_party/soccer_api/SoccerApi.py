@@ -1,4 +1,4 @@
-from old.seed.interfaces.SoccerApiInterface import SoccerApiInterface
+from third_party.soccer_api.SoccerApiInterface import SoccerApiInterface
 from third_party.soccer_api.StandingsApi import StandingsApi
 
 

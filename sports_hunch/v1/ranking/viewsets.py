@@ -18,5 +18,7 @@ class CurrentRankingViewSet(viewsets.ViewSet):
 
     @staticmethod
     def retrieve(request, *args, **kwargs):
-        ranking_standings = RankingUseCase(ChampionshipGateway(), BettorGateway()).search_current_ranking()
+        ranking_standings = RankingUseCase(
+            ChampionshipGateway(), BettorGateway(), RankingGateway()).search_current_ranking()
+
         return Response(ranking_standings, status=status.HTTP_200_OK)
