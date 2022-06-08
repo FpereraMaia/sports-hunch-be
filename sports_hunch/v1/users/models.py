@@ -16,4 +16,4 @@ class User(models.Model):
         bet_details = self.bet_set.filter(is_inactive=False).get().betdetails_set.order_by("position").all()
         standings = list(map(lambda standing: standing.to_domain(), bet_details))
         bet = Bet(standings=standings)
-        return Bettor(name=self.name, email=self.email, bet=bet)
+        return Bettor(id=self.pk, name=self.name, email=self.email, bet=bet)

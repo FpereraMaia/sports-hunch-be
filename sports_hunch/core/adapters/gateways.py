@@ -50,3 +50,9 @@ class StandingsAdapter(ABC):
     @abstractmethod
     def get_standings(self) -> List[ChampionshipStandingsPosition]:
         pass
+
+
+class BetRankingAdapter(ABC):
+    @abstractmethod
+    def bulk_create_ranking(self, ranking: List[dict]) -> bool:
+        pass

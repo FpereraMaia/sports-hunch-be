@@ -1,6 +1,8 @@
 from attr import define
 from typing import List
 
+from core.utils.calculate_ranking_points import CalculateRankingPoints
+
 
 @define
 class BetStandings:
@@ -33,6 +35,7 @@ class ChampionshipStandingsPosition:
 
 @define
 class Championship:
+    id: int
     standings: List[ChampionshipStandingsPosition]
 
     def compare_championship_standings(self, standings_to_compare: List[ChampionshipStandingsPosition]):
@@ -54,12 +57,22 @@ class Championship:
 
 @define
 class Bet:
-    bettor_id: int
-    bettor_name: str
     standings: List[BetStandings]
 
-    def get_total_points(self, championship_standings):
-        pass
+    def calculate_total_points(self, championship: Championship):
+        total_points = 0
+        for bet_standing in self.standings:
+            filtered_standing = filter(
+                lambda standing: standing.team_id == bet_standing.team_id,
+                championship.standings,
+            )
+            team_position_details = next(filtered_standing, None)
+
+            points = CalculateRankingPoints.calculate(team_position_details.position, bet_standing.position)
+            if points:
+                total_points += points
+
+        return total_points
 
 
 @define
@@ -71,6 +84,7 @@ class Ranking:
 
 @define
 class Bettor:
+    id: int
     name: str
     email: str
     bet: Bet

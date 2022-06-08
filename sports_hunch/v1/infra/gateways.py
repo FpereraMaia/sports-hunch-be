@@ -57,11 +57,9 @@ class ChampionshipGateway(ChampionshipAdapter):
         return list(map(lambda championship: championship.to_domain(), championships))
 
     def get_championships_without_ranking(self) -> List[Championship]:
-        championships = ChampionshipTable.objects.prefetch_related('standings_set')
-        # TODO DESCOMENTAR
-        #     .filter(
-        #     betranking__pk__isnull=True
-        # ).all()
+        championships = ChampionshipTable.objects.prefetch_related('standings_set').filter(
+            betranking__pk__isnull=True
+        ).all()
         return list(map(lambda championship: championship.to_domain(), championships))
 
     def get_championship_current_standings(self) -> List[ChampionshipStandingsPosition]:
@@ -91,7 +89,7 @@ class BettorGateway(BettorAdapter):
         return list(map(lambda bettor: bettor.to_domain(), bettors))
 
     @staticmethod
-    def _get_bettor_by_bet_status(status: str):
+    def _get_bettor_by_bet_status(status: str) -> List[User]:
         status = not status
         return User.objects.filter(bet__is_inactive=status).prefetch_related("bet_set").all()
 

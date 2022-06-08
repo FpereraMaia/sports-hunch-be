@@ -13,4 +13,4 @@ class ChampionshipTable(models.Model):
 
     def to_domain(self):
         standings = list(map(lambda standing: standing.to_domain(), self.standings_set.select_related("team")))
-        return Championship(standings)
+        return Championship(standings=standings, id=self.pk)

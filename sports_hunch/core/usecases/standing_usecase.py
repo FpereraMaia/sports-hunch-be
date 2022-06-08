@@ -21,17 +21,3 @@ class StandingUseCase:
             return self.championship_gateway.create(standings)
 
         return championship.standings
-
-
-
-        #
-        # championship_current = current_championship.get()
-        # current_standings = championship_current.standings_set.all()
-        # standings_is_equal = Seed.verify_api_standings_is_equal_current(
-        #     current_standings, standings
-        # )
-        #
-        # if not standings_is_equal:
-        #     return Seed.create_new_championship_table(standings)
-        #
-        # return current_standings
