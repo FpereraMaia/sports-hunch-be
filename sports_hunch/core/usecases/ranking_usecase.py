@@ -34,3 +34,11 @@ class RankingUseCase:
     def search_current_ranking(self):
         ranking_standing = self.championship_gateway.get_current_bet_ranking()
         return list(map(lambda ranking: asdict(ranking), ranking_standing))
+
+    def get_history_by_user(self, user_pk):
+        history = self.bet_ranking_gateway.get_ranking_history_by_user(user_pk)
+        return list(map(lambda ranking: asdict(ranking), history))
+
+    def get_history(self):
+        history = self.bet_ranking_gateway.get_ranking_history()
+        return list(map(lambda ranking: asdict(ranking), history))

@@ -11,6 +11,18 @@ class RankingGateway(BetRankingAdapter):
         BetRanking.objects.bulk_create(bet_rankings)
         return True
 
+    def get_ranking_history_by_user(self, user_pk):
+        bet_rankings = BetRanking.objects.select_related("championship_table")\
+            .filter(user_id=user_pk).order_by("championship_table__created_at").all()
+
+        return list(map(lambda bet_ranking: bet_ranking.to_domain(), bet_rankings))
+
+    def get_ranking_history(self):
+        bet_rankings = BetRanking.objects.select_related("championship_table")\
+            .order_by("championship_table__created_at", "-total_points").all()
+
+        return list(map(lambda bet_ranking: bet_ranking.to_domain(), bet_rankings))
+
     @staticmethod
     def _assemble_bet_ranking(bet_ranking_dict: Dict):
         bet_ranking = BetRanking()

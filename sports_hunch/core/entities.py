@@ -80,6 +80,7 @@ class Ranking:
     user_id: int
     user_name: str
     total_points: int
+    created_at: str
 
 
 @define

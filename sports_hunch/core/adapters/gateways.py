@@ -56,3 +56,11 @@ class BetRankingAdapter(ABC):
     @abstractmethod
     def bulk_create_ranking(self, ranking: List[dict]) -> bool:
         pass
+
+    @abstractmethod
+    def get_ranking_history_by_user(self, user_pk: int):
+        pass
+
+    @abstractmethod
+    def get_ranking_history(self):
+        pass
