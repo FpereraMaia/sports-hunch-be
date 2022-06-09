@@ -3,8 +3,8 @@ from rest_framework.response import Response
 
 from core.usecases.bet_usecase import BetUseCase
 from core.usecases.championship_usecase import ChampionshipUseCase
-
-from v1.infra.gateways import BetGateway, ChampionshipGateway
+from v1.bet.gateways import BetGateway
+from v1.championship.gateways import ChampionshipGateway
 
 
 class BetsDetailsByUserViewSet(viewsets.ViewSet):

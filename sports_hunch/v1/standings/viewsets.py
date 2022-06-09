@@ -3,7 +3,9 @@ from rest_framework.response import Response
 
 from core.usecases.championship_usecase import ChampionshipUseCase
 from core.usecases.standing_usecase import StandingUseCase
-from v1.infra.gateways import ChampionshipGateway, StandingsGateway
+from v1.championship.gateways import ChampionshipGateway
+from v1.standings.gateways import StandingsGateway
+
 from v1.standings.serializers import StandingsSerializer
 
 

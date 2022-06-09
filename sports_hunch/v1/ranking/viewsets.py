@@ -2,7 +2,6 @@ from rest_framework import status, viewsets
 from rest_framework.response import Response
 
 from core.usecases.ranking_usecase import RankingUseCase
-from v1.infra.gateways import ChampionshipGateway, BettorGateway
 from v1.ranking.gateways import RankingGateway
 
 
