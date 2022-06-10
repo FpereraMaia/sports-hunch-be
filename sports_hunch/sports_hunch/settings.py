@@ -61,9 +61,15 @@ MIDDLEWARE = [
 
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
-    'UNAUTHENTICATED_USER': None
+    'UNAUTHENTICATED_USER': None,
+    'DEFAULT_PARSER_CLASSES': [
+        'rest_framework.parsers.JSONParser',
+    ],
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+    ],
+    'EXCEPTION_HANDLER': 'rest_framework.views.exception_handler'
 }
-
 
 CORS_ALLOWED_ORIGINS = ["http://localhost:3000", "https://apostadoscorno.herokuapp.com"]
 

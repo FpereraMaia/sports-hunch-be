@@ -16,55 +16,14 @@ Including another URLconf
 from django.urls import path, include, re_path
 from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
-from rest_framework import routers, permissions
-
-
+from rest_framework import permissions
 from v1.urls import router as v1_urls
-# from old.bet_details.viewsets import BetsDetailsByUserViewSet
-# from old.bets import BetsViewSet, CurrentRankingViewSet
-# from old.seed import (
-#     SportsHunchViewSet,
-#     SeedStandingsViewSet,
-#     SeedBetRankingViewSet,
-# )
-# from old.standings.viewsets import CurrentStandingsViewSet
-
-# from old.teams import TeamViewSet
-# from old.users.viewsets import ActiveUsersListViewSet
-
-router = routers.DefaultRouter()
-# router.register(r"api/teams", TeamViewSet, basename="Team")
-# router.register(r"api/bets", BetsViewSet, basename="Bet")
-# router.register(r"api/users", ActiveUsersListViewSet, basename="User")
-# router.register(
-#     r"api/bets/details/user", BetsDetailsByUserViewSet, basename="BetDetails"
-# )
-# router.register(
-#     r"api/bets/details/user/ranking", CurrentRankingViewSet, basename="BetDetails"
-# )
-# router.register(r"api/manager/seed", SportsHunchViewSet, basename="ManagerSeed")
-# router.register(
-#     r"api/manager/seed/standings", SeedStandingsViewSet, basename="ManagerStandingsSeed"
-# )
-# router.register(
-#     r"api/standings/current", CurrentStandingsViewSet, basename="CurrentStandingViewSet"
-# )
-# router.register(
-#     r"api/ranking/current", CurrentRankingViewSet, basename="CurrentRankingViewSet"
-# )
-# router.register(
-#     r"api/manager/seed/championship/bets/ranking",
-#     SeedBetRankingViewSet,
-#     basename="CurrentViewSet",
-# )
-
 
 schema_view = get_schema_view(
    openapi.Info(
       title="Sports Hunch API",
       default_version='v1',
       description="API for sports hunch clients",
-      terms_of_service="https://www.google.com/policies/terms/",
       contact=openapi.Contact(email="felipepqm@gmail.com"),
       license=openapi.License(name="BSD License"),
    ),
@@ -76,5 +35,5 @@ urlpatterns = [
     re_path(r'^swagger(?P<format>\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-json'),
     re_path(r'^swagger/$', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     re_path(r'^redoc/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
-    path("v1/", include((v1_urls.urls, 'sports_hunch_v1'), namespace='sport_hunch')),
+    path("v1/", include((v1_urls.urls, 'sports_hunch_v1'), namespace='sport_hunch_v1')),
 ]
