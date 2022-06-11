@@ -15,6 +15,7 @@ class BetsDetailsByUserViewSet(viewsets.ViewSet):
         user_id = kwargs.get("pk", None)
         active_bets = BetUseCase(BetGateway()).get_bet_standings_by_user(user_id)
         user_bet_details = RankingUseCase(
-            ChampionshipGateway(), BettorGateway(), RankingGateway()).get_bet_ranking_by_user(user_id)
+            ChampionshipGateway(), BettorGateway(), RankingGateway()
+        ).get_bet_ranking_by_user(user_id)
         user_bet_details["bet_standings"] = active_bets
         return Response(user_bet_details, status=status.HTTP_200_OK)

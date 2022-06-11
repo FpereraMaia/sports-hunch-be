@@ -8,7 +8,6 @@ from third_party.soccer_api.SoccerApi import SoccerApi
 
 
 class StandingsGateway(StandingsAdapter):
-
     def __init__(self):
         settings_soccer_api = settings.SOCCER_API.get("API_URL")
         championship_id = settings.SOCCER_API.get("BRAZILIAN_CHAMPIONSHIP_ID")
@@ -21,7 +20,9 @@ class StandingsGateway(StandingsAdapter):
 
     @staticmethod
     def assemble_list_by_domain(standings: List):
-        return list(map(lambda standing: StandingsGateway.to_domain(standing), standings))
+        return list(
+            map(lambda standing: StandingsGateway.to_domain(standing), standings)
+        )
 
     @staticmethod
     def to_domain(standing: Dict):
@@ -42,5 +43,5 @@ class StandingsGateway(StandingsAdapter):
             goal_difference=standing.get("saldo_gols"),
             points_percentage=standing.get("aproveitamento"),
             position_variation=standing.get("variacao_posicao"),
-            last_results=standing.get("ultimos_jogos")
+            last_results=standing.get("ultimos_jogos"),
         )

@@ -1,3 +1,4 @@
 -r requirements.txt
 
 django-silk==4.3.0
+pre-commit==2.19.0

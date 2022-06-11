@@ -13,13 +13,16 @@ class CurrentStandingsViewSet(viewsets.ViewSet):
     @staticmethod
     def list(request, *args, **kwargs):
         standings = ChampionshipUseCase(ChampionshipGateway()).get_current_standings()
-        return Response(StandingsSerializer(standings, many=True).data, status=status.HTTP_200_OK)
+        return Response(
+            StandingsSerializer(standings, many=True).data, status=status.HTTP_200_OK
+        )
 
 
 class CreateStandingsViewSet(viewsets.ViewSet):
-
     @staticmethod
     def create(request, *args, **kwargs):
 
-        StandingUseCase(StandingsGateway(), ChampionshipGateway()).create_current_standings()
+        StandingUseCase(
+            StandingsGateway(), ChampionshipGateway()
+        ).create_current_standings()
         return Response(status=status.HTTP_201_CREATED)

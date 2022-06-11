@@ -13,13 +13,11 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 import os
 
 from environ import environ
-
-env = environ.Env(
-    IS_PROD=(bool, True)
-)
-environ.Env.read_env()
-
 from pathlib import Path
+
+
+env = environ.Env(IS_PROD=(bool, True))
+environ.Env.read_env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -44,12 +42,12 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "corsheaders",
-    'drf_yasg',
-    'v1.bet',
-    'v1.teams',
-    'v1.users',
-    'v1.championship',
-    'v1.standings',
+    "drf_yasg",
+    "v1.bet",
+    "v1.teams",
+    "v1.users",
+    "v1.championship",
+    "v1.standings",
     "v1.ranking",
 ]
 
@@ -60,19 +58,19 @@ MIDDLEWARE = [
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
-    "django.middleware.clickjacking.XFrameOptionsMiddleware"
+    "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
 REST_FRAMEWORK = {
-    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
-    'UNAUTHENTICATED_USER': None,
-    'DEFAULT_PARSER_CLASSES': [
-        'rest_framework.parsers.JSONParser',
+    "DEFAULT_SCHEMA_CLASS": "rest_framework.schemas.coreapi.AutoSchema",
+    "UNAUTHENTICATED_USER": None,
+    "DEFAULT_PARSER_CLASSES": [
+        "rest_framework.parsers.JSONParser",
     ],
-    'DEFAULT_RENDERER_CLASSES': [
-        'rest_framework.renderers.JSONRenderer',
+    "DEFAULT_RENDERER_CLASSES": [
+        "rest_framework.renderers.JSONRenderer",
     ],
-    'EXCEPTION_HANDLER': 'rest_framework.views.exception_handler'
+    "EXCEPTION_HANDLER": "rest_framework.views.exception_handler",
 }
 
 CORS_ALLOWED_ORIGINS = ["http://localhost:3000", "https://apostadoscorno.herokuapp.com"]
@@ -155,7 +153,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 STATIC_URL = "static/"
 
 # Default primary key field type

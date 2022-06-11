@@ -21,23 +21,33 @@ from rest_framework import permissions
 from v1.urls import router as v1_urls
 
 schema_view = get_schema_view(
-   openapi.Info(
-      title="Sports Hunch API",
-      default_version='v1',
-      description="API for sports hunch clients",
-      contact=openapi.Contact(email="felipepqm@gmail.com"),
-      license=openapi.License(name="BSD License"),
-   ),
-   public=True,
-   permission_classes=[permissions.AllowAny],
+    openapi.Info(
+        title="Sports Hunch API",
+        default_version="v1",
+        description="API for sports hunch clients",
+        contact=openapi.Contact(email="felipepqm@gmail.com"),
+        license=openapi.License(name="BSD License"),
+    ),
+    public=True,
+    permission_classes=[permissions.AllowAny],
 )
 
 urlpatterns = [
-    re_path(r'^swagger(?P<format>\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-json'),
-    re_path(r'^swagger/$', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
-    re_path(r'^redoc/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
-    path("v1/", include((v1_urls.urls, 'sports_hunch_v1'), namespace='sport_hunch_v1')),
+    re_path(
+        r"^swagger(?P<format>\.json|\.yaml)$",
+        schema_view.without_ui(cache_timeout=0),
+        name="schema-json",
+    ),
+    re_path(
+        r"^swagger/$",
+        schema_view.with_ui("swagger", cache_timeout=0),
+        name="schema-swagger-ui",
+    ),
+    re_path(
+        r"^redoc/$", schema_view.with_ui("redoc", cache_timeout=0), name="schema-redoc"
+    ),
+    path("v1/", include((v1_urls.urls, "sports_hunch_v1"), namespace="sport_hunch_v1")),
 ]
 
 if not settings.IS_PROD:
-    urlpatterns += [path('silk/', include('silk.urls', namespace='silk'))]
+    urlpatterns += [path("silk/", include("silk.urls", namespace="silk"))]

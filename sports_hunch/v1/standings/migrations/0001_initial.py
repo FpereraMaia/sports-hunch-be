@@ -9,32 +9,51 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('championship', '0001_initial'),
-        ('teams', '0001_initial'),
+        ("championship", "0001_initial"),
+        ("teams", "0001_initial"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Standings',
+            name="Standings",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('position', models.IntegerField()),
-                ('points', models.IntegerField()),
-                ('games', models.IntegerField()),
-                ('won', models.IntegerField()),
-                ('drawn', models.IntegerField()),
-                ('lost', models.IntegerField()),
-                ('goal_for', models.IntegerField()),
-                ('goal_against', models.IntegerField()),
-                ('goal_difference', models.IntegerField()),
-                ('points_percentage', models.FloatField()),
-                ('position_variation', models.IntegerField()),
-                ('last_results', models.CharField(max_length=45)),
-                ('championship_table', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='championship.championshiptable')),
-                ('team', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='teams.team')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("position", models.IntegerField()),
+                ("points", models.IntegerField()),
+                ("games", models.IntegerField()),
+                ("won", models.IntegerField()),
+                ("drawn", models.IntegerField()),
+                ("lost", models.IntegerField()),
+                ("goal_for", models.IntegerField()),
+                ("goal_against", models.IntegerField()),
+                ("goal_difference", models.IntegerField()),
+                ("points_percentage", models.FloatField()),
+                ("position_variation", models.IntegerField()),
+                ("last_results", models.CharField(max_length=45)),
+                (
+                    "championship_table",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to="championship.championshiptable",
+                    ),
+                ),
+                (
+                    "team",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE, to="teams.team"
+                    ),
+                ),
             ],
             options={
-                'db_table': 'standings',
+                "db_table": "standings",
             },
         ),
     ]

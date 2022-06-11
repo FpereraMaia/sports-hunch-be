@@ -4,12 +4,11 @@ from core.adapters.gateways import ChampionshipAdapter, BettorAdapter, BetRankin
 
 
 class RankingUseCase:
-
     def __init__(
-            self,
-            championship_gateway: ChampionshipAdapter,
-            bettor_gateway: BettorAdapter,
-            bet_ranking_gateway: BetRankingAdapter
+        self,
+        championship_gateway: ChampionshipAdapter,
+        bettor_gateway: BettorAdapter,
+        bet_ranking_gateway: BetRankingAdapter,
     ):
         self.championship_gateway = championship_gateway
         self.bettor_gateway = bettor_gateway
@@ -23,11 +22,13 @@ class RankingUseCase:
         for championship in championships:
             for bettor in bettors:
                 total_points = bettor.bet.calculate_total_points(championship)
-                bettor_total_pontuation.append({
-                    "user_id": bettor.id,
-                    "championship_id": championship.id,
-                    "total_points": total_points
-                })
+                bettor_total_pontuation.append(
+                    {
+                        "user_id": bettor.id,
+                        "championship_id": championship.id,
+                        "total_points": total_points,
+                    }
+                )
 
         self.bet_ranking_gateway.bulk_create_ranking(bettor_total_pontuation)
 

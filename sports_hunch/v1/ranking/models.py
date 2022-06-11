@@ -18,5 +18,5 @@ class BetRanking(models.Model):
             user_name=self.user.name,
             total_points=self.total_points,
             user_id=self.user.pk,
-            created_at=self.championship_table.created_at
+            created_at=self.championship_table.created_at,
         )

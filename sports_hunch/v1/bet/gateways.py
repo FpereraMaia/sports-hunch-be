@@ -7,7 +7,11 @@ class BetGateway(BetAdapter):
         if not user_id:
             raise Exception("Invalid params")
 
-        bets = BetDetails.objects.filter(bet__user_id=user_id)\
-            .filter(bet__is_inactive=False).select_related().order_by("position")
+        bets = (
+            BetDetails.objects.filter(bet__user_id=user_id)
+            .filter(bet__is_inactive=False)
+            .select_related()
+            .order_by("position")
+        )
 
         return list(map(lambda bet: bet.to_domain(), bets))

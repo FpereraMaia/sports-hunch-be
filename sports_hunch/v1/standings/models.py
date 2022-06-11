@@ -41,5 +41,5 @@ class Standings(models.Model):
             goal_difference=self.goal_difference,
             points_percentage=self.points_percentage,
             position_variation=self.position_variation,
-            last_results=self.last_results
+            last_results=self.last_results,
         )

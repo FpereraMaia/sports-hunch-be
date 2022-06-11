@@ -13,7 +13,12 @@ class User(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def to_domain(self) -> Bettor:
-        bet_details = self.bet_set.filter(is_inactive=False).get().betdetails_set.order_by("position").all()
+        bet_details = (
+            self.bet_set.filter(is_inactive=False)
+            .get()
+            .betdetails_set.order_by("position")
+            .all()
+        )
         standings = list(map(lambda standing: standing.to_domain(), bet_details))
         bet = Bet(standings=standings)
         return Bettor(id=self.pk, name=self.name, email=self.email, bet=bet)

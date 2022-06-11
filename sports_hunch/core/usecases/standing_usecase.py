@@ -2,10 +2,14 @@ from core.adapters.gateways import StandingsAdapter, ChampionshipAdapter
 
 
 class StandingUseCase:
-    def __init__(self, standings_gateway: StandingsAdapter, championship_gateway: ChampionshipAdapter):
+    def __init__(
+        self,
+        standings_gateway: StandingsAdapter,
+        championship_gateway: ChampionshipAdapter,
+    ):
         self.standings_gateway = standings_gateway
         self.championship_gateway = championship_gateway
-    
+
     def create_current_standings(self):
         standings = self.standings_gateway.get_standings()
         championships = self.championship_gateway.search(True)

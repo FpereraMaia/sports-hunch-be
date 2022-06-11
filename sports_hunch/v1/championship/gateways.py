@@ -16,7 +16,9 @@ class ChampionshipGateway(ChampionshipAdapter):
         standings_list = []
         # TODO, E SE DER ERRO AO SALVAR O CAMPEONATO? TEM Q DAR ROLLBACK
         for standing in standings:
-            standings_list.append(ChampionshipGateway.assemble_standings(standing, championship_table))
+            standings_list.append(
+                ChampionshipGateway.assemble_standings(standing, championship_table)
+            )
         Standings.objects.bulk_create(standings_list)
         return championship_table.to_domain()
 
@@ -47,24 +49,32 @@ class ChampionshipGateway(ChampionshipAdapter):
         return standings_model
 
     def search(self, is_current: bool) -> List[Championship]:
-        championships = ChampionshipTable.objects.filter(is_current=is_current).prefetch_related('standings_set')
+        championships = ChampionshipTable.objects.filter(
+            is_current=is_current
+        ).prefetch_related("standings_set")
         return list(map(lambda championship: championship.to_domain(), championships))
 
     def get_championships_without_ranking(self) -> List[Championship]:
-        championships = ChampionshipTable.objects.prefetch_related('standings_set').filter(
-            betranking__pk__isnull=True
-        ).all()
+        championships = (
+            ChampionshipTable.objects.prefetch_related("standings_set")
+            .filter(betranking__pk__isnull=True)
+            .all()
+        )
         return list(map(lambda championship: championship.to_domain(), championships))
 
     def get_championship_current_standings(self) -> List[ChampionshipStandingsPosition]:
-        standings = Standings.objects.filter(championship_table__is_current=True)\
-            .order_by("position").select_related().all()
+        standings = (
+            Standings.objects.filter(championship_table__is_current=True)
+            .order_by("position")
+            .select_related()
+            .all()
+        )
 
         return list(map(lambda standing: standing.to_domain(), standings))
 
     def get_current_bet_ranking(self) -> List[Ranking]:
-        ranking = BetRanking.objects.filter(championship_table__is_current=True).order_by(
-            "-total_points"
-        )
+        ranking = BetRanking.objects.filter(
+            championship_table__is_current=True
+        ).order_by("-total_points")
 
         return list(map(lambda bet_ranking: bet_ranking.to_domain(), ranking))

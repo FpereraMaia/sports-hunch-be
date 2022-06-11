@@ -8,7 +8,7 @@ from v1.users.models import User
 class Bet(models.Model):
     class Meta:
         db_table = "bet"
-        app_label = 'bet'
+        app_label = "bet"
 
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     is_inactive = models.BooleanField(default=False)
@@ -19,7 +19,7 @@ class Bet(models.Model):
 class BetDetails(models.Model):
     class Meta:
         db_table = "betdetails"
-        app_label = 'bet'
+        app_label = "bet"
 
     bet = models.ForeignKey(Bet, on_delete=models.CASCADE)
     team = models.ForeignKey(Team, on_delete=models.CASCADE)
@@ -33,5 +33,5 @@ class BetDetails(models.Model):
             team_name=self.team.name,
             team_abbreviation=self.team.abbreviation,
             team_crest=self.team.crest,
-            team_id=self.team.team_id
+            team_id=self.team.team_id,
         )

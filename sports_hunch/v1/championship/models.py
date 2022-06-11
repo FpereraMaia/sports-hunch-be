@@ -12,5 +12,10 @@ class ChampionshipTable(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def to_domain(self):
-        standings = list(map(lambda standing: standing.to_domain(), self.standings_set.select_related("team")))
+        standings = list(
+            map(
+                lambda standing: standing.to_domain(),
+                self.standings_set.select_related("team"),
+            )
+        )
         return Championship(standings=standings, id=self.pk)

@@ -38,13 +38,14 @@ class Championship:
     id: int
     standings: List[ChampionshipStandingsPosition]
 
-    def compare_championship_standings(self, standings_to_compare: List[ChampionshipStandingsPosition]):
+    def compare_championship_standings(
+        self, standings_to_compare: List[ChampionshipStandingsPosition]
+    ):
         is_equal = True
         for current_standing in self.standings:
             standings = list(
                 filter(
-                    lambda standing: standing.team_id
-                    == current_standing.team_id,
+                    lambda standing: standing.team_id == current_standing.team_id,
                     standings_to_compare,
                 )
             )
@@ -68,7 +69,9 @@ class Bet:
             )
             team_position_details = next(filtered_standing, None)
 
-            points = CalculateRankingPoints.calculate(team_position_details.position, bet_standing.position)
+            points = CalculateRankingPoints.calculate(
+                team_position_details.position, bet_standing.position
+            )
             if points:
                 total_points += points
 

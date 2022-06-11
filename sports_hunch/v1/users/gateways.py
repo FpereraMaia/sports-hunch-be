@@ -14,4 +14,8 @@ class BettorGateway(BettorAdapter):
     def _get_bettor_by_bet_status(status: str) -> List[User]:
         # TODO REMOVER MODEL
         status = not status
-        return User.objects.filter(bet__is_inactive=status).prefetch_related("bet_set").all()
+        return (
+            User.objects.filter(bet__is_inactive=status)
+            .prefetch_related("bet_set")
+            .all()
+        )

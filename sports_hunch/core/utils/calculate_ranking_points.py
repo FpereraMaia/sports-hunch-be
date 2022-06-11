@@ -39,10 +39,10 @@ class IsInG6orG4Positions(AbstractHandler):
 
     def handle(self, request: BetAndChampionshipPositionsAggregator) -> int:
         is_in_g6 = (request.bet_position in self.G6_POSITIONS) and (
-                request.championship_team_position in self.G6_POSITIONS
+            request.championship_team_position in self.G6_POSITIONS
         )
         is_in_z4 = (request.bet_position in self.Z4_POSITIONS) and (
-                request.championship_team_position in self.Z4_POSITIONS
+            request.championship_team_position in self.Z4_POSITIONS
         )
 
         if is_in_g6 or is_in_z4:
@@ -56,8 +56,9 @@ class IsBetween7and12Positions(AbstractHandler):
     POSITIONS_7_TO_12 = [x for x in range(7, 13)]
 
     def handle(self, request: BetAndChampionshipPositionsAggregator) -> int:
-        between_7_and_12 = (request.bet_position in self.POSITIONS_7_TO_12) \
-                           and (request.championship_team_position in self.POSITIONS_7_TO_12)
+        between_7_and_12 = (request.bet_position in self.POSITIONS_7_TO_12) and (
+            request.championship_team_position in self.POSITIONS_7_TO_12
+        )
 
         if between_7_and_12:
             return self.POINTS_EARNED
@@ -73,10 +74,13 @@ class CalculateRankingPoints:
         is_in_g6_or_z4 = IsInG6orG4Positions()
         is_between_7_and_12 = IsBetween7and12Positions()
 
-        equals_position.set_next(one_position_below_or_above).set_next(is_in_g6_or_z4).set_next(is_between_7_and_12)
+        equals_position.set_next(one_position_below_or_above).set_next(
+            is_in_g6_or_z4
+        ).set_next(is_between_7_and_12)
 
         positions = BetAndChampionshipPositionsAggregator(
-            championship_team_position=championship_team_position, bet_position=bet_team_position)
+            championship_team_position=championship_team_position,
+            bet_position=bet_team_position,
+        )
 
         return equals_position.handle(positions)
-
