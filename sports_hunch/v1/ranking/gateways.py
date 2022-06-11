@@ -23,6 +23,13 @@ class RankingGateway(BetRankingAdapter):
 
         return list(map(lambda bet_ranking: bet_ranking.to_domain(), bet_rankings))
 
+    def get_bet_ranking_by_user(self, user_id: int) -> List[Ranking]:
+        ranking = BetRanking.objects.filter(championship_table__is_current=True).filter(user__pk=user_id).order_by(
+            "-total_points"
+        )
+
+        return ranking.first().to_domain()
+
     @staticmethod
     def _assemble_bet_ranking(bet_ranking_dict: Dict):
         bet_ranking = BetRanking()
@@ -30,3 +37,4 @@ class RankingGateway(BetRankingAdapter):
         bet_ranking.championship_table_id = bet_ranking_dict.get("championship_id")
         bet_ranking.total_points = bet_ranking_dict.get("total_points")
         return bet_ranking
+

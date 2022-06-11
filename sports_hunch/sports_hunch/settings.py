@@ -10,9 +10,13 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 # Initialise environment variables
+import os
+
 from environ import environ
 
-env = environ.Env()
+env = environ.Env(
+    IS_PROD=(bool, True)
+)
 environ.Env.read_env()
 
 from pathlib import Path
@@ -32,7 +36,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-
+IS_PROD = env("IS_PROD")
 # Application definition
 
 INSTALLED_APPS = [
@@ -151,6 +155,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = "static/"
 
 # Default primary key field type
@@ -163,3 +168,10 @@ SOCCER_API = {
     "BRAZILIAN_CHAMPIONSHIP_ID": env("BRAZILIAN_CHAMPIONSHIP_ID"),
     "API_TOKEN": env("API_TOKEN"),
 }
+
+if not IS_PROD:
+    INSTALLED_APPS += ["django.contrib.auth", "silk"]
+    MIDDLEWARE += ["silk.middleware.SilkyMiddleware"]
+    SILKY_AUTHENTICATION = False
+    SILKY_AUTHORISATION = False
+    SILKY_PYTHON_PROFILER = True

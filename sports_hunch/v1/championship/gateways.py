@@ -68,10 +68,3 @@ class ChampionshipGateway(ChampionshipAdapter):
         )
 
         return list(map(lambda bet_ranking: bet_ranking.to_domain(), ranking))
-
-    def get_bet_ranking_by_user(self, user_id: int) -> List[Ranking]:
-        ranking = BetRanking.objects.filter(championship_table__is_current=True).filter(user__pk=user_id).order_by(
-            "-total_points"
-        )
-
-        return ranking.first().to_domain()

@@ -26,10 +26,6 @@ class ChampionshipAdapter(ABC):
         pass
 
     @abstractmethod
-    def get_bet_ranking_by_user(self, user_id: int) -> List[Ranking]:
-        pass
-
-    @abstractmethod
     def search(self, is_current: bool) -> List[Championship]:
         pass
 
@@ -63,4 +59,8 @@ class BetRankingAdapter(ABC):
 
     @abstractmethod
     def get_ranking_history(self):
+        pass
+
+    @abstractmethod
+    def get_bet_ranking_by_user(self, user_id: int) -> List[Ranking]:
         pass

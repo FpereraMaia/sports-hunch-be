@@ -42,3 +42,7 @@ class RankingUseCase:
     def get_history(self):
         history = self.bet_ranking_gateway.get_ranking_history()
         return list(map(lambda ranking: asdict(ranking), history))
+
+    def get_bet_ranking_by_user(self, user_id: int):
+        bet_ranking = self.bet_ranking_gateway.get_bet_ranking_by_user(user_id)
+        return asdict(bet_ranking)

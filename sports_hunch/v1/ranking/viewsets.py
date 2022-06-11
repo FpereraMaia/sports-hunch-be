@@ -2,7 +2,9 @@ from rest_framework import status, viewsets
 from rest_framework.response import Response
 
 from core.usecases.ranking_usecase import RankingUseCase
+from v1.championship.gateways import ChampionshipGateway
 from v1.ranking.gateways import RankingGateway
+from v1.users.gateways import BettorGateway
 
 
 class GenerateRankingViewSet(viewsets.ViewSet):

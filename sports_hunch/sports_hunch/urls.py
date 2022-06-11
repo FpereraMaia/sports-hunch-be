@@ -13,6 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf import settings
 from django.urls import path, include, re_path
 from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
@@ -37,3 +38,6 @@ urlpatterns = [
     re_path(r'^redoc/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
     path("v1/", include((v1_urls.urls, 'sports_hunch_v1'), namespace='sport_hunch_v1')),
 ]
+
+if not settings.IS_PROD:
+    urlpatterns += [path('silk/', include('silk.urls', namespace='silk'))]
