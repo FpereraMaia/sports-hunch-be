@@ -12,7 +12,6 @@ class BettorGateway(BettorAdapter):
 
     @staticmethod
     def _get_bettor_by_bet_status(status: str) -> List[User]:
-        # TODO REMOVER MODEL
         status = not status
         return (
             User.objects.filter(bet__is_inactive=status)

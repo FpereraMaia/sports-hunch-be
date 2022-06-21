@@ -17,6 +17,7 @@ class User(models.Model):
             self.bet_set.filter(is_inactive=False)
             .get()
             .betdetails_set.order_by("position")
+            .select_related("team")
             .all()
         )
         standings = list(map(lambda standing: standing.to_domain(), bet_details))

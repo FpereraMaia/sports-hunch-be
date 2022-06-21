@@ -49,11 +49,18 @@ class Championship:
                     standings_to_compare,
                 )
             )
-
-            if standings and current_standing.position != standings[0].position:
+            standing = next(iter(standings), None)
+            if Championship._verify_if_standing_is_equal(standing, current_standing):
                 is_equal = False
                 break
         return is_equal
+
+    @staticmethod
+    def _verify_if_standing_is_equal(new_standing, current_standing):
+        return new_standing and (
+            current_standing.position != new_standing.position
+            or current_standing.points != new_standing.points
+        )
 
 
 @define

@@ -25,7 +25,7 @@ class RankingGateway(BetRankingAdapter):
 
     def get_ranking_history(self):
         bet_rankings = (
-            BetRanking.objects.select_related("championship_table")
+            BetRanking.objects.select_related()
             .order_by("championship_table__created_at", "-total_points")
             .all()
         )
@@ -35,6 +35,7 @@ class RankingGateway(BetRankingAdapter):
     def get_bet_ranking_by_user(self, user_id: int) -> List[Ranking]:
         ranking = (
             BetRanking.objects.filter(championship_table__is_current=True)
+            .select_related()
             .filter(user__pk=user_id)
             .order_by("-total_points")
         )
