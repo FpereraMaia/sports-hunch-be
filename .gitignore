@@ -99,6 +99,8 @@ celerybeat-schedule.*
 
 # Environments
 sports_hunch/sports_hunch/.env
+sports_hunch/sports_hunch/.env.local
+sports_hunch/sports_hunch/.env.prod
 .venv
 env/
 venv/

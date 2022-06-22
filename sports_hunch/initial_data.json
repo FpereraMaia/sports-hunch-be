@@ -1,0 +1,9588 @@
+[
+{
+  "model": "bet.bet",
+  "pk": 4,
+  "fields": {
+    "user": 4,
+    "is_inactive": true,
+    "created_at": "2022-04-09T02:40:33.697Z",
+    "updated_at": "2022-04-09T02:40:33.697Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 14,
+  "fields": {
+    "user": 4,
+    "is_inactive": true,
+    "created_at": "2022-04-09T02:42:14.164Z",
+    "updated_at": "2022-04-09T02:42:14.164Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 24,
+  "fields": {
+    "user": 14,
+    "is_inactive": true,
+    "created_at": "2022-04-09T02:53:24.572Z",
+    "updated_at": "2022-04-09T02:53:24.572Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 34,
+  "fields": {
+    "user": 14,
+    "is_inactive": true,
+    "created_at": "2022-04-09T02:56:12.306Z",
+    "updated_at": "2022-04-09T02:56:12.306Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 44,
+  "fields": {
+    "user": 24,
+    "is_inactive": true,
+    "created_at": "2022-04-09T03:01:37.241Z",
+    "updated_at": "2022-04-09T03:01:37.241Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 54,
+  "fields": {
+    "user": 24,
+    "is_inactive": false,
+    "created_at": "2022-04-09T03:13:44.623Z",
+    "updated_at": "2022-04-09T03:13:44.623Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 64,
+  "fields": {
+    "user": 34,
+    "is_inactive": true,
+    "created_at": "2022-04-09T04:37:39.162Z",
+    "updated_at": "2022-04-09T04:37:39.162Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 74,
+  "fields": {
+    "user": 44,
+    "is_inactive": false,
+    "created_at": "2022-04-09T04:59:12.322Z",
+    "updated_at": "2022-04-09T04:59:12.322Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 84,
+  "fields": {
+    "user": 54,
+    "is_inactive": true,
+    "created_at": "2022-04-09T05:20:42.844Z",
+    "updated_at": "2022-04-09T05:20:42.844Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 94,
+  "fields": {
+    "user": 34,
+    "is_inactive": true,
+    "created_at": "2022-04-09T06:14:45.819Z",
+    "updated_at": "2022-04-09T06:14:45.819Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 104,
+  "fields": {
+    "user": 64,
+    "is_inactive": true,
+    "created_at": "2022-04-09T06:16:06.176Z",
+    "updated_at": "2022-04-09T06:16:06.176Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 114,
+  "fields": {
+    "user": 34,
+    "is_inactive": true,
+    "created_at": "2022-04-09T06:31:16.426Z",
+    "updated_at": "2022-04-09T06:31:16.426Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 124,
+  "fields": {
+    "user": 74,
+    "is_inactive": false,
+    "created_at": "2022-04-09T10:32:46.134Z",
+    "updated_at": "2022-04-09T10:32:46.134Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 134,
+  "fields": {
+    "user": 84,
+    "is_inactive": false,
+    "created_at": "2022-04-09T10:44:18.035Z",
+    "updated_at": "2022-04-09T10:44:18.035Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 144,
+  "fields": {
+    "user": 94,
+    "is_inactive": false,
+    "created_at": "2022-04-09T13:32:08.542Z",
+    "updated_at": "2022-04-09T13:32:08.542Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 154,
+  "fields": {
+    "user": 104,
+    "is_inactive": false,
+    "created_at": "2022-04-09T13:35:55.347Z",
+    "updated_at": "2022-04-09T13:35:55.347Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 164,
+  "fields": {
+    "user": 114,
+    "is_inactive": false,
+    "created_at": "2022-04-09T14:09:09.261Z",
+    "updated_at": "2022-04-09T14:09:09.261Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 174,
+  "fields": {
+    "user": 124,
+    "is_inactive": false,
+    "created_at": "2022-04-09T15:41:54.069Z",
+    "updated_at": "2022-04-09T15:41:54.069Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 184,
+  "fields": {
+    "user": 134,
+    "is_inactive": false,
+    "created_at": "2022-04-09T15:57:13.937Z",
+    "updated_at": "2022-04-09T15:57:13.937Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 194,
+  "fields": {
+    "user": 144,
+    "is_inactive": false,
+    "created_at": "2022-04-09T17:42:53.897Z",
+    "updated_at": "2022-04-09T17:42:53.897Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 204,
+  "fields": {
+    "user": 154,
+    "is_inactive": false,
+    "created_at": "2022-04-09T17:56:16.026Z",
+    "updated_at": "2022-04-09T17:56:16.026Z"
+  }
+},
+{
+  "model": "bet.bet",
+  "pk": 214,
+  "fields": {
+    "user": 164,
+    "is_inactive": false,
+    "created_at": "2022-04-09T18:22:46.223Z",
+    "updated_at": "2022-04-09T18:22:46.223Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4,
+  "fields": {
+    "bet": 4,
+    "team": 30,
+    "position": 1,
+    "created_at": "2022-04-09T02:40:33.777Z",
+    "updated_at": "2022-04-09T02:40:33.777Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 14,
+  "fields": {
+    "bet": 4,
+    "team": 6,
+    "position": 2,
+    "created_at": "2022-04-09T02:40:33.777Z",
+    "updated_at": "2022-04-09T02:40:33.777Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 24,
+  "fields": {
+    "bet": 4,
+    "team": 18,
+    "position": 3,
+    "created_at": "2022-04-09T02:40:33.777Z",
+    "updated_at": "2022-04-09T02:40:33.777Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 34,
+  "fields": {
+    "bet": 4,
+    "team": 22,
+    "position": 4,
+    "created_at": "2022-04-09T02:40:33.777Z",
+    "updated_at": "2022-04-09T02:40:33.777Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 44,
+  "fields": {
+    "bet": 4,
+    "team": 26,
+    "position": 5,
+    "created_at": "2022-04-09T02:40:33.777Z",
+    "updated_at": "2022-04-09T02:40:33.777Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 54,
+  "fields": {
+    "bet": 4,
+    "team": 33,
+    "position": 6,
+    "created_at": "2022-04-09T02:40:33.777Z",
+    "updated_at": "2022-04-09T02:40:33.777Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 64,
+  "fields": {
+    "bet": 4,
+    "team": 43,
+    "position": 7,
+    "created_at": "2022-04-09T02:40:33.777Z",
+    "updated_at": "2022-04-09T02:40:33.777Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 74,
+  "fields": {
+    "bet": 4,
+    "team": 44,
+    "position": 8,
+    "created_at": "2022-04-09T02:40:33.777Z",
+    "updated_at": "2022-04-09T02:40:33.777Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 84,
+  "fields": {
+    "bet": 4,
+    "team": 56,
+    "position": 9,
+    "created_at": "2022-04-09T02:40:33.777Z",
+    "updated_at": "2022-04-09T02:40:33.777Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 94,
+  "fields": {
+    "bet": 4,
+    "team": 57,
+    "position": 10,
+    "created_at": "2022-04-09T02:40:33.777Z",
+    "updated_at": "2022-04-09T02:40:33.777Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 104,
+  "fields": {
+    "bet": 4,
+    "team": 63,
+    "position": 11,
+    "created_at": "2022-04-09T02:40:33.777Z",
+    "updated_at": "2022-04-09T02:40:33.777Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 114,
+  "fields": {
+    "bet": 4,
+    "team": 64,
+    "position": 12,
+    "created_at": "2022-04-09T02:40:33.777Z",
+    "updated_at": "2022-04-09T02:40:33.777Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 124,
+  "fields": {
+    "bet": 4,
+    "team": 65,
+    "position": 13,
+    "created_at": "2022-04-09T02:40:33.777Z",
+    "updated_at": "2022-04-09T02:40:33.777Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 134,
+  "fields": {
+    "bet": 4,
+    "team": 84,
+    "position": 14,
+    "created_at": "2022-04-09T02:40:33.777Z",
+    "updated_at": "2022-04-09T02:40:33.777Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 144,
+  "fields": {
+    "bet": 4,
+    "team": 98,
+    "position": 15,
+    "created_at": "2022-04-09T02:40:33.777Z",
+    "updated_at": "2022-04-09T02:40:33.777Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 154,
+  "fields": {
+    "bet": 4,
+    "team": 105,
+    "position": 16,
+    "created_at": "2022-04-09T02:40:33.778Z",
+    "updated_at": "2022-04-09T02:40:33.778Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 164,
+  "fields": {
+    "bet": 4,
+    "team": 115,
+    "position": 17,
+    "created_at": "2022-04-09T02:40:33.778Z",
+    "updated_at": "2022-04-09T02:40:33.778Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 174,
+  "fields": {
+    "bet": 4,
+    "team": 131,
+    "position": 18,
+    "created_at": "2022-04-09T02:40:33.778Z",
+    "updated_at": "2022-04-09T02:40:33.778Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 184,
+  "fields": {
+    "bet": 4,
+    "team": 185,
+    "position": 19,
+    "created_at": "2022-04-09T02:40:33.778Z",
+    "updated_at": "2022-04-09T02:40:33.778Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 194,
+  "fields": {
+    "bet": 4,
+    "team": 204,
+    "position": 20,
+    "created_at": "2022-04-09T02:40:33.778Z",
+    "updated_at": "2022-04-09T02:40:33.778Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 204,
+  "fields": {
+    "bet": 14,
+    "team": 30,
+    "position": 1,
+    "created_at": "2022-04-09T02:42:14.245Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 214,
+  "fields": {
+    "bet": 14,
+    "team": 204,
+    "position": 2,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 224,
+  "fields": {
+    "bet": 14,
+    "team": 57,
+    "position": 3,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 234,
+  "fields": {
+    "bet": 14,
+    "team": 6,
+    "position": 4,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 244,
+  "fields": {
+    "bet": 14,
+    "team": 22,
+    "position": 5,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 254,
+  "fields": {
+    "bet": 14,
+    "team": 26,
+    "position": 6,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 264,
+  "fields": {
+    "bet": 14,
+    "team": 33,
+    "position": 7,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 274,
+  "fields": {
+    "bet": 14,
+    "team": 43,
+    "position": 8,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 284,
+  "fields": {
+    "bet": 14,
+    "team": 44,
+    "position": 9,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 294,
+  "fields": {
+    "bet": 14,
+    "team": 56,
+    "position": 10,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 304,
+  "fields": {
+    "bet": 14,
+    "team": 63,
+    "position": 11,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 314,
+  "fields": {
+    "bet": 14,
+    "team": 18,
+    "position": 12,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 324,
+  "fields": {
+    "bet": 14,
+    "team": 64,
+    "position": 13,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 334,
+  "fields": {
+    "bet": 14,
+    "team": 65,
+    "position": 14,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 344,
+  "fields": {
+    "bet": 14,
+    "team": 84,
+    "position": 15,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 354,
+  "fields": {
+    "bet": 14,
+    "team": 98,
+    "position": 16,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 364,
+  "fields": {
+    "bet": 14,
+    "team": 105,
+    "position": 17,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 374,
+  "fields": {
+    "bet": 14,
+    "team": 115,
+    "position": 18,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 384,
+  "fields": {
+    "bet": 14,
+    "team": 131,
+    "position": 19,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 394,
+  "fields": {
+    "bet": 14,
+    "team": 185,
+    "position": 20,
+    "created_at": "2022-04-09T02:42:14.246Z",
+    "updated_at": "2022-04-09T02:42:14.246Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 404,
+  "fields": {
+    "bet": 24,
+    "team": 30,
+    "position": 1,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 414,
+  "fields": {
+    "bet": 24,
+    "team": 6,
+    "position": 2,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 424,
+  "fields": {
+    "bet": 24,
+    "team": 22,
+    "position": 3,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 434,
+  "fields": {
+    "bet": 24,
+    "team": 26,
+    "position": 4,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 444,
+  "fields": {
+    "bet": 24,
+    "team": 33,
+    "position": 5,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 454,
+  "fields": {
+    "bet": 24,
+    "team": 43,
+    "position": 6,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 464,
+  "fields": {
+    "bet": 24,
+    "team": 44,
+    "position": 7,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 474,
+  "fields": {
+    "bet": 24,
+    "team": 56,
+    "position": 8,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 484,
+  "fields": {
+    "bet": 24,
+    "team": 131,
+    "position": 9,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 494,
+  "fields": {
+    "bet": 24,
+    "team": 57,
+    "position": 10,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 504,
+  "fields": {
+    "bet": 24,
+    "team": 63,
+    "position": 11,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 514,
+  "fields": {
+    "bet": 24,
+    "team": 98,
+    "position": 12,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 524,
+  "fields": {
+    "bet": 24,
+    "team": 64,
+    "position": 13,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 534,
+  "fields": {
+    "bet": 24,
+    "team": 65,
+    "position": 14,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 544,
+  "fields": {
+    "bet": 24,
+    "team": 84,
+    "position": 15,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 554,
+  "fields": {
+    "bet": 24,
+    "team": 105,
+    "position": 16,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 564,
+  "fields": {
+    "bet": 24,
+    "team": 115,
+    "position": 17,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 574,
+  "fields": {
+    "bet": 24,
+    "team": 185,
+    "position": 18,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 584,
+  "fields": {
+    "bet": 24,
+    "team": 204,
+    "position": 19,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 594,
+  "fields": {
+    "bet": 24,
+    "team": 18,
+    "position": 20,
+    "created_at": "2022-04-09T02:53:24.639Z",
+    "updated_at": "2022-04-09T02:53:24.639Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 604,
+  "fields": {
+    "bet": 34,
+    "team": 30,
+    "position": 1,
+    "created_at": "2022-04-09T02:56:12.405Z",
+    "updated_at": "2022-04-09T02:56:12.405Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 614,
+  "fields": {
+    "bet": 34,
+    "team": 6,
+    "position": 2,
+    "created_at": "2022-04-09T02:56:12.405Z",
+    "updated_at": "2022-04-09T02:56:12.405Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 624,
+  "fields": {
+    "bet": 34,
+    "team": 22,
+    "position": 3,
+    "created_at": "2022-04-09T02:56:12.405Z",
+    "updated_at": "2022-04-09T02:56:12.405Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 634,
+  "fields": {
+    "bet": 34,
+    "team": 26,
+    "position": 4,
+    "created_at": "2022-04-09T02:56:12.405Z",
+    "updated_at": "2022-04-09T02:56:12.405Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 644,
+  "fields": {
+    "bet": 34,
+    "team": 33,
+    "position": 5,
+    "created_at": "2022-04-09T02:56:12.405Z",
+    "updated_at": "2022-04-09T02:56:12.405Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 654,
+  "fields": {
+    "bet": 34,
+    "team": 43,
+    "position": 6,
+    "created_at": "2022-04-09T02:56:12.405Z",
+    "updated_at": "2022-04-09T02:56:12.405Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 664,
+  "fields": {
+    "bet": 34,
+    "team": 44,
+    "position": 7,
+    "created_at": "2022-04-09T02:56:12.405Z",
+    "updated_at": "2022-04-09T02:56:12.405Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 674,
+  "fields": {
+    "bet": 34,
+    "team": 56,
+    "position": 8,
+    "created_at": "2022-04-09T02:56:12.405Z",
+    "updated_at": "2022-04-09T02:56:12.405Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 684,
+  "fields": {
+    "bet": 34,
+    "team": 131,
+    "position": 9,
+    "created_at": "2022-04-09T02:56:12.405Z",
+    "updated_at": "2022-04-09T02:56:12.405Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 694,
+  "fields": {
+    "bet": 34,
+    "team": 57,
+    "position": 10,
+    "created_at": "2022-04-09T02:56:12.405Z",
+    "updated_at": "2022-04-09T02:56:12.405Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 704,
+  "fields": {
+    "bet": 34,
+    "team": 63,
+    "position": 11,
+    "created_at": "2022-04-09T02:56:12.405Z",
+    "updated_at": "2022-04-09T02:56:12.405Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 714,
+  "fields": {
+    "bet": 34,
+    "team": 98,
+    "position": 12,
+    "created_at": "2022-04-09T02:56:12.405Z",
+    "updated_at": "2022-04-09T02:56:12.405Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 724,
+  "fields": {
+    "bet": 34,
+    "team": 64,
+    "position": 13,
+    "created_at": "2022-04-09T02:56:12.405Z",
+    "updated_at": "2022-04-09T02:56:12.405Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 734,
+  "fields": {
+    "bet": 34,
+    "team": 65,
+    "position": 14,
+    "created_at": "2022-04-09T02:56:12.405Z",
+    "updated_at": "2022-04-09T02:56:12.405Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 744,
+  "fields": {
+    "bet": 34,
+    "team": 84,
+    "position": 15,
+    "created_at": "2022-04-09T02:56:12.405Z",
+    "updated_at": "2022-04-09T02:56:12.405Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 754,
+  "fields": {
+    "bet": 34,
+    "team": 105,
+    "position": 16,
+    "created_at": "2022-04-09T02:56:12.405Z",
+    "updated_at": "2022-04-09T02:56:12.405Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 764,
+  "fields": {
+    "bet": 34,
+    "team": 115,
+    "position": 17,
+    "created_at": "2022-04-09T02:56:12.406Z",
+    "updated_at": "2022-04-09T02:56:12.406Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 774,
+  "fields": {
+    "bet": 34,
+    "team": 185,
+    "position": 18,
+    "created_at": "2022-04-09T02:56:12.406Z",
+    "updated_at": "2022-04-09T02:56:12.406Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 784,
+  "fields": {
+    "bet": 34,
+    "team": 204,
+    "position": 19,
+    "created_at": "2022-04-09T02:56:12.406Z",
+    "updated_at": "2022-04-09T02:56:12.406Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 794,
+  "fields": {
+    "bet": 34,
+    "team": 18,
+    "position": 20,
+    "created_at": "2022-04-09T02:56:12.406Z",
+    "updated_at": "2022-04-09T02:56:12.406Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 804,
+  "fields": {
+    "bet": 44,
+    "team": 30,
+    "position": 1,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 814,
+  "fields": {
+    "bet": 44,
+    "team": 22,
+    "position": 2,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 824,
+  "fields": {
+    "bet": 44,
+    "team": 56,
+    "position": 3,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 834,
+  "fields": {
+    "bet": 44,
+    "team": 26,
+    "position": 4,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 844,
+  "fields": {
+    "bet": 44,
+    "team": 105,
+    "position": 5,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 854,
+  "fields": {
+    "bet": 44,
+    "team": 33,
+    "position": 6,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 864,
+  "fields": {
+    "bet": 44,
+    "team": 63,
+    "position": 7,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 874,
+  "fields": {
+    "bet": 44,
+    "team": 43,
+    "position": 8,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 884,
+  "fields": {
+    "bet": 44,
+    "team": 44,
+    "position": 9,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 894,
+  "fields": {
+    "bet": 44,
+    "team": 6,
+    "position": 10,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 904,
+  "fields": {
+    "bet": 44,
+    "team": 57,
+    "position": 11,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 914,
+  "fields": {
+    "bet": 44,
+    "team": 64,
+    "position": 12,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 924,
+  "fields": {
+    "bet": 44,
+    "team": 65,
+    "position": 13,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 934,
+  "fields": {
+    "bet": 44,
+    "team": 84,
+    "position": 14,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 944,
+  "fields": {
+    "bet": 44,
+    "team": 98,
+    "position": 15,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 954,
+  "fields": {
+    "bet": 44,
+    "team": 115,
+    "position": 16,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 964,
+  "fields": {
+    "bet": 44,
+    "team": 131,
+    "position": 17,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 974,
+  "fields": {
+    "bet": 44,
+    "team": 185,
+    "position": 18,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 984,
+  "fields": {
+    "bet": 44,
+    "team": 204,
+    "position": 19,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 994,
+  "fields": {
+    "bet": 44,
+    "team": 18,
+    "position": 20,
+    "created_at": "2022-04-09T03:01:37.343Z",
+    "updated_at": "2022-04-09T03:01:37.343Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1004,
+  "fields": {
+    "bet": 54,
+    "team": 30,
+    "position": 1,
+    "created_at": "2022-04-09T03:13:44.731Z",
+    "updated_at": "2022-04-09T03:13:44.731Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1014,
+  "fields": {
+    "bet": 54,
+    "team": 56,
+    "position": 2,
+    "created_at": "2022-04-09T03:13:44.731Z",
+    "updated_at": "2022-04-09T03:13:44.731Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1024,
+  "fields": {
+    "bet": 54,
+    "team": 18,
+    "position": 3,
+    "created_at": "2022-04-09T03:13:44.731Z",
+    "updated_at": "2022-04-09T03:13:44.731Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1034,
+  "fields": {
+    "bet": 54,
+    "team": 26,
+    "position": 4,
+    "created_at": "2022-04-09T03:13:44.731Z",
+    "updated_at": "2022-04-09T03:13:44.731Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1044,
+  "fields": {
+    "bet": 54,
+    "team": 57,
+    "position": 5,
+    "created_at": "2022-04-09T03:13:44.731Z",
+    "updated_at": "2022-04-09T03:13:44.731Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1054,
+  "fields": {
+    "bet": 54,
+    "team": 64,
+    "position": 6,
+    "created_at": "2022-04-09T03:13:44.731Z",
+    "updated_at": "2022-04-09T03:13:44.731Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1064,
+  "fields": {
+    "bet": 54,
+    "team": 65,
+    "position": 7,
+    "created_at": "2022-04-09T03:13:44.731Z",
+    "updated_at": "2022-04-09T03:13:44.731Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1074,
+  "fields": {
+    "bet": 54,
+    "team": 22,
+    "position": 8,
+    "created_at": "2022-04-09T03:13:44.731Z",
+    "updated_at": "2022-04-09T03:13:44.731Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1084,
+  "fields": {
+    "bet": 54,
+    "team": 185,
+    "position": 9,
+    "created_at": "2022-04-09T03:13:44.731Z",
+    "updated_at": "2022-04-09T03:13:44.731Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1094,
+  "fields": {
+    "bet": 54,
+    "team": 131,
+    "position": 10,
+    "created_at": "2022-04-09T03:13:44.731Z",
+    "updated_at": "2022-04-09T03:13:44.731Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1104,
+  "fields": {
+    "bet": 54,
+    "team": 44,
+    "position": 11,
+    "created_at": "2022-04-09T03:13:44.731Z",
+    "updated_at": "2022-04-09T03:13:44.731Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1114,
+  "fields": {
+    "bet": 54,
+    "team": 33,
+    "position": 12,
+    "created_at": "2022-04-09T03:13:44.731Z",
+    "updated_at": "2022-04-09T03:13:44.731Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1124,
+  "fields": {
+    "bet": 54,
+    "team": 98,
+    "position": 13,
+    "created_at": "2022-04-09T03:13:44.731Z",
+    "updated_at": "2022-04-09T03:13:44.731Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1134,
+  "fields": {
+    "bet": 54,
+    "team": 84,
+    "position": 14,
+    "created_at": "2022-04-09T03:13:44.731Z",
+    "updated_at": "2022-04-09T03:13:44.731Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1144,
+  "fields": {
+    "bet": 54,
+    "team": 105,
+    "position": 15,
+    "created_at": "2022-04-09T03:13:44.731Z",
+    "updated_at": "2022-04-09T03:13:44.731Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1154,
+  "fields": {
+    "bet": 54,
+    "team": 63,
+    "position": 16,
+    "created_at": "2022-04-09T03:13:44.731Z",
+    "updated_at": "2022-04-09T03:13:44.731Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1164,
+  "fields": {
+    "bet": 54,
+    "team": 43,
+    "position": 17,
+    "created_at": "2022-04-09T03:13:44.731Z",
+    "updated_at": "2022-04-09T03:13:44.731Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1174,
+  "fields": {
+    "bet": 54,
+    "team": 115,
+    "position": 18,
+    "created_at": "2022-04-09T03:13:44.732Z",
+    "updated_at": "2022-04-09T03:13:44.732Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1184,
+  "fields": {
+    "bet": 54,
+    "team": 204,
+    "position": 19,
+    "created_at": "2022-04-09T03:13:44.732Z",
+    "updated_at": "2022-04-09T03:13:44.732Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1194,
+  "fields": {
+    "bet": 54,
+    "team": 6,
+    "position": 20,
+    "created_at": "2022-04-09T03:13:44.732Z",
+    "updated_at": "2022-04-09T03:13:44.732Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1204,
+  "fields": {
+    "bet": 64,
+    "team": 22,
+    "position": 1,
+    "created_at": "2022-04-09T04:37:39.226Z",
+    "updated_at": "2022-04-09T04:37:39.226Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1214,
+  "fields": {
+    "bet": 64,
+    "team": 26,
+    "position": 2,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1224,
+  "fields": {
+    "bet": 64,
+    "team": 30,
+    "position": 3,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1234,
+  "fields": {
+    "bet": 64,
+    "team": 33,
+    "position": 4,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1244,
+  "fields": {
+    "bet": 64,
+    "team": 43,
+    "position": 5,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1254,
+  "fields": {
+    "bet": 64,
+    "team": 44,
+    "position": 6,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1264,
+  "fields": {
+    "bet": 64,
+    "team": 56,
+    "position": 7,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1274,
+  "fields": {
+    "bet": 64,
+    "team": 57,
+    "position": 8,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1284,
+  "fields": {
+    "bet": 64,
+    "team": 18,
+    "position": 9,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1294,
+  "fields": {
+    "bet": 64,
+    "team": 63,
+    "position": 10,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1304,
+  "fields": {
+    "bet": 64,
+    "team": 64,
+    "position": 11,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1314,
+  "fields": {
+    "bet": 64,
+    "team": 65,
+    "position": 12,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1324,
+  "fields": {
+    "bet": 64,
+    "team": 84,
+    "position": 13,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1334,
+  "fields": {
+    "bet": 64,
+    "team": 98,
+    "position": 14,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1344,
+  "fields": {
+    "bet": 64,
+    "team": 105,
+    "position": 15,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1354,
+  "fields": {
+    "bet": 64,
+    "team": 115,
+    "position": 16,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1364,
+  "fields": {
+    "bet": 64,
+    "team": 6,
+    "position": 17,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1374,
+  "fields": {
+    "bet": 64,
+    "team": 131,
+    "position": 18,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1384,
+  "fields": {
+    "bet": 64,
+    "team": 185,
+    "position": 19,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1394,
+  "fields": {
+    "bet": 64,
+    "team": 204,
+    "position": 20,
+    "created_at": "2022-04-09T04:37:39.227Z",
+    "updated_at": "2022-04-09T04:37:39.227Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1404,
+  "fields": {
+    "bet": 74,
+    "team": 30,
+    "position": 1,
+    "created_at": "2022-04-09T04:59:12.414Z",
+    "updated_at": "2022-04-09T04:59:12.414Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1414,
+  "fields": {
+    "bet": 74,
+    "team": 56,
+    "position": 2,
+    "created_at": "2022-04-09T04:59:12.414Z",
+    "updated_at": "2022-04-09T04:59:12.414Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1424,
+  "fields": {
+    "bet": 74,
+    "team": 64,
+    "position": 3,
+    "created_at": "2022-04-09T04:59:12.414Z",
+    "updated_at": "2022-04-09T04:59:12.414Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1434,
+  "fields": {
+    "bet": 74,
+    "team": 18,
+    "position": 4,
+    "created_at": "2022-04-09T04:59:12.414Z",
+    "updated_at": "2022-04-09T04:59:12.414Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1444,
+  "fields": {
+    "bet": 74,
+    "team": 26,
+    "position": 5,
+    "created_at": "2022-04-09T04:59:12.414Z",
+    "updated_at": "2022-04-09T04:59:12.414Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1454,
+  "fields": {
+    "bet": 74,
+    "team": 57,
+    "position": 6,
+    "created_at": "2022-04-09T04:59:12.414Z",
+    "updated_at": "2022-04-09T04:59:12.414Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1464,
+  "fields": {
+    "bet": 74,
+    "team": 65,
+    "position": 7,
+    "created_at": "2022-04-09T04:59:12.414Z",
+    "updated_at": "2022-04-09T04:59:12.414Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1474,
+  "fields": {
+    "bet": 74,
+    "team": 185,
+    "position": 8,
+    "created_at": "2022-04-09T04:59:12.414Z",
+    "updated_at": "2022-04-09T04:59:12.414Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1484,
+  "fields": {
+    "bet": 74,
+    "team": 44,
+    "position": 9,
+    "created_at": "2022-04-09T04:59:12.414Z",
+    "updated_at": "2022-04-09T04:59:12.414Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1494,
+  "fields": {
+    "bet": 74,
+    "team": 22,
+    "position": 10,
+    "created_at": "2022-04-09T04:59:12.414Z",
+    "updated_at": "2022-04-09T04:59:12.414Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1504,
+  "fields": {
+    "bet": 74,
+    "team": 105,
+    "position": 11,
+    "created_at": "2022-04-09T04:59:12.414Z",
+    "updated_at": "2022-04-09T04:59:12.414Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1514,
+  "fields": {
+    "bet": 74,
+    "team": 131,
+    "position": 12,
+    "created_at": "2022-04-09T04:59:12.414Z",
+    "updated_at": "2022-04-09T04:59:12.414Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1524,
+  "fields": {
+    "bet": 74,
+    "team": 63,
+    "position": 13,
+    "created_at": "2022-04-09T04:59:12.414Z",
+    "updated_at": "2022-04-09T04:59:12.414Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1534,
+  "fields": {
+    "bet": 74,
+    "team": 204,
+    "position": 14,
+    "created_at": "2022-04-09T04:59:12.414Z",
+    "updated_at": "2022-04-09T04:59:12.414Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1544,
+  "fields": {
+    "bet": 74,
+    "team": 33,
+    "position": 15,
+    "created_at": "2022-04-09T04:59:12.414Z",
+    "updated_at": "2022-04-09T04:59:12.414Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1554,
+  "fields": {
+    "bet": 74,
+    "team": 98,
+    "position": 16,
+    "created_at": "2022-04-09T04:59:12.415Z",
+    "updated_at": "2022-04-09T04:59:12.415Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1564,
+  "fields": {
+    "bet": 74,
+    "team": 43,
+    "position": 17,
+    "created_at": "2022-04-09T04:59:12.415Z",
+    "updated_at": "2022-04-09T04:59:12.415Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1574,
+  "fields": {
+    "bet": 74,
+    "team": 84,
+    "position": 18,
+    "created_at": "2022-04-09T04:59:12.415Z",
+    "updated_at": "2022-04-09T04:59:12.415Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1584,
+  "fields": {
+    "bet": 74,
+    "team": 115,
+    "position": 19,
+    "created_at": "2022-04-09T04:59:12.415Z",
+    "updated_at": "2022-04-09T04:59:12.415Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1594,
+  "fields": {
+    "bet": 74,
+    "team": 6,
+    "position": 20,
+    "created_at": "2022-04-09T04:59:12.415Z",
+    "updated_at": "2022-04-09T04:59:12.415Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1604,
+  "fields": {
+    "bet": 84,
+    "team": 22,
+    "position": 1,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1614,
+  "fields": {
+    "bet": 84,
+    "team": 6,
+    "position": 2,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1624,
+  "fields": {
+    "bet": 84,
+    "team": 18,
+    "position": 3,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1634,
+  "fields": {
+    "bet": 84,
+    "team": 26,
+    "position": 4,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1644,
+  "fields": {
+    "bet": 84,
+    "team": 30,
+    "position": 5,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1654,
+  "fields": {
+    "bet": 84,
+    "team": 33,
+    "position": 6,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1664,
+  "fields": {
+    "bet": 84,
+    "team": 64,
+    "position": 7,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1674,
+  "fields": {
+    "bet": 84,
+    "team": 43,
+    "position": 8,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1684,
+  "fields": {
+    "bet": 84,
+    "team": 44,
+    "position": 9,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1694,
+  "fields": {
+    "bet": 84,
+    "team": 56,
+    "position": 10,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1704,
+  "fields": {
+    "bet": 84,
+    "team": 57,
+    "position": 11,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1714,
+  "fields": {
+    "bet": 84,
+    "team": 63,
+    "position": 12,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1724,
+  "fields": {
+    "bet": 84,
+    "team": 65,
+    "position": 13,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1734,
+  "fields": {
+    "bet": 84,
+    "team": 84,
+    "position": 14,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1744,
+  "fields": {
+    "bet": 84,
+    "team": 98,
+    "position": 15,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1754,
+  "fields": {
+    "bet": 84,
+    "team": 105,
+    "position": 16,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1764,
+  "fields": {
+    "bet": 84,
+    "team": 115,
+    "position": 17,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1774,
+  "fields": {
+    "bet": 84,
+    "team": 131,
+    "position": 18,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1784,
+  "fields": {
+    "bet": 84,
+    "team": 185,
+    "position": 19,
+    "created_at": "2022-04-09T05:20:42.940Z",
+    "updated_at": "2022-04-09T05:20:42.940Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1794,
+  "fields": {
+    "bet": 84,
+    "team": 204,
+    "position": 20,
+    "created_at": "2022-04-09T05:20:42.941Z",
+    "updated_at": "2022-04-09T05:20:42.941Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1804,
+  "fields": {
+    "bet": 94,
+    "team": 6,
+    "position": 1,
+    "created_at": "2022-04-09T06:14:45.879Z",
+    "updated_at": "2022-04-09T06:14:45.879Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1814,
+  "fields": {
+    "bet": 94,
+    "team": 18,
+    "position": 2,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1824,
+  "fields": {
+    "bet": 94,
+    "team": 22,
+    "position": 3,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1834,
+  "fields": {
+    "bet": 94,
+    "team": 26,
+    "position": 4,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1844,
+  "fields": {
+    "bet": 94,
+    "team": 30,
+    "position": 5,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1854,
+  "fields": {
+    "bet": 94,
+    "team": 33,
+    "position": 6,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1864,
+  "fields": {
+    "bet": 94,
+    "team": 43,
+    "position": 7,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1874,
+  "fields": {
+    "bet": 94,
+    "team": 44,
+    "position": 8,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1884,
+  "fields": {
+    "bet": 94,
+    "team": 56,
+    "position": 9,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1894,
+  "fields": {
+    "bet": 94,
+    "team": 57,
+    "position": 10,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1904,
+  "fields": {
+    "bet": 94,
+    "team": 63,
+    "position": 11,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1914,
+  "fields": {
+    "bet": 94,
+    "team": 64,
+    "position": 12,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1924,
+  "fields": {
+    "bet": 94,
+    "team": 65,
+    "position": 13,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1934,
+  "fields": {
+    "bet": 94,
+    "team": 84,
+    "position": 14,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1944,
+  "fields": {
+    "bet": 94,
+    "team": 98,
+    "position": 15,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1954,
+  "fields": {
+    "bet": 94,
+    "team": 105,
+    "position": 16,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1964,
+  "fields": {
+    "bet": 94,
+    "team": 115,
+    "position": 17,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1974,
+  "fields": {
+    "bet": 94,
+    "team": 131,
+    "position": 18,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1984,
+  "fields": {
+    "bet": 94,
+    "team": 185,
+    "position": 19,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 1994,
+  "fields": {
+    "bet": 94,
+    "team": 204,
+    "position": 20,
+    "created_at": "2022-04-09T06:14:45.880Z",
+    "updated_at": "2022-04-09T06:14:45.880Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2004,
+  "fields": {
+    "bet": 104,
+    "team": 6,
+    "position": 1,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2014,
+  "fields": {
+    "bet": 104,
+    "team": 18,
+    "position": 2,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2024,
+  "fields": {
+    "bet": 104,
+    "team": 22,
+    "position": 3,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2034,
+  "fields": {
+    "bet": 104,
+    "team": 26,
+    "position": 4,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2044,
+  "fields": {
+    "bet": 104,
+    "team": 30,
+    "position": 5,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2054,
+  "fields": {
+    "bet": 104,
+    "team": 33,
+    "position": 6,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2064,
+  "fields": {
+    "bet": 104,
+    "team": 43,
+    "position": 7,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2074,
+  "fields": {
+    "bet": 104,
+    "team": 44,
+    "position": 8,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2084,
+  "fields": {
+    "bet": 104,
+    "team": 56,
+    "position": 9,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2094,
+  "fields": {
+    "bet": 104,
+    "team": 57,
+    "position": 10,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2104,
+  "fields": {
+    "bet": 104,
+    "team": 63,
+    "position": 11,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2114,
+  "fields": {
+    "bet": 104,
+    "team": 64,
+    "position": 12,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2124,
+  "fields": {
+    "bet": 104,
+    "team": 65,
+    "position": 13,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2134,
+  "fields": {
+    "bet": 104,
+    "team": 84,
+    "position": 14,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2144,
+  "fields": {
+    "bet": 104,
+    "team": 98,
+    "position": 15,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2154,
+  "fields": {
+    "bet": 104,
+    "team": 105,
+    "position": 16,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2164,
+  "fields": {
+    "bet": 104,
+    "team": 115,
+    "position": 17,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2174,
+  "fields": {
+    "bet": 104,
+    "team": 131,
+    "position": 18,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2184,
+  "fields": {
+    "bet": 104,
+    "team": 185,
+    "position": 19,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2194,
+  "fields": {
+    "bet": 104,
+    "team": 204,
+    "position": 20,
+    "created_at": "2022-04-09T06:16:06.287Z",
+    "updated_at": "2022-04-09T06:16:06.287Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2204,
+  "fields": {
+    "bet": 114,
+    "team": 6,
+    "position": 1,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2214,
+  "fields": {
+    "bet": 114,
+    "team": 18,
+    "position": 2,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2224,
+  "fields": {
+    "bet": 114,
+    "team": 22,
+    "position": 3,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2234,
+  "fields": {
+    "bet": 114,
+    "team": 26,
+    "position": 4,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2244,
+  "fields": {
+    "bet": 114,
+    "team": 30,
+    "position": 5,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2254,
+  "fields": {
+    "bet": 114,
+    "team": 33,
+    "position": 6,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2264,
+  "fields": {
+    "bet": 114,
+    "team": 43,
+    "position": 7,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2274,
+  "fields": {
+    "bet": 114,
+    "team": 44,
+    "position": 8,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2284,
+  "fields": {
+    "bet": 114,
+    "team": 56,
+    "position": 9,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2294,
+  "fields": {
+    "bet": 114,
+    "team": 57,
+    "position": 10,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2304,
+  "fields": {
+    "bet": 114,
+    "team": 63,
+    "position": 11,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2314,
+  "fields": {
+    "bet": 114,
+    "team": 64,
+    "position": 12,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2324,
+  "fields": {
+    "bet": 114,
+    "team": 65,
+    "position": 13,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2334,
+  "fields": {
+    "bet": 114,
+    "team": 84,
+    "position": 14,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2344,
+  "fields": {
+    "bet": 114,
+    "team": 98,
+    "position": 15,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2354,
+  "fields": {
+    "bet": 114,
+    "team": 105,
+    "position": 16,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2364,
+  "fields": {
+    "bet": 114,
+    "team": 115,
+    "position": 17,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2374,
+  "fields": {
+    "bet": 114,
+    "team": 131,
+    "position": 18,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2384,
+  "fields": {
+    "bet": 114,
+    "team": 185,
+    "position": 19,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2394,
+  "fields": {
+    "bet": 114,
+    "team": 204,
+    "position": 20,
+    "created_at": "2022-04-09T06:31:16.496Z",
+    "updated_at": "2022-04-09T06:31:16.496Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2404,
+  "fields": {
+    "bet": 124,
+    "team": 30,
+    "position": 1,
+    "created_at": "2022-04-09T10:32:46.243Z",
+    "updated_at": "2022-04-09T10:32:46.243Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2414,
+  "fields": {
+    "bet": 124,
+    "team": 56,
+    "position": 2,
+    "created_at": "2022-04-09T10:32:46.243Z",
+    "updated_at": "2022-04-09T10:32:46.243Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2424,
+  "fields": {
+    "bet": 124,
+    "team": 18,
+    "position": 3,
+    "created_at": "2022-04-09T10:32:46.243Z",
+    "updated_at": "2022-04-09T10:32:46.243Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2434,
+  "fields": {
+    "bet": 124,
+    "team": 64,
+    "position": 4,
+    "created_at": "2022-04-09T10:32:46.243Z",
+    "updated_at": "2022-04-09T10:32:46.243Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2444,
+  "fields": {
+    "bet": 124,
+    "team": 57,
+    "position": 5,
+    "created_at": "2022-04-09T10:32:46.243Z",
+    "updated_at": "2022-04-09T10:32:46.243Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2454,
+  "fields": {
+    "bet": 124,
+    "team": 26,
+    "position": 6,
+    "created_at": "2022-04-09T10:32:46.243Z",
+    "updated_at": "2022-04-09T10:32:46.243Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2464,
+  "fields": {
+    "bet": 124,
+    "team": 65,
+    "position": 7,
+    "created_at": "2022-04-09T10:32:46.243Z",
+    "updated_at": "2022-04-09T10:32:46.243Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2474,
+  "fields": {
+    "bet": 124,
+    "team": 185,
+    "position": 8,
+    "created_at": "2022-04-09T10:32:46.243Z",
+    "updated_at": "2022-04-09T10:32:46.243Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2484,
+  "fields": {
+    "bet": 124,
+    "team": 131,
+    "position": 9,
+    "created_at": "2022-04-09T10:32:46.243Z",
+    "updated_at": "2022-04-09T10:32:46.243Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2494,
+  "fields": {
+    "bet": 124,
+    "team": 22,
+    "position": 10,
+    "created_at": "2022-04-09T10:32:46.243Z",
+    "updated_at": "2022-04-09T10:32:46.243Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2504,
+  "fields": {
+    "bet": 124,
+    "team": 44,
+    "position": 11,
+    "created_at": "2022-04-09T10:32:46.243Z",
+    "updated_at": "2022-04-09T10:32:46.243Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2514,
+  "fields": {
+    "bet": 124,
+    "team": 98,
+    "position": 12,
+    "created_at": "2022-04-09T10:32:46.243Z",
+    "updated_at": "2022-04-09T10:32:46.243Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2524,
+  "fields": {
+    "bet": 124,
+    "team": 105,
+    "position": 13,
+    "created_at": "2022-04-09T10:32:46.243Z",
+    "updated_at": "2022-04-09T10:32:46.243Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2534,
+  "fields": {
+    "bet": 124,
+    "team": 33,
+    "position": 14,
+    "created_at": "2022-04-09T10:32:46.243Z",
+    "updated_at": "2022-04-09T10:32:46.243Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2544,
+  "fields": {
+    "bet": 124,
+    "team": 63,
+    "position": 15,
+    "created_at": "2022-04-09T10:32:46.243Z",
+    "updated_at": "2022-04-09T10:32:46.243Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2554,
+  "fields": {
+    "bet": 124,
+    "team": 204,
+    "position": 16,
+    "created_at": "2022-04-09T10:32:46.243Z",
+    "updated_at": "2022-04-09T10:32:46.243Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2564,
+  "fields": {
+    "bet": 124,
+    "team": 84,
+    "position": 17,
+    "created_at": "2022-04-09T10:32:46.244Z",
+    "updated_at": "2022-04-09T10:32:46.244Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2574,
+  "fields": {
+    "bet": 124,
+    "team": 115,
+    "position": 18,
+    "created_at": "2022-04-09T10:32:46.244Z",
+    "updated_at": "2022-04-09T10:32:46.244Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2584,
+  "fields": {
+    "bet": 124,
+    "team": 43,
+    "position": 19,
+    "created_at": "2022-04-09T10:32:46.244Z",
+    "updated_at": "2022-04-09T10:32:46.244Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2594,
+  "fields": {
+    "bet": 124,
+    "team": 6,
+    "position": 20,
+    "created_at": "2022-04-09T10:32:46.244Z",
+    "updated_at": "2022-04-09T10:32:46.244Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2604,
+  "fields": {
+    "bet": 134,
+    "team": 30,
+    "position": 1,
+    "created_at": "2022-04-09T10:44:18.166Z",
+    "updated_at": "2022-04-09T10:44:18.167Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2614,
+  "fields": {
+    "bet": 134,
+    "team": 56,
+    "position": 2,
+    "created_at": "2022-04-09T10:44:18.167Z",
+    "updated_at": "2022-04-09T10:44:18.167Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2624,
+  "fields": {
+    "bet": 134,
+    "team": 18,
+    "position": 3,
+    "created_at": "2022-04-09T10:44:18.167Z",
+    "updated_at": "2022-04-09T10:44:18.167Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2634,
+  "fields": {
+    "bet": 134,
+    "team": 26,
+    "position": 4,
+    "created_at": "2022-04-09T10:44:18.167Z",
+    "updated_at": "2022-04-09T10:44:18.167Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2644,
+  "fields": {
+    "bet": 134,
+    "team": 22,
+    "position": 5,
+    "created_at": "2022-04-09T10:44:18.167Z",
+    "updated_at": "2022-04-09T10:44:18.167Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2654,
+  "fields": {
+    "bet": 134,
+    "team": 44,
+    "position": 6,
+    "created_at": "2022-04-09T10:44:18.167Z",
+    "updated_at": "2022-04-09T10:44:18.167Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2664,
+  "fields": {
+    "bet": 134,
+    "team": 65,
+    "position": 7,
+    "created_at": "2022-04-09T10:44:18.167Z",
+    "updated_at": "2022-04-09T10:44:18.167Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2674,
+  "fields": {
+    "bet": 134,
+    "team": 57,
+    "position": 8,
+    "created_at": "2022-04-09T10:44:18.167Z",
+    "updated_at": "2022-04-09T10:44:18.167Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2684,
+  "fields": {
+    "bet": 134,
+    "team": 98,
+    "position": 9,
+    "created_at": "2022-04-09T10:44:18.167Z",
+    "updated_at": "2022-04-09T10:44:18.167Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2694,
+  "fields": {
+    "bet": 134,
+    "team": 64,
+    "position": 10,
+    "created_at": "2022-04-09T10:44:18.167Z",
+    "updated_at": "2022-04-09T10:44:18.167Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2704,
+  "fields": {
+    "bet": 134,
+    "team": 131,
+    "position": 11,
+    "created_at": "2022-04-09T10:44:18.167Z",
+    "updated_at": "2022-04-09T10:44:18.167Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2714,
+  "fields": {
+    "bet": 134,
+    "team": 185,
+    "position": 12,
+    "created_at": "2022-04-09T10:44:18.167Z",
+    "updated_at": "2022-04-09T10:44:18.168Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2724,
+  "fields": {
+    "bet": 134,
+    "team": 63,
+    "position": 13,
+    "created_at": "2022-04-09T10:44:18.168Z",
+    "updated_at": "2022-04-09T10:44:18.168Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2734,
+  "fields": {
+    "bet": 134,
+    "team": 105,
+    "position": 14,
+    "created_at": "2022-04-09T10:44:18.168Z",
+    "updated_at": "2022-04-09T10:44:18.168Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2744,
+  "fields": {
+    "bet": 134,
+    "team": 33,
+    "position": 15,
+    "created_at": "2022-04-09T10:44:18.168Z",
+    "updated_at": "2022-04-09T10:44:18.168Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2754,
+  "fields": {
+    "bet": 134,
+    "team": 204,
+    "position": 16,
+    "created_at": "2022-04-09T10:44:18.168Z",
+    "updated_at": "2022-04-09T10:44:18.168Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2764,
+  "fields": {
+    "bet": 134,
+    "team": 84,
+    "position": 17,
+    "created_at": "2022-04-09T10:44:18.168Z",
+    "updated_at": "2022-04-09T10:44:18.168Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2774,
+  "fields": {
+    "bet": 134,
+    "team": 43,
+    "position": 18,
+    "created_at": "2022-04-09T10:44:18.168Z",
+    "updated_at": "2022-04-09T10:44:18.168Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2784,
+  "fields": {
+    "bet": 134,
+    "team": 115,
+    "position": 19,
+    "created_at": "2022-04-09T10:44:18.168Z",
+    "updated_at": "2022-04-09T10:44:18.168Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2794,
+  "fields": {
+    "bet": 134,
+    "team": 6,
+    "position": 20,
+    "created_at": "2022-04-09T10:44:18.168Z",
+    "updated_at": "2022-04-09T10:44:18.168Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2804,
+  "fields": {
+    "bet": 144,
+    "team": 30,
+    "position": 1,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2814,
+  "fields": {
+    "bet": 144,
+    "team": 56,
+    "position": 2,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2824,
+  "fields": {
+    "bet": 144,
+    "team": 18,
+    "position": 3,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2834,
+  "fields": {
+    "bet": 144,
+    "team": 57,
+    "position": 4,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2844,
+  "fields": {
+    "bet": 144,
+    "team": 26,
+    "position": 5,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2854,
+  "fields": {
+    "bet": 144,
+    "team": 64,
+    "position": 6,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2864,
+  "fields": {
+    "bet": 144,
+    "team": 65,
+    "position": 7,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2874,
+  "fields": {
+    "bet": 144,
+    "team": 131,
+    "position": 8,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2884,
+  "fields": {
+    "bet": 144,
+    "team": 44,
+    "position": 9,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2894,
+  "fields": {
+    "bet": 144,
+    "team": 22,
+    "position": 10,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2904,
+  "fields": {
+    "bet": 144,
+    "team": 185,
+    "position": 11,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2914,
+  "fields": {
+    "bet": 144,
+    "team": 63,
+    "position": 12,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2924,
+  "fields": {
+    "bet": 144,
+    "team": 43,
+    "position": 13,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2934,
+  "fields": {
+    "bet": 144,
+    "team": 98,
+    "position": 14,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2944,
+  "fields": {
+    "bet": 144,
+    "team": 105,
+    "position": 15,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2954,
+  "fields": {
+    "bet": 144,
+    "team": 84,
+    "position": 16,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2964,
+  "fields": {
+    "bet": 144,
+    "team": 33,
+    "position": 17,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2974,
+  "fields": {
+    "bet": 144,
+    "team": 6,
+    "position": 18,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2984,
+  "fields": {
+    "bet": 144,
+    "team": 115,
+    "position": 19,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 2994,
+  "fields": {
+    "bet": 144,
+    "team": 204,
+    "position": 20,
+    "created_at": "2022-04-09T13:32:08.626Z",
+    "updated_at": "2022-04-09T13:32:08.626Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3004,
+  "fields": {
+    "bet": 154,
+    "team": 30,
+    "position": 1,
+    "created_at": "2022-04-09T13:35:55.442Z",
+    "updated_at": "2022-04-09T13:35:55.442Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3014,
+  "fields": {
+    "bet": 154,
+    "team": 56,
+    "position": 2,
+    "created_at": "2022-04-09T13:35:55.442Z",
+    "updated_at": "2022-04-09T13:35:55.442Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3024,
+  "fields": {
+    "bet": 154,
+    "team": 18,
+    "position": 3,
+    "created_at": "2022-04-09T13:35:55.442Z",
+    "updated_at": "2022-04-09T13:35:55.442Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3034,
+  "fields": {
+    "bet": 154,
+    "team": 57,
+    "position": 4,
+    "created_at": "2022-04-09T13:35:55.442Z",
+    "updated_at": "2022-04-09T13:35:55.442Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3044,
+  "fields": {
+    "bet": 154,
+    "team": 64,
+    "position": 5,
+    "created_at": "2022-04-09T13:35:55.442Z",
+    "updated_at": "2022-04-09T13:35:55.442Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3054,
+  "fields": {
+    "bet": 154,
+    "team": 26,
+    "position": 6,
+    "created_at": "2022-04-09T13:35:55.442Z",
+    "updated_at": "2022-04-09T13:35:55.443Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3064,
+  "fields": {
+    "bet": 154,
+    "team": 65,
+    "position": 7,
+    "created_at": "2022-04-09T13:35:55.443Z",
+    "updated_at": "2022-04-09T13:35:55.443Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3074,
+  "fields": {
+    "bet": 154,
+    "team": 185,
+    "position": 8,
+    "created_at": "2022-04-09T13:35:55.443Z",
+    "updated_at": "2022-04-09T13:35:55.443Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3084,
+  "fields": {
+    "bet": 154,
+    "team": 22,
+    "position": 9,
+    "created_at": "2022-04-09T13:35:55.443Z",
+    "updated_at": "2022-04-09T13:35:55.443Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3094,
+  "fields": {
+    "bet": 154,
+    "team": 131,
+    "position": 10,
+    "created_at": "2022-04-09T13:35:55.443Z",
+    "updated_at": "2022-04-09T13:35:55.443Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3104,
+  "fields": {
+    "bet": 154,
+    "team": 44,
+    "position": 11,
+    "created_at": "2022-04-09T13:35:55.443Z",
+    "updated_at": "2022-04-09T13:35:55.443Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3114,
+  "fields": {
+    "bet": 154,
+    "team": 98,
+    "position": 12,
+    "created_at": "2022-04-09T13:35:55.443Z",
+    "updated_at": "2022-04-09T13:35:55.443Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3124,
+  "fields": {
+    "bet": 154,
+    "team": 105,
+    "position": 13,
+    "created_at": "2022-04-09T13:35:55.443Z",
+    "updated_at": "2022-04-09T13:35:55.443Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3134,
+  "fields": {
+    "bet": 154,
+    "team": 84,
+    "position": 14,
+    "created_at": "2022-04-09T13:35:55.443Z",
+    "updated_at": "2022-04-09T13:35:55.443Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3144,
+  "fields": {
+    "bet": 154,
+    "team": 204,
+    "position": 15,
+    "created_at": "2022-04-09T13:35:55.443Z",
+    "updated_at": "2022-04-09T13:35:55.443Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3154,
+  "fields": {
+    "bet": 154,
+    "team": 63,
+    "position": 16,
+    "created_at": "2022-04-09T13:35:55.443Z",
+    "updated_at": "2022-04-09T13:35:55.443Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3164,
+  "fields": {
+    "bet": 154,
+    "team": 33,
+    "position": 17,
+    "created_at": "2022-04-09T13:35:55.443Z",
+    "updated_at": "2022-04-09T13:35:55.443Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3174,
+  "fields": {
+    "bet": 154,
+    "team": 43,
+    "position": 18,
+    "created_at": "2022-04-09T13:35:55.443Z",
+    "updated_at": "2022-04-09T13:35:55.443Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3184,
+  "fields": {
+    "bet": 154,
+    "team": 115,
+    "position": 19,
+    "created_at": "2022-04-09T13:35:55.443Z",
+    "updated_at": "2022-04-09T13:35:55.443Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3194,
+  "fields": {
+    "bet": 154,
+    "team": 6,
+    "position": 20,
+    "created_at": "2022-04-09T13:35:55.443Z",
+    "updated_at": "2022-04-09T13:35:55.443Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3204,
+  "fields": {
+    "bet": 164,
+    "team": 30,
+    "position": 1,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3214,
+  "fields": {
+    "bet": 164,
+    "team": 18,
+    "position": 2,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3224,
+  "fields": {
+    "bet": 164,
+    "team": 56,
+    "position": 3,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3234,
+  "fields": {
+    "bet": 164,
+    "team": 26,
+    "position": 4,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3244,
+  "fields": {
+    "bet": 164,
+    "team": 64,
+    "position": 5,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3254,
+  "fields": {
+    "bet": 164,
+    "team": 65,
+    "position": 6,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3264,
+  "fields": {
+    "bet": 164,
+    "team": 185,
+    "position": 7,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3274,
+  "fields": {
+    "bet": 164,
+    "team": 57,
+    "position": 8,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3284,
+  "fields": {
+    "bet": 164,
+    "team": 44,
+    "position": 9,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3294,
+  "fields": {
+    "bet": 164,
+    "team": 22,
+    "position": 10,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3304,
+  "fields": {
+    "bet": 164,
+    "team": 131,
+    "position": 11,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3314,
+  "fields": {
+    "bet": 164,
+    "team": 98,
+    "position": 12,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3324,
+  "fields": {
+    "bet": 164,
+    "team": 105,
+    "position": 13,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3334,
+  "fields": {
+    "bet": 164,
+    "team": 84,
+    "position": 14,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3344,
+  "fields": {
+    "bet": 164,
+    "team": 204,
+    "position": 15,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3354,
+  "fields": {
+    "bet": 164,
+    "team": 33,
+    "position": 16,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3364,
+  "fields": {
+    "bet": 164,
+    "team": 63,
+    "position": 17,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3374,
+  "fields": {
+    "bet": 164,
+    "team": 43,
+    "position": 18,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3384,
+  "fields": {
+    "bet": 164,
+    "team": 6,
+    "position": 19,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3394,
+  "fields": {
+    "bet": 164,
+    "team": 115,
+    "position": 20,
+    "created_at": "2022-04-09T14:09:09.350Z",
+    "updated_at": "2022-04-09T14:09:09.350Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3404,
+  "fields": {
+    "bet": 174,
+    "team": 30,
+    "position": 1,
+    "created_at": "2022-04-09T15:41:54.137Z",
+    "updated_at": "2022-04-09T15:41:54.137Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3414,
+  "fields": {
+    "bet": 174,
+    "team": 56,
+    "position": 2,
+    "created_at": "2022-04-09T15:41:54.137Z",
+    "updated_at": "2022-04-09T15:41:54.137Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3424,
+  "fields": {
+    "bet": 174,
+    "team": 18,
+    "position": 3,
+    "created_at": "2022-04-09T15:41:54.137Z",
+    "updated_at": "2022-04-09T15:41:54.137Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3434,
+  "fields": {
+    "bet": 174,
+    "team": 65,
+    "position": 4,
+    "created_at": "2022-04-09T15:41:54.137Z",
+    "updated_at": "2022-04-09T15:41:54.137Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3444,
+  "fields": {
+    "bet": 174,
+    "team": 57,
+    "position": 5,
+    "created_at": "2022-04-09T15:41:54.137Z",
+    "updated_at": "2022-04-09T15:41:54.137Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3454,
+  "fields": {
+    "bet": 174,
+    "team": 26,
+    "position": 6,
+    "created_at": "2022-04-09T15:41:54.137Z",
+    "updated_at": "2022-04-09T15:41:54.137Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3464,
+  "fields": {
+    "bet": 174,
+    "team": 64,
+    "position": 7,
+    "created_at": "2022-04-09T15:41:54.138Z",
+    "updated_at": "2022-04-09T15:41:54.138Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3474,
+  "fields": {
+    "bet": 174,
+    "team": 44,
+    "position": 8,
+    "created_at": "2022-04-09T15:41:54.138Z",
+    "updated_at": "2022-04-09T15:41:54.138Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3484,
+  "fields": {
+    "bet": 174,
+    "team": 131,
+    "position": 9,
+    "created_at": "2022-04-09T15:41:54.138Z",
+    "updated_at": "2022-04-09T15:41:54.138Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3494,
+  "fields": {
+    "bet": 174,
+    "team": 22,
+    "position": 10,
+    "created_at": "2022-04-09T15:41:54.138Z",
+    "updated_at": "2022-04-09T15:41:54.138Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3504,
+  "fields": {
+    "bet": 174,
+    "team": 185,
+    "position": 11,
+    "created_at": "2022-04-09T15:41:54.138Z",
+    "updated_at": "2022-04-09T15:41:54.138Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3514,
+  "fields": {
+    "bet": 174,
+    "team": 63,
+    "position": 12,
+    "created_at": "2022-04-09T15:41:54.138Z",
+    "updated_at": "2022-04-09T15:41:54.138Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3524,
+  "fields": {
+    "bet": 174,
+    "team": 98,
+    "position": 13,
+    "created_at": "2022-04-09T15:41:54.138Z",
+    "updated_at": "2022-04-09T15:41:54.138Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3534,
+  "fields": {
+    "bet": 174,
+    "team": 33,
+    "position": 14,
+    "created_at": "2022-04-09T15:41:54.138Z",
+    "updated_at": "2022-04-09T15:41:54.138Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3544,
+  "fields": {
+    "bet": 174,
+    "team": 105,
+    "position": 15,
+    "created_at": "2022-04-09T15:41:54.138Z",
+    "updated_at": "2022-04-09T15:41:54.138Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3554,
+  "fields": {
+    "bet": 174,
+    "team": 115,
+    "position": 16,
+    "created_at": "2022-04-09T15:41:54.138Z",
+    "updated_at": "2022-04-09T15:41:54.138Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3564,
+  "fields": {
+    "bet": 174,
+    "team": 84,
+    "position": 17,
+    "created_at": "2022-04-09T15:41:54.138Z",
+    "updated_at": "2022-04-09T15:41:54.138Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3574,
+  "fields": {
+    "bet": 174,
+    "team": 204,
+    "position": 18,
+    "created_at": "2022-04-09T15:41:54.138Z",
+    "updated_at": "2022-04-09T15:41:54.138Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3584,
+  "fields": {
+    "bet": 174,
+    "team": 6,
+    "position": 19,
+    "created_at": "2022-04-09T15:41:54.138Z",
+    "updated_at": "2022-04-09T15:41:54.138Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3594,
+  "fields": {
+    "bet": 174,
+    "team": 43,
+    "position": 20,
+    "created_at": "2022-04-09T15:41:54.138Z",
+    "updated_at": "2022-04-09T15:41:54.138Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3604,
+  "fields": {
+    "bet": 184,
+    "team": 30,
+    "position": 1,
+    "created_at": "2022-04-09T15:57:14.001Z",
+    "updated_at": "2022-04-09T15:57:14.001Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3614,
+  "fields": {
+    "bet": 184,
+    "team": 56,
+    "position": 2,
+    "created_at": "2022-04-09T15:57:14.001Z",
+    "updated_at": "2022-04-09T15:57:14.001Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3624,
+  "fields": {
+    "bet": 184,
+    "team": 18,
+    "position": 3,
+    "created_at": "2022-04-09T15:57:14.001Z",
+    "updated_at": "2022-04-09T15:57:14.001Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3634,
+  "fields": {
+    "bet": 184,
+    "team": 65,
+    "position": 4,
+    "created_at": "2022-04-09T15:57:14.001Z",
+    "updated_at": "2022-04-09T15:57:14.001Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3644,
+  "fields": {
+    "bet": 184,
+    "team": 26,
+    "position": 5,
+    "created_at": "2022-04-09T15:57:14.001Z",
+    "updated_at": "2022-04-09T15:57:14.001Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3654,
+  "fields": {
+    "bet": 184,
+    "team": 57,
+    "position": 6,
+    "created_at": "2022-04-09T15:57:14.001Z",
+    "updated_at": "2022-04-09T15:57:14.001Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3664,
+  "fields": {
+    "bet": 184,
+    "team": 131,
+    "position": 7,
+    "created_at": "2022-04-09T15:57:14.001Z",
+    "updated_at": "2022-04-09T15:57:14.001Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3674,
+  "fields": {
+    "bet": 184,
+    "team": 64,
+    "position": 8,
+    "created_at": "2022-04-09T15:57:14.001Z",
+    "updated_at": "2022-04-09T15:57:14.001Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3684,
+  "fields": {
+    "bet": 184,
+    "team": 22,
+    "position": 9,
+    "created_at": "2022-04-09T15:57:14.001Z",
+    "updated_at": "2022-04-09T15:57:14.001Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3694,
+  "fields": {
+    "bet": 184,
+    "team": 44,
+    "position": 10,
+    "created_at": "2022-04-09T15:57:14.001Z",
+    "updated_at": "2022-04-09T15:57:14.001Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3704,
+  "fields": {
+    "bet": 184,
+    "team": 63,
+    "position": 11,
+    "created_at": "2022-04-09T15:57:14.001Z",
+    "updated_at": "2022-04-09T15:57:14.001Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3714,
+  "fields": {
+    "bet": 184,
+    "team": 84,
+    "position": 12,
+    "created_at": "2022-04-09T15:57:14.002Z",
+    "updated_at": "2022-04-09T15:57:14.002Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3724,
+  "fields": {
+    "bet": 184,
+    "team": 185,
+    "position": 13,
+    "created_at": "2022-04-09T15:57:14.002Z",
+    "updated_at": "2022-04-09T15:57:14.002Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3734,
+  "fields": {
+    "bet": 184,
+    "team": 98,
+    "position": 14,
+    "created_at": "2022-04-09T15:57:14.002Z",
+    "updated_at": "2022-04-09T15:57:14.002Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3744,
+  "fields": {
+    "bet": 184,
+    "team": 33,
+    "position": 15,
+    "created_at": "2022-04-09T15:57:14.002Z",
+    "updated_at": "2022-04-09T15:57:14.002Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3754,
+  "fields": {
+    "bet": 184,
+    "team": 204,
+    "position": 16,
+    "created_at": "2022-04-09T15:57:14.002Z",
+    "updated_at": "2022-04-09T15:57:14.002Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3764,
+  "fields": {
+    "bet": 184,
+    "team": 105,
+    "position": 17,
+    "created_at": "2022-04-09T15:57:14.002Z",
+    "updated_at": "2022-04-09T15:57:14.002Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3774,
+  "fields": {
+    "bet": 184,
+    "team": 43,
+    "position": 18,
+    "created_at": "2022-04-09T15:57:14.002Z",
+    "updated_at": "2022-04-09T15:57:14.002Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3784,
+  "fields": {
+    "bet": 184,
+    "team": 115,
+    "position": 19,
+    "created_at": "2022-04-09T15:57:14.002Z",
+    "updated_at": "2022-04-09T15:57:14.002Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3794,
+  "fields": {
+    "bet": 184,
+    "team": 6,
+    "position": 20,
+    "created_at": "2022-04-09T15:57:14.002Z",
+    "updated_at": "2022-04-09T15:57:14.002Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3804,
+  "fields": {
+    "bet": 194,
+    "team": 30,
+    "position": 1,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3814,
+  "fields": {
+    "bet": 194,
+    "team": 56,
+    "position": 2,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3824,
+  "fields": {
+    "bet": 194,
+    "team": 65,
+    "position": 3,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3834,
+  "fields": {
+    "bet": 194,
+    "team": 18,
+    "position": 4,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3844,
+  "fields": {
+    "bet": 194,
+    "team": 26,
+    "position": 5,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3854,
+  "fields": {
+    "bet": 194,
+    "team": 57,
+    "position": 6,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3864,
+  "fields": {
+    "bet": 194,
+    "team": 64,
+    "position": 7,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3874,
+  "fields": {
+    "bet": 194,
+    "team": 131,
+    "position": 8,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3884,
+  "fields": {
+    "bet": 194,
+    "team": 44,
+    "position": 9,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3894,
+  "fields": {
+    "bet": 194,
+    "team": 22,
+    "position": 10,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3904,
+  "fields": {
+    "bet": 194,
+    "team": 185,
+    "position": 11,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3914,
+  "fields": {
+    "bet": 194,
+    "team": 33,
+    "position": 12,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3924,
+  "fields": {
+    "bet": 194,
+    "team": 63,
+    "position": 13,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3934,
+  "fields": {
+    "bet": 194,
+    "team": 204,
+    "position": 14,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3944,
+  "fields": {
+    "bet": 194,
+    "team": 105,
+    "position": 15,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3954,
+  "fields": {
+    "bet": 194,
+    "team": 115,
+    "position": 16,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3964,
+  "fields": {
+    "bet": 194,
+    "team": 43,
+    "position": 17,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3974,
+  "fields": {
+    "bet": 194,
+    "team": 84,
+    "position": 18,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3984,
+  "fields": {
+    "bet": 194,
+    "team": 6,
+    "position": 19,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 3994,
+  "fields": {
+    "bet": 194,
+    "team": 98,
+    "position": 20,
+    "created_at": "2022-04-09T17:42:53.993Z",
+    "updated_at": "2022-04-09T17:42:53.993Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4004,
+  "fields": {
+    "bet": 204,
+    "team": 30,
+    "position": 1,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4014,
+  "fields": {
+    "bet": 204,
+    "team": 18,
+    "position": 2,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4024,
+  "fields": {
+    "bet": 204,
+    "team": 65,
+    "position": 3,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4034,
+  "fields": {
+    "bet": 204,
+    "team": 56,
+    "position": 4,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4044,
+  "fields": {
+    "bet": 204,
+    "team": 26,
+    "position": 5,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4054,
+  "fields": {
+    "bet": 204,
+    "team": 44,
+    "position": 6,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4064,
+  "fields": {
+    "bet": 204,
+    "team": 64,
+    "position": 7,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4074,
+  "fields": {
+    "bet": 204,
+    "team": 185,
+    "position": 8,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4084,
+  "fields": {
+    "bet": 204,
+    "team": 22,
+    "position": 9,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4094,
+  "fields": {
+    "bet": 204,
+    "team": 131,
+    "position": 10,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4104,
+  "fields": {
+    "bet": 204,
+    "team": 33,
+    "position": 11,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4114,
+  "fields": {
+    "bet": 204,
+    "team": 6,
+    "position": 12,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4124,
+  "fields": {
+    "bet": 204,
+    "team": 57,
+    "position": 13,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4134,
+  "fields": {
+    "bet": 204,
+    "team": 63,
+    "position": 14,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4144,
+  "fields": {
+    "bet": 204,
+    "team": 43,
+    "position": 15,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4154,
+  "fields": {
+    "bet": 204,
+    "team": 84,
+    "position": 16,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4164,
+  "fields": {
+    "bet": 204,
+    "team": 98,
+    "position": 17,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4174,
+  "fields": {
+    "bet": 204,
+    "team": 105,
+    "position": 18,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4184,
+  "fields": {
+    "bet": 204,
+    "team": 115,
+    "position": 19,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4194,
+  "fields": {
+    "bet": 204,
+    "team": 204,
+    "position": 20,
+    "created_at": "2022-04-09T17:56:16.133Z",
+    "updated_at": "2022-04-09T17:56:16.133Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4204,
+  "fields": {
+    "bet": 214,
+    "team": 30,
+    "position": 1,
+    "created_at": "2022-04-09T18:22:46.298Z",
+    "updated_at": "2022-04-09T18:22:46.298Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4214,
+  "fields": {
+    "bet": 214,
+    "team": 56,
+    "position": 2,
+    "created_at": "2022-04-09T18:22:46.298Z",
+    "updated_at": "2022-04-09T18:22:46.298Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4224,
+  "fields": {
+    "bet": 214,
+    "team": 185,
+    "position": 3,
+    "created_at": "2022-04-09T18:22:46.298Z",
+    "updated_at": "2022-04-09T18:22:46.298Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4234,
+  "fields": {
+    "bet": 214,
+    "team": 18,
+    "position": 4,
+    "created_at": "2022-04-09T18:22:46.298Z",
+    "updated_at": "2022-04-09T18:22:46.298Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4244,
+  "fields": {
+    "bet": 214,
+    "team": 26,
+    "position": 5,
+    "created_at": "2022-04-09T18:22:46.298Z",
+    "updated_at": "2022-04-09T18:22:46.298Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4254,
+  "fields": {
+    "bet": 214,
+    "team": 57,
+    "position": 6,
+    "created_at": "2022-04-09T18:22:46.298Z",
+    "updated_at": "2022-04-09T18:22:46.298Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4264,
+  "fields": {
+    "bet": 214,
+    "team": 65,
+    "position": 7,
+    "created_at": "2022-04-09T18:22:46.298Z",
+    "updated_at": "2022-04-09T18:22:46.298Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4274,
+  "fields": {
+    "bet": 214,
+    "team": 63,
+    "position": 8,
+    "created_at": "2022-04-09T18:22:46.298Z",
+    "updated_at": "2022-04-09T18:22:46.298Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4284,
+  "fields": {
+    "bet": 214,
+    "team": 64,
+    "position": 9,
+    "created_at": "2022-04-09T18:22:46.298Z",
+    "updated_at": "2022-04-09T18:22:46.298Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4294,
+  "fields": {
+    "bet": 214,
+    "team": 131,
+    "position": 10,
+    "created_at": "2022-04-09T18:22:46.298Z",
+    "updated_at": "2022-04-09T18:22:46.298Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4304,
+  "fields": {
+    "bet": 214,
+    "team": 33,
+    "position": 11,
+    "created_at": "2022-04-09T18:22:46.298Z",
+    "updated_at": "2022-04-09T18:22:46.298Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4314,
+  "fields": {
+    "bet": 214,
+    "team": 44,
+    "position": 12,
+    "created_at": "2022-04-09T18:22:46.298Z",
+    "updated_at": "2022-04-09T18:22:46.298Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4324,
+  "fields": {
+    "bet": 214,
+    "team": 105,
+    "position": 13,
+    "created_at": "2022-04-09T18:22:46.298Z",
+    "updated_at": "2022-04-09T18:22:46.298Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4334,
+  "fields": {
+    "bet": 214,
+    "team": 22,
+    "position": 14,
+    "created_at": "2022-04-09T18:22:46.298Z",
+    "updated_at": "2022-04-09T18:22:46.298Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4344,
+  "fields": {
+    "bet": 214,
+    "team": 115,
+    "position": 15,
+    "created_at": "2022-04-09T18:22:46.299Z",
+    "updated_at": "2022-04-09T18:22:46.299Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4354,
+  "fields": {
+    "bet": 214,
+    "team": 6,
+    "position": 16,
+    "created_at": "2022-04-09T18:22:46.299Z",
+    "updated_at": "2022-04-09T18:22:46.299Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4364,
+  "fields": {
+    "bet": 214,
+    "team": 84,
+    "position": 17,
+    "created_at": "2022-04-09T18:22:46.299Z",
+    "updated_at": "2022-04-09T18:22:46.299Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4374,
+  "fields": {
+    "bet": 214,
+    "team": 43,
+    "position": 18,
+    "created_at": "2022-04-09T18:22:46.299Z",
+    "updated_at": "2022-04-09T18:22:46.299Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4384,
+  "fields": {
+    "bet": 214,
+    "team": 98,
+    "position": 19,
+    "created_at": "2022-04-09T18:22:46.299Z",
+    "updated_at": "2022-04-09T18:22:46.299Z"
+  }
+},
+{
+  "model": "bet.betdetails",
+  "pk": 4394,
+  "fields": {
+    "bet": 214,
+    "team": 204,
+    "position": 20,
+    "created_at": "2022-04-09T18:22:46.299Z",
+    "updated_at": "2022-04-09T18:22:46.299Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 6,
+  "fields": {
+    "name": "Avaí",
+    "abbreviation": "AVA",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999c8488adb.svg",
+    "created_at": "2022-04-09T01:58:18.083Z",
+    "updated_at": "2022-04-09T01:58:18.083Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 18,
+  "fields": {
+    "name": "Flamengo",
+    "abbreviation": "FLA",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999c95084cb.svg",
+    "created_at": "2022-04-09T01:58:18.084Z",
+    "updated_at": "2022-04-09T01:58:18.084Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 22,
+  "fields": {
+    "name": "Botafogo",
+    "abbreviation": "BOT",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999c9b06760.svg",
+    "created_at": "2022-04-09T01:58:18.083Z",
+    "updated_at": "2022-04-09T01:58:18.083Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 26,
+  "fields": {
+    "name": "Fluminense",
+    "abbreviation": "FLU",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999ca0e01e3.svg",
+    "created_at": "2022-04-09T01:58:18.084Z",
+    "updated_at": "2022-04-09T01:58:18.084Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 30,
+  "fields": {
+    "name": "Atlético-MG",
+    "abbreviation": "CAM",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999ca6bfd30.svg",
+    "created_at": "2022-04-09T01:58:18.083Z",
+    "updated_at": "2022-04-09T01:58:18.083Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 33,
+  "fields": {
+    "name": "América-MG",
+    "abbreviation": "AMG",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999cac0b5cc.svg",
+    "created_at": "2022-04-09T01:58:18.082Z",
+    "updated_at": "2022-04-09T01:58:18.082Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 43,
+  "fields": {
+    "name": "Juventude",
+    "abbreviation": "JUV",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999cb997a01.svg",
+    "created_at": "2022-04-09T01:58:18.084Z",
+    "updated_at": "2022-04-09T01:58:18.084Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 44,
+  "fields": {
+    "name": "Internacional",
+    "abbreviation": "INT",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999cbb0b297.svg",
+    "created_at": "2022-04-09T01:58:18.084Z",
+    "updated_at": "2022-04-09T01:58:18.084Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 56,
+  "fields": {
+    "name": "Palmeiras",
+    "abbreviation": "PAL",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999ccc90039.svg",
+    "created_at": "2022-04-09T01:58:18.084Z",
+    "updated_at": "2022-04-09T01:58:18.084Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 57,
+  "fields": {
+    "name": "São Paulo",
+    "abbreviation": "SAO",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999ccdc1656.svg",
+    "created_at": "2022-04-09T01:58:18.085Z",
+    "updated_at": "2022-04-09T01:58:18.085Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 63,
+  "fields": {
+    "name": "Santos",
+    "abbreviation": "SAN",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999d7525121.svg",
+    "created_at": "2022-04-09T01:58:18.084Z",
+    "updated_at": "2022-04-09T01:58:18.085Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 64,
+  "fields": {
+    "name": "Bragantino",
+    "abbreviation": "BGT",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999d770dbb2.svg",
+    "created_at": "2022-04-09T01:58:18.083Z",
+    "updated_at": "2022-04-09T01:58:18.083Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 65,
+  "fields": {
+    "name": "Corinthians",
+    "abbreviation": "COR",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999d7ab48fa.svg",
+    "created_at": "2022-04-09T01:58:18.083Z",
+    "updated_at": "2022-04-09T01:58:18.083Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 84,
+  "fields": {
+    "name": "Coritiba",
+    "abbreviation": "CFC",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999d991e8b8.svg",
+    "created_at": "2022-04-09T01:58:18.083Z",
+    "updated_at": "2022-04-09T01:58:18.084Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 98,
+  "fields": {
+    "name": "Atlético-GO",
+    "abbreviation": "ACG",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999db078911.svg",
+    "created_at": "2022-04-09T01:58:18.083Z",
+    "updated_at": "2022-04-09T01:58:18.083Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 105,
+  "fields": {
+    "name": "Ceará",
+    "abbreviation": "CEA",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999dba767ba.svg",
+    "created_at": "2022-04-09T01:58:18.083Z",
+    "updated_at": "2022-04-09T01:58:18.083Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 115,
+  "fields": {
+    "name": "Goiás",
+    "abbreviation": "GOI",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999dc97b4e2.svg",
+    "created_at": "2022-04-09T01:58:18.084Z",
+    "updated_at": "2022-04-09T01:58:18.084Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 131,
+  "fields": {
+    "name": "Fortaleza",
+    "abbreviation": "FOR",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999ddaa261b.svg",
+    "created_at": "2022-04-09T01:58:18.084Z",
+    "updated_at": "2022-04-09T01:58:18.084Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 185,
+  "fields": {
+    "name": "Athletico-PR",
+    "abbreviation": "CAP",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999e2864a27.svg",
+    "created_at": "2022-04-09T01:58:18.082Z",
+    "updated_at": "2022-04-09T01:58:18.083Z"
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 204,
+  "fields": {
+    "name": "Cuiabá",
+    "abbreviation": "CUI",
+    "crest": "https://apifutebol.s3.sa-east-1.amazonaws.com/escudos/5f999e4424264.svg",
+    "created_at": "2022-04-09T01:58:18.084Z",
+    "updated_at": "2022-04-09T01:58:18.084Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 4,
+  "fields": {
+    "name": "felipepqm@gmail.com",
+    "email": "Felipe",
+    "created_at": "2022-04-09T02:40:33.683Z",
+    "updated_at": "2022-04-09T02:42:13.928Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 14,
+  "fields": {
+    "name": "felipepqm@gmail.com",
+    "email": "teste maia",
+    "created_at": "2022-04-09T02:53:24.559Z",
+    "updated_at": "2022-04-09T02:56:11.928Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 24,
+  "fields": {
+    "name": "Perera",
+    "email": "felipepqm@gmail.com",
+    "created_at": "2022-04-09T03:01:37.220Z",
+    "updated_at": "2022-04-09T03:13:44.600Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 34,
+  "fields": {
+    "name": "Aaaa",
+    "email": "teste@teste.com",
+    "created_at": "2022-04-09T04:37:38.480Z",
+    "updated_at": "2022-04-09T06:31:16.403Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 44,
+  "fields": {
+    "name": "Hugo Leon",
+    "email": "hugoleonruas@gmail.com",
+    "created_at": "2022-04-09T04:59:12.307Z",
+    "updated_at": "2022-04-09T04:59:12.307Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 54,
+  "fields": {
+    "name": "Teste cel",
+    "email": "Testecel@vish.com",
+    "created_at": "2022-04-09T05:20:42.281Z",
+    "updated_at": "2022-04-09T05:20:42.281Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 64,
+  "fields": {
+    "name": "Teste",
+    "email": "Aaaa@aaa.com",
+    "created_at": "2022-04-09T06:16:05.888Z",
+    "updated_at": "2022-04-09T06:16:05.889Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 74,
+  "fields": {
+    "name": "Randolpho",
+    "email": "ranrandolpho@hotmail.com",
+    "created_at": "2022-04-09T10:32:45.820Z",
+    "updated_at": "2022-04-09T10:32:45.820Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 84,
+  "fields": {
+    "name": "Anderson",
+    "email": "andersonzgabbardo@gmail.com",
+    "created_at": "2022-04-09T10:44:18.018Z",
+    "updated_at": "2022-04-09T10:44:18.018Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 94,
+  "fields": {
+    "name": "Virgínia",
+    "email": "vivibraga2010@gmail.com",
+    "created_at": "2022-04-09T13:32:07.822Z",
+    "updated_at": "2022-04-09T13:32:07.822Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 104,
+  "fields": {
+    "name": "Mateus",
+    "email": "mateusaugustosilva@outlook.com",
+    "created_at": "2022-04-09T13:35:54.428Z",
+    "updated_at": "2022-04-09T13:35:54.428Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 114,
+  "fields": {
+    "name": "Raphael Martins",
+    "email": "raphaelpmartins7@hotmail.com",
+    "created_at": "2022-04-09T14:09:08.398Z",
+    "updated_at": "2022-04-09T14:09:08.398Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 124,
+  "fields": {
+    "name": "Yan Suzano",
+    "email": "yan_suzano@outlook.com",
+    "created_at": "2022-04-09T15:41:54.055Z",
+    "updated_at": "2022-04-09T15:41:54.055Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 134,
+  "fields": {
+    "name": "André Leopoldo",
+    "email": "andreleo88@gmail.com",
+    "created_at": "2022-04-09T15:57:13.220Z",
+    "updated_at": "2022-04-09T15:57:13.220Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 144,
+  "fields": {
+    "name": "Diego Suzano",
+    "email": "diegosuzano@live.com",
+    "created_at": "2022-04-09T17:42:53.180Z",
+    "updated_at": "2022-04-09T17:42:53.180Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 154,
+  "fields": {
+    "name": "Açucena",
+    "email": "acucenadrv@gmail.com",
+    "created_at": "2022-04-09T17:56:16.009Z",
+    "updated_at": "2022-04-09T17:56:16.009Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 164,
+  "fields": {
+    "name": "Hugo Haran Marinho",
+    "email": "hugoharan@gmail.com",
+    "created_at": "2022-04-09T18:22:46.208Z",
+    "updated_at": "2022-04-09T18:22:46.208Z"
+  }
+},
+{
+  "model": "championship.championshiptable",
+  "pk": 4,
+  "fields": {
+    "is_current": false,
+    "created_at": "2022-05-17T04:25:17.707Z",
+    "updated_at": "2022-05-17T04:25:17.707Z"
+  }
+},
+{
+  "model": "championship.championshiptable",
+  "pk": 14,
+  "fields": {
+    "is_current": false,
+    "created_at": "2022-05-22T13:24:25.224Z",
+    "updated_at": "2022-05-22T13:24:25.224Z"
+  }
+},
+{
+  "model": "championship.championshiptable",
+  "pk": 24,
+  "fields": {
+    "is_current": false,
+    "created_at": "2022-05-23T12:23:26.143Z",
+    "updated_at": "2022-05-23T12:23:26.143Z"
+  }
+},
+{
+  "model": "championship.championshiptable",
+  "pk": 34,
+  "fields": {
+    "is_current": false,
+    "created_at": "2022-05-31T12:12:16.738Z",
+    "updated_at": "2022-05-31T12:12:16.738Z"
+  }
+},
+{
+  "model": "championship.championshiptable",
+  "pk": 50,
+  "fields": {
+    "is_current": false,
+    "created_at": "2022-06-08T05:03:08.854Z",
+    "updated_at": "2022-06-08T05:03:08.854Z"
+  }
+},
+{
+  "model": "championship.championshiptable",
+  "pk": 51,
+  "fields": {
+    "is_current": false,
+    "created_at": "2022-06-10T21:36:22.245Z",
+    "updated_at": "2022-06-10T21:36:22.245Z"
+  }
+},
+{
+  "model": "championship.championshiptable",
+  "pk": 52,
+  "fields": {
+    "is_current": false,
+    "created_at": "2022-06-20T19:20:46.034Z",
+    "updated_at": "2022-06-20T19:20:46.034Z"
+  }
+},
+{
+  "model": "championship.championshiptable",
+  "pk": 53,
+  "fields": {
+    "is_current": true,
+    "created_at": "2022-06-21T21:39:36.785Z",
+    "updated_at": "2022-06-21T21:39:36.785Z"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 4,
+  "fields": {
+    "championship_table": 4,
+    "team": 65,
+    "position": 1,
+    "points": 13,
+    "games": 6,
+    "won": 4,
+    "drawn": 1,
+    "lost": 1,
+    "goal_for": 10,
+    "goal_against": 6,
+    "goal_difference": 4,
+    "points_percentage": 72.2,
+    "position_variation": 0,
+    "last_results": "['v', 'd', 'v', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 14,
+  "fields": {
+    "championship_table": 4,
+    "team": 30,
+    "position": 2,
+    "points": 12,
+    "games": 7,
+    "won": 3,
+    "drawn": 3,
+    "lost": 1,
+    "goal_for": 11,
+    "goal_against": 7,
+    "goal_difference": 4,
+    "points_percentage": 57.1,
+    "position_variation": 1,
+    "last_results": "['e', 'e', 'd', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 24,
+  "fields": {
+    "championship_table": 4,
+    "team": 57,
+    "position": 3,
+    "points": 11,
+    "games": 6,
+    "won": 3,
+    "drawn": 2,
+    "lost": 1,
+    "goal_for": 11,
+    "goal_against": 7,
+    "goal_difference": 4,
+    "points_percentage": 61.1,
+    "position_variation": -1,
+    "last_results": "['d', 'e', 'v', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 34,
+  "fields": {
+    "championship_table": 4,
+    "team": 22,
+    "position": 4,
+    "points": 11,
+    "games": 6,
+    "won": 3,
+    "drawn": 2,
+    "lost": 1,
+    "goal_for": 10,
+    "goal_against": 7,
+    "goal_difference": 3,
+    "points_percentage": 61.1,
+    "position_variation": 0,
+    "last_results": "['v', 'e', 'e', 'v', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 44,
+  "fields": {
+    "championship_table": 4,
+    "team": 63,
+    "position": 5,
+    "points": 10,
+    "games": 6,
+    "won": 3,
+    "drawn": 1,
+    "lost": 2,
+    "goal_for": 10,
+    "goal_against": 5,
+    "goal_difference": 5,
+    "points_percentage": 55.6,
+    "position_variation": 0,
+    "last_results": "['v', 'v', 'd', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 54,
+  "fields": {
+    "championship_table": 4,
+    "team": 84,
+    "position": 6,
+    "points": 10,
+    "games": 6,
+    "won": 3,
+    "drawn": 1,
+    "lost": 2,
+    "goal_for": 11,
+    "goal_against": 8,
+    "goal_difference": 3,
+    "points_percentage": 55.6,
+    "position_variation": 0,
+    "last_results": "['d', 'e', 'v', 'd', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 64,
+  "fields": {
+    "championship_table": 4,
+    "team": 6,
+    "position": 7,
+    "points": 10,
+    "games": 6,
+    "won": 3,
+    "drawn": 1,
+    "lost": 2,
+    "goal_for": 7,
+    "goal_against": 8,
+    "goal_difference": -1,
+    "points_percentage": 55.6,
+    "position_variation": 0,
+    "last_results": "['d', 'v', 'e', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 74,
+  "fields": {
+    "championship_table": 4,
+    "team": 33,
+    "position": 8,
+    "points": 9,
+    "games": 6,
+    "won": 3,
+    "drawn": 0,
+    "lost": 3,
+    "goal_for": 7,
+    "goal_against": 7,
+    "goal_difference": 0,
+    "points_percentage": 50.0,
+    "position_variation": 0,
+    "last_results": "['v', 'd', 'v', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 84,
+  "fields": {
+    "championship_table": 4,
+    "team": 56,
+    "position": 9,
+    "points": 9,
+    "games": 6,
+    "won": 2,
+    "drawn": 3,
+    "lost": 1,
+    "goal_for": 9,
+    "goal_against": 5,
+    "goal_difference": 4,
+    "points_percentage": 50.0,
+    "position_variation": 0,
+    "last_results": "['e', 'v', 'e', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 94,
+  "fields": {
+    "championship_table": 4,
+    "team": 64,
+    "position": 10,
+    "points": 9,
+    "games": 7,
+    "won": 2,
+    "drawn": 3,
+    "lost": 2,
+    "goal_for": 9,
+    "goal_against": 7,
+    "goal_difference": 2,
+    "points_percentage": 42.9,
+    "position_variation": 1,
+    "last_results": "['e', 'v', 'd', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 104,
+  "fields": {
+    "championship_table": 4,
+    "team": 44,
+    "position": 11,
+    "points": 9,
+    "games": 6,
+    "won": 2,
+    "drawn": 3,
+    "lost": 1,
+    "goal_for": 6,
+    "goal_against": 6,
+    "goal_difference": 0,
+    "points_percentage": 50.0,
+    "position_variation": -1,
+    "last_results": "['v', 'v', 'e', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 114,
+  "fields": {
+    "championship_table": 4,
+    "team": 26,
+    "position": 12,
+    "points": 8,
+    "games": 6,
+    "won": 2,
+    "drawn": 2,
+    "lost": 2,
+    "goal_for": 6,
+    "goal_against": 6,
+    "goal_difference": 0,
+    "points_percentage": 44.4,
+    "position_variation": 0,
+    "last_results": "['v', 'd', 'd', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 124,
+  "fields": {
+    "championship_table": 4,
+    "team": 115,
+    "position": 13,
+    "points": 8,
+    "games": 6,
+    "won": 2,
+    "drawn": 2,
+    "lost": 2,
+    "goal_for": 7,
+    "goal_against": 9,
+    "goal_difference": -2,
+    "points_percentage": 44.4,
+    "position_variation": 0,
+    "last_results": "['e', 'd', 'e', 'v', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 134,
+  "fields": {
+    "championship_table": 4,
+    "team": 204,
+    "position": 14,
+    "points": 7,
+    "games": 6,
+    "won": 2,
+    "drawn": 1,
+    "lost": 3,
+    "goal_for": 5,
+    "goal_against": 8,
+    "goal_difference": -3,
+    "points_percentage": 38.9,
+    "position_variation": 0,
+    "last_results": "['d', 'v', 'e', 'd', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 144,
+  "fields": {
+    "championship_table": 4,
+    "team": 185,
+    "position": 15,
+    "points": 6,
+    "games": 6,
+    "won": 2,
+    "drawn": 0,
+    "lost": 4,
+    "goal_for": 3,
+    "goal_against": 8,
+    "goal_difference": -5,
+    "points_percentage": 33.3,
+    "position_variation": 0,
+    "last_results": "['d', 'v', 'd', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 154,
+  "fields": {
+    "championship_table": 4,
+    "team": 18,
+    "position": 16,
+    "points": 6,
+    "games": 6,
+    "won": 1,
+    "drawn": 3,
+    "lost": 2,
+    "goal_for": 6,
+    "goal_against": 6,
+    "goal_difference": 0,
+    "points_percentage": 33.3,
+    "position_variation": 0,
+    "last_results": "['v', 'd', 'e', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 164,
+  "fields": {
+    "championship_table": 4,
+    "team": 43,
+    "position": 17,
+    "points": 6,
+    "games": 6,
+    "won": 1,
+    "drawn": 3,
+    "lost": 2,
+    "goal_for": 7,
+    "goal_against": 10,
+    "goal_difference": -3,
+    "points_percentage": 33.3,
+    "position_variation": 0,
+    "last_results": "['d', 'd', 'e', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 174,
+  "fields": {
+    "championship_table": 4,
+    "team": 105,
+    "position": 18,
+    "points": 4,
+    "games": 5,
+    "won": 1,
+    "drawn": 1,
+    "lost": 3,
+    "goal_for": 6,
+    "goal_against": 9,
+    "goal_difference": -3,
+    "points_percentage": 26.7,
+    "position_variation": 0,
+    "last_results": "['v', 'd', 'd', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 184,
+  "fields": {
+    "championship_table": 4,
+    "team": 98,
+    "position": 19,
+    "points": 3,
+    "games": 6,
+    "won": 0,
+    "drawn": 3,
+    "lost": 3,
+    "goal_for": 3,
+    "goal_against": 10,
+    "goal_difference": -7,
+    "points_percentage": 16.7,
+    "position_variation": 0,
+    "last_results": "['d', 'e', 'e', 'd', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 194,
+  "fields": {
+    "championship_table": 4,
+    "team": 131,
+    "position": 20,
+    "points": 1,
+    "games": 5,
+    "won": 0,
+    "drawn": 1,
+    "lost": 4,
+    "goal_for": 3,
+    "goal_against": 8,
+    "goal_difference": -5,
+    "points_percentage": 6.7,
+    "position_variation": 0,
+    "last_results": "['d', 'd', 'd', 'e', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 204,
+  "fields": {
+    "championship_table": 14,
+    "team": 65,
+    "position": 1,
+    "points": 13,
+    "games": 6,
+    "won": 4,
+    "drawn": 1,
+    "lost": 1,
+    "goal_for": 10,
+    "goal_against": 6,
+    "goal_difference": 4,
+    "points_percentage": 72.2,
+    "position_variation": 0,
+    "last_results": "['v', 'd', 'v', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 214,
+  "fields": {
+    "championship_table": 14,
+    "team": 56,
+    "position": 2,
+    "points": 12,
+    "games": 7,
+    "won": 3,
+    "drawn": 3,
+    "lost": 1,
+    "goal_for": 12,
+    "goal_against": 5,
+    "goal_difference": 7,
+    "points_percentage": 57.1,
+    "position_variation": 7,
+    "last_results": "['v', 'e', 'e', 'v', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 224,
+  "fields": {
+    "championship_table": 14,
+    "team": 30,
+    "position": 3,
+    "points": 12,
+    "games": 7,
+    "won": 3,
+    "drawn": 3,
+    "lost": 1,
+    "goal_for": 11,
+    "goal_against": 7,
+    "goal_difference": 4,
+    "points_percentage": 57.1,
+    "position_variation": 0,
+    "last_results": "['e', 'e', 'd', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 234,
+  "fields": {
+    "championship_table": 14,
+    "team": 22,
+    "position": 4,
+    "points": 12,
+    "games": 7,
+    "won": 3,
+    "drawn": 3,
+    "lost": 1,
+    "goal_for": 11,
+    "goal_against": 8,
+    "goal_difference": 3,
+    "points_percentage": 57.1,
+    "position_variation": 0,
+    "last_results": "['e', 'e', 'v', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 244,
+  "fields": {
+    "championship_table": 14,
+    "team": 63,
+    "position": 5,
+    "points": 11,
+    "games": 7,
+    "won": 3,
+    "drawn": 2,
+    "lost": 2,
+    "goal_for": 10,
+    "goal_against": 5,
+    "goal_difference": 5,
+    "points_percentage": 52.4,
+    "position_variation": 0,
+    "last_results": "['v', 'd', 'v', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 254,
+  "fields": {
+    "championship_table": 14,
+    "team": 57,
+    "position": 6,
+    "points": 11,
+    "games": 6,
+    "won": 3,
+    "drawn": 2,
+    "lost": 1,
+    "goal_for": 11,
+    "goal_against": 7,
+    "goal_difference": 4,
+    "points_percentage": 61.1,
+    "position_variation": -4,
+    "last_results": "['d', 'e', 'v', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 264,
+  "fields": {
+    "championship_table": 14,
+    "team": 84,
+    "position": 7,
+    "points": 10,
+    "games": 7,
+    "won": 3,
+    "drawn": 1,
+    "lost": 3,
+    "goal_for": 11,
+    "goal_against": 10,
+    "goal_difference": 1,
+    "points_percentage": 47.6,
+    "position_variation": -1,
+    "last_results": "['e', 'v', 'd', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 274,
+  "fields": {
+    "championship_table": 14,
+    "team": 33,
+    "position": 8,
+    "points": 10,
+    "games": 7,
+    "won": 3,
+    "drawn": 1,
+    "lost": 3,
+    "goal_for": 8,
+    "goal_against": 8,
+    "goal_difference": 0,
+    "points_percentage": 47.6,
+    "position_variation": 0,
+    "last_results": "['d', 'v', 'v', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 284,
+  "fields": {
+    "championship_table": 14,
+    "team": 6,
+    "position": 9,
+    "points": 10,
+    "games": 6,
+    "won": 3,
+    "drawn": 1,
+    "lost": 2,
+    "goal_for": 7,
+    "goal_against": 8,
+    "goal_difference": -1,
+    "points_percentage": 55.6,
+    "position_variation": -2,
+    "last_results": "['d', 'v', 'e', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 294,
+  "fields": {
+    "championship_table": 14,
+    "team": 44,
+    "position": 10,
+    "points": 10,
+    "games": 7,
+    "won": 2,
+    "drawn": 4,
+    "lost": 1,
+    "goal_for": 7,
+    "goal_against": 7,
+    "goal_difference": 0,
+    "points_percentage": 47.6,
+    "position_variation": 0,
+    "last_results": "['v', 'e', 'e', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 304,
+  "fields": {
+    "championship_table": 14,
+    "team": 64,
+    "position": 11,
+    "points": 9,
+    "games": 7,
+    "won": 2,
+    "drawn": 3,
+    "lost": 2,
+    "goal_for": 9,
+    "goal_against": 7,
+    "goal_difference": 2,
+    "points_percentage": 42.9,
+    "position_variation": 0,
+    "last_results": "['e', 'v', 'd', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 314,
+  "fields": {
+    "championship_table": 14,
+    "team": 18,
+    "position": 12,
+    "points": 9,
+    "games": 7,
+    "won": 2,
+    "drawn": 3,
+    "lost": 2,
+    "goal_for": 7,
+    "goal_against": 6,
+    "goal_difference": 1,
+    "points_percentage": 42.9,
+    "position_variation": 4,
+    "last_results": "['d', 'e', 'd', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 324,
+  "fields": {
+    "championship_table": 14,
+    "team": 26,
+    "position": 13,
+    "points": 8,
+    "games": 6,
+    "won": 2,
+    "drawn": 2,
+    "lost": 2,
+    "goal_for": 6,
+    "goal_against": 6,
+    "goal_difference": 0,
+    "points_percentage": 44.4,
+    "position_variation": -1,
+    "last_results": "['v', 'd', 'd', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 334,
+  "fields": {
+    "championship_table": 14,
+    "team": 115,
+    "position": 14,
+    "points": 8,
+    "games": 7,
+    "won": 2,
+    "drawn": 2,
+    "lost": 3,
+    "goal_for": 7,
+    "goal_against": 10,
+    "goal_difference": -3,
+    "points_percentage": 38.1,
+    "position_variation": -1,
+    "last_results": "['d', 'e', 'v', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 344,
+  "fields": {
+    "championship_table": 14,
+    "team": 204,
+    "position": 15,
+    "points": 8,
+    "games": 7,
+    "won": 2,
+    "drawn": 2,
+    "lost": 3,
+    "goal_for": 6,
+    "goal_against": 9,
+    "goal_difference": -3,
+    "points_percentage": 38.1,
+    "position_variation": -1,
+    "last_results": "['v', 'e', 'd', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 354,
+  "fields": {
+    "championship_table": 14,
+    "team": 185,
+    "position": 16,
+    "points": 6,
+    "games": 6,
+    "won": 2,
+    "drawn": 0,
+    "lost": 4,
+    "goal_for": 3,
+    "goal_against": 8,
+    "goal_difference": -5,
+    "points_percentage": 33.3,
+    "position_variation": -1,
+    "last_results": "['d', 'v', 'd', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 364,
+  "fields": {
+    "championship_table": 14,
+    "team": 98,
+    "position": 17,
+    "points": 6,
+    "games": 7,
+    "won": 1,
+    "drawn": 3,
+    "lost": 3,
+    "goal_for": 5,
+    "goal_against": 10,
+    "goal_difference": -5,
+    "points_percentage": 28.6,
+    "position_variation": 2,
+    "last_results": "['e', 'e', 'd', 'd', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 374,
+  "fields": {
+    "championship_table": 14,
+    "team": 43,
+    "position": 18,
+    "points": 6,
+    "games": 7,
+    "won": 1,
+    "drawn": 3,
+    "lost": 3,
+    "goal_for": 7,
+    "goal_against": 13,
+    "goal_difference": -6,
+    "points_percentage": 28.6,
+    "position_variation": -1,
+    "last_results": "['d', 'e', 'e', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 384,
+  "fields": {
+    "championship_table": 14,
+    "team": 105,
+    "position": 19,
+    "points": 5,
+    "games": 6,
+    "won": 1,
+    "drawn": 2,
+    "lost": 3,
+    "goal_for": 6,
+    "goal_against": 9,
+    "goal_difference": -3,
+    "points_percentage": 27.8,
+    "position_variation": -1,
+    "last_results": "['d', 'd', 'd', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 394,
+  "fields": {
+    "championship_table": 14,
+    "team": 131,
+    "position": 20,
+    "points": 1,
+    "games": 5,
+    "won": 0,
+    "drawn": 1,
+    "lost": 4,
+    "goal_for": 3,
+    "goal_against": 8,
+    "goal_difference": -5,
+    "points_percentage": 6.7,
+    "position_variation": 0,
+    "last_results": "['d', 'd', 'd', 'e', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 404,
+  "fields": {
+    "championship_table": 24,
+    "team": 65,
+    "position": 1,
+    "points": 14,
+    "games": 7,
+    "won": 4,
+    "drawn": 2,
+    "lost": 1,
+    "goal_for": 11,
+    "goal_against": 7,
+    "goal_difference": 4,
+    "points_percentage": 66.7,
+    "position_variation": 0,
+    "last_results": "['d', 'v', 'v', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 414,
+  "fields": {
+    "championship_table": 24,
+    "team": 56,
+    "position": 2,
+    "points": 12,
+    "games": 7,
+    "won": 3,
+    "drawn": 3,
+    "lost": 1,
+    "goal_for": 12,
+    "goal_against": 5,
+    "goal_difference": 7,
+    "points_percentage": 57.1,
+    "position_variation": 7,
+    "last_results": "['v', 'e', 'e', 'v', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 424,
+  "fields": {
+    "championship_table": 24,
+    "team": 57,
+    "position": 3,
+    "points": 12,
+    "games": 7,
+    "won": 3,
+    "drawn": 3,
+    "lost": 1,
+    "goal_for": 12,
+    "goal_against": 8,
+    "goal_difference": 4,
+    "points_percentage": 57.1,
+    "position_variation": -1,
+    "last_results": "['e', 'v', 'e', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 434,
+  "fields": {
+    "championship_table": 24,
+    "team": 30,
+    "position": 4,
+    "points": 12,
+    "games": 7,
+    "won": 3,
+    "drawn": 3,
+    "lost": 1,
+    "goal_for": 11,
+    "goal_against": 7,
+    "goal_difference": 4,
+    "points_percentage": 57.1,
+    "position_variation": -1,
+    "last_results": "['e', 'e', 'd', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 444,
+  "fields": {
+    "championship_table": 24,
+    "team": 22,
+    "position": 5,
+    "points": 12,
+    "games": 7,
+    "won": 3,
+    "drawn": 3,
+    "lost": 1,
+    "goal_for": 11,
+    "goal_against": 8,
+    "goal_difference": 3,
+    "points_percentage": 57.1,
+    "position_variation": -1,
+    "last_results": "['e', 'e', 'v', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 454,
+  "fields": {
+    "championship_table": 24,
+    "team": 63,
+    "position": 6,
+    "points": 11,
+    "games": 7,
+    "won": 3,
+    "drawn": 2,
+    "lost": 2,
+    "goal_for": 10,
+    "goal_against": 5,
+    "goal_difference": 5,
+    "points_percentage": 52.4,
+    "position_variation": -1,
+    "last_results": "['v', 'd', 'v', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 464,
+  "fields": {
+    "championship_table": 24,
+    "team": 26,
+    "position": 7,
+    "points": 11,
+    "games": 7,
+    "won": 3,
+    "drawn": 2,
+    "lost": 2,
+    "goal_for": 7,
+    "goal_against": 6,
+    "goal_difference": 1,
+    "points_percentage": 52.4,
+    "position_variation": 5,
+    "last_results": "['d', 'd', 'e', 'v', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 474,
+  "fields": {
+    "championship_table": 24,
+    "team": 84,
+    "position": 8,
+    "points": 10,
+    "games": 7,
+    "won": 3,
+    "drawn": 1,
+    "lost": 3,
+    "goal_for": 11,
+    "goal_against": 10,
+    "goal_difference": 1,
+    "points_percentage": 47.6,
+    "position_variation": -2,
+    "last_results": "['e', 'v', 'd', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 484,
+  "fields": {
+    "championship_table": 24,
+    "team": 33,
+    "position": 9,
+    "points": 10,
+    "games": 7,
+    "won": 3,
+    "drawn": 1,
+    "lost": 3,
+    "goal_for": 8,
+    "goal_against": 8,
+    "goal_difference": 0,
+    "points_percentage": 47.6,
+    "position_variation": -1,
+    "last_results": "['d', 'v', 'v', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 494,
+  "fields": {
+    "championship_table": 24,
+    "team": 6,
+    "position": 10,
+    "points": 10,
+    "games": 7,
+    "won": 3,
+    "drawn": 1,
+    "lost": 3,
+    "goal_for": 8,
+    "goal_against": 10,
+    "goal_difference": -2,
+    "points_percentage": 47.6,
+    "position_variation": -3,
+    "last_results": "['v', 'e', 'v', 'd', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 504,
+  "fields": {
+    "championship_table": 24,
+    "team": 44,
+    "position": 11,
+    "points": 10,
+    "games": 7,
+    "won": 2,
+    "drawn": 4,
+    "lost": 1,
+    "goal_for": 7,
+    "goal_against": 7,
+    "goal_difference": 0,
+    "points_percentage": 47.6,
+    "position_variation": -1,
+    "last_results": "['v', 'e', 'e', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 514,
+  "fields": {
+    "championship_table": 24,
+    "team": 185,
+    "position": 12,
+    "points": 9,
+    "games": 7,
+    "won": 3,
+    "drawn": 0,
+    "lost": 4,
+    "goal_for": 5,
+    "goal_against": 9,
+    "goal_difference": -4,
+    "points_percentage": 42.9,
+    "position_variation": 3,
+    "last_results": "['v', 'd', 'v', 'd', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 524,
+  "fields": {
+    "championship_table": 24,
+    "team": 64,
+    "position": 13,
+    "points": 9,
+    "games": 7,
+    "won": 2,
+    "drawn": 3,
+    "lost": 2,
+    "goal_for": 9,
+    "goal_against": 7,
+    "goal_difference": 2,
+    "points_percentage": 42.9,
+    "position_variation": -2,
+    "last_results": "['e', 'v', 'd', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 534,
+  "fields": {
+    "championship_table": 24,
+    "team": 18,
+    "position": 14,
+    "points": 9,
+    "games": 7,
+    "won": 2,
+    "drawn": 3,
+    "lost": 2,
+    "goal_for": 7,
+    "goal_against": 6,
+    "goal_difference": 1,
+    "points_percentage": 42.9,
+    "position_variation": 2,
+    "last_results": "['d', 'e', 'd', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 544,
+  "fields": {
+    "championship_table": 24,
+    "team": 115,
+    "position": 15,
+    "points": 8,
+    "games": 7,
+    "won": 2,
+    "drawn": 2,
+    "lost": 3,
+    "goal_for": 7,
+    "goal_against": 10,
+    "goal_difference": -3,
+    "points_percentage": 38.1,
+    "position_variation": -2,
+    "last_results": "['d', 'e', 'v', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 554,
+  "fields": {
+    "championship_table": 24,
+    "team": 204,
+    "position": 16,
+    "points": 8,
+    "games": 7,
+    "won": 2,
+    "drawn": 2,
+    "lost": 3,
+    "goal_for": 6,
+    "goal_against": 9,
+    "goal_difference": -3,
+    "points_percentage": 38.1,
+    "position_variation": -2,
+    "last_results": "['v', 'e', 'd', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 564,
+  "fields": {
+    "championship_table": 24,
+    "team": 98,
+    "position": 17,
+    "points": 6,
+    "games": 7,
+    "won": 1,
+    "drawn": 3,
+    "lost": 3,
+    "goal_for": 5,
+    "goal_against": 10,
+    "goal_difference": -5,
+    "points_percentage": 28.6,
+    "position_variation": 2,
+    "last_results": "['e', 'e', 'd', 'd', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 574,
+  "fields": {
+    "championship_table": 24,
+    "team": 43,
+    "position": 18,
+    "points": 6,
+    "games": 7,
+    "won": 1,
+    "drawn": 3,
+    "lost": 3,
+    "goal_for": 7,
+    "goal_against": 13,
+    "goal_difference": -6,
+    "points_percentage": 28.6,
+    "position_variation": -1,
+    "last_results": "['d', 'e', 'e', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 584,
+  "fields": {
+    "championship_table": 24,
+    "team": 105,
+    "position": 19,
+    "points": 5,
+    "games": 6,
+    "won": 1,
+    "drawn": 2,
+    "lost": 3,
+    "goal_for": 6,
+    "goal_against": 9,
+    "goal_difference": -3,
+    "points_percentage": 27.8,
+    "position_variation": -1,
+    "last_results": "['d', 'd', 'd', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 594,
+  "fields": {
+    "championship_table": 24,
+    "team": 131,
+    "position": 20,
+    "points": 1,
+    "games": 6,
+    "won": 0,
+    "drawn": 1,
+    "lost": 5,
+    "goal_for": 3,
+    "goal_against": 9,
+    "goal_difference": -6,
+    "points_percentage": 5.6,
+    "position_variation": 0,
+    "last_results": "['d', 'd', 'e', 'd', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 604,
+  "fields": {
+    "championship_table": 34,
+    "team": 56,
+    "position": 1,
+    "points": 15,
+    "games": 8,
+    "won": 4,
+    "drawn": 3,
+    "lost": 1,
+    "goal_for": 13,
+    "goal_against": 5,
+    "goal_difference": 8,
+    "points_percentage": 62.5,
+    "position_variation": 1,
+    "last_results": "['e', 'e', 'v', 'v', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 614,
+  "fields": {
+    "championship_table": 34,
+    "team": 30,
+    "position": 2,
+    "points": 15,
+    "games": 8,
+    "won": 4,
+    "drawn": 3,
+    "lost": 1,
+    "goal_for": 13,
+    "goal_against": 8,
+    "goal_difference": 5,
+    "points_percentage": 62.5,
+    "position_variation": 2,
+    "last_results": "['e', 'd', 'v', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 624,
+  "fields": {
+    "championship_table": 34,
+    "team": 65,
+    "position": 3,
+    "points": 15,
+    "games": 8,
+    "won": 4,
+    "drawn": 3,
+    "lost": 1,
+    "goal_for": 12,
+    "goal_against": 8,
+    "goal_difference": 4,
+    "points_percentage": 62.5,
+    "position_variation": -2,
+    "last_results": "['v', 'v', 'e', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 634,
+  "fields": {
+    "championship_table": 34,
+    "team": 84,
+    "position": 4,
+    "points": 13,
+    "games": 8,
+    "won": 4,
+    "drawn": 1,
+    "lost": 3,
+    "goal_for": 12,
+    "goal_against": 10,
+    "goal_difference": 2,
+    "points_percentage": 54.2,
+    "position_variation": 4,
+    "last_results": "['v', 'd', 'v', 'd', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 644,
+  "fields": {
+    "championship_table": 34,
+    "team": 57,
+    "position": 5,
+    "points": 13,
+    "games": 8,
+    "won": 3,
+    "drawn": 4,
+    "lost": 1,
+    "goal_for": 14,
+    "goal_against": 10,
+    "goal_difference": 4,
+    "points_percentage": 54.2,
+    "position_variation": -2,
+    "last_results": "['v', 'e', 'v', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 654,
+  "fields": {
+    "championship_table": 34,
+    "team": 185,
+    "position": 6,
+    "points": 12,
+    "games": 8,
+    "won": 4,
+    "drawn": 0,
+    "lost": 4,
+    "goal_for": 6,
+    "goal_against": 9,
+    "goal_difference": -3,
+    "points_percentage": 50.0,
+    "position_variation": 6,
+    "last_results": "['d', 'v', 'd', 'v', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 664,
+  "fields": {
+    "championship_table": 34,
+    "team": 22,
+    "position": 7,
+    "points": 12,
+    "games": 8,
+    "won": 3,
+    "drawn": 3,
+    "lost": 2,
+    "goal_for": 11,
+    "goal_against": 9,
+    "goal_difference": 2,
+    "points_percentage": 50.0,
+    "position_variation": -2,
+    "last_results": "['e', 'v', 'v', 'e', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 674,
+  "fields": {
+    "championship_table": 34,
+    "team": 18,
+    "position": 8,
+    "points": 12,
+    "games": 8,
+    "won": 3,
+    "drawn": 3,
+    "lost": 2,
+    "goal_for": 9,
+    "goal_against": 7,
+    "goal_difference": 2,
+    "points_percentage": 50.0,
+    "position_variation": 6,
+    "last_results": "['e', 'd', 'e', 'v', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 684,
+  "fields": {
+    "championship_table": 34,
+    "team": 63,
+    "position": 9,
+    "points": 11,
+    "games": 8,
+    "won": 3,
+    "drawn": 2,
+    "lost": 3,
+    "goal_for": 10,
+    "goal_against": 6,
+    "goal_difference": 4,
+    "points_percentage": 45.8,
+    "position_variation": -3,
+    "last_results": "['d', 'v', 'd', 'e', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 694,
+  "fields": {
+    "championship_table": 34,
+    "team": 33,
+    "position": 10,
+    "points": 11,
+    "games": 8,
+    "won": 3,
+    "drawn": 2,
+    "lost": 3,
+    "goal_for": 9,
+    "goal_against": 9,
+    "goal_difference": 0,
+    "points_percentage": 45.8,
+    "position_variation": -1,
+    "last_results": "['v', 'v', 'd', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 704,
+  "fields": {
+    "championship_table": 34,
+    "team": 26,
+    "position": 11,
+    "points": 11,
+    "games": 8,
+    "won": 3,
+    "drawn": 2,
+    "lost": 3,
+    "goal_for": 8,
+    "goal_against": 8,
+    "goal_difference": 0,
+    "points_percentage": 45.8,
+    "position_variation": -4,
+    "last_results": "['d', 'e', 'v', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 714,
+  "fields": {
+    "championship_table": 34,
+    "team": 44,
+    "position": 12,
+    "points": 11,
+    "games": 8,
+    "won": 2,
+    "drawn": 5,
+    "lost": 1,
+    "goal_for": 8,
+    "goal_against": 8,
+    "goal_difference": 0,
+    "points_percentage": 45.8,
+    "position_variation": -1,
+    "last_results": "['e', 'e', 'e', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 724,
+  "fields": {
+    "championship_table": 34,
+    "team": 6,
+    "position": 13,
+    "points": 10,
+    "games": 8,
+    "won": 3,
+    "drawn": 1,
+    "lost": 4,
+    "goal_for": 9,
+    "goal_against": 12,
+    "goal_difference": -3,
+    "points_percentage": 41.7,
+    "position_variation": -3,
+    "last_results": "['e', 'v', 'd', 'd', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 734,
+  "fields": {
+    "championship_table": 34,
+    "team": 64,
+    "position": 14,
+    "points": 10,
+    "games": 8,
+    "won": 2,
+    "drawn": 4,
+    "lost": 2,
+    "goal_for": 10,
+    "goal_against": 8,
+    "goal_difference": 2,
+    "points_percentage": 41.7,
+    "position_variation": -1,
+    "last_results": "['v', 'd', 'd', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 744,
+  "fields": {
+    "championship_table": 34,
+    "team": 115,
+    "position": 15,
+    "points": 9,
+    "games": 8,
+    "won": 2,
+    "drawn": 3,
+    "lost": 3,
+    "goal_for": 8,
+    "goal_against": 11,
+    "goal_difference": -3,
+    "points_percentage": 37.5,
+    "position_variation": 0,
+    "last_results": "['e', 'v', 'v', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 754,
+  "fields": {
+    "championship_table": 34,
+    "team": 204,
+    "position": 16,
+    "points": 8,
+    "games": 8,
+    "won": 2,
+    "drawn": 2,
+    "lost": 4,
+    "goal_for": 6,
+    "goal_against": 10,
+    "goal_difference": -4,
+    "points_percentage": 33.3,
+    "position_variation": 0,
+    "last_results": "['e', 'd', 'd', 'e', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 764,
+  "fields": {
+    "championship_table": 34,
+    "team": 98,
+    "position": 17,
+    "points": 7,
+    "games": 8,
+    "won": 1,
+    "drawn": 4,
+    "lost": 3,
+    "goal_for": 6,
+    "goal_against": 11,
+    "goal_difference": -5,
+    "points_percentage": 29.2,
+    "position_variation": 0,
+    "last_results": "['e', 'd', 'd', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 774,
+  "fields": {
+    "championship_table": 34,
+    "team": 43,
+    "position": 18,
+    "points": 7,
+    "games": 8,
+    "won": 1,
+    "drawn": 4,
+    "lost": 3,
+    "goal_for": 8,
+    "goal_against": 14,
+    "goal_difference": -6,
+    "points_percentage": 29.2,
+    "position_variation": 0,
+    "last_results": "['e', 'e', 'v', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 784,
+  "fields": {
+    "championship_table": 34,
+    "team": 105,
+    "position": 19,
+    "points": 6,
+    "games": 7,
+    "won": 1,
+    "drawn": 3,
+    "lost": 3,
+    "goal_for": 8,
+    "goal_against": 11,
+    "goal_difference": -3,
+    "points_percentage": 28.6,
+    "position_variation": 0,
+    "last_results": "['d', 'd', 'e', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 794,
+  "fields": {
+    "championship_table": 34,
+    "team": 131,
+    "position": 20,
+    "points": 2,
+    "games": 7,
+    "won": 0,
+    "drawn": 2,
+    "lost": 5,
+    "goal_for": 4,
+    "goal_against": 10,
+    "goal_difference": -6,
+    "points_percentage": 9.5,
+    "position_variation": 0,
+    "last_results": "['d', 'e', 'd', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 884,
+  "fields": {
+    "championship_table": 50,
+    "team": 65,
+    "position": 1,
+    "points": 18,
+    "games": 10,
+    "won": 5,
+    "drawn": 3,
+    "lost": 2,
+    "goal_for": 13,
+    "goal_against": 9,
+    "goal_difference": 4,
+    "points_percentage": 60.0,
+    "position_variation": 0,
+    "last_results": "['e', 'e', 'e', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 885,
+  "fields": {
+    "championship_table": 50,
+    "team": 56,
+    "position": 2,
+    "points": 16,
+    "games": 9,
+    "won": 4,
+    "drawn": 4,
+    "lost": 1,
+    "goal_for": 13,
+    "goal_against": 5,
+    "goal_difference": 8,
+    "points_percentage": 59.3,
+    "position_variation": 0,
+    "last_results": "['e', 'v', 'v', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 886,
+  "fields": {
+    "championship_table": 50,
+    "team": 30,
+    "position": 3,
+    "points": 16,
+    "games": 9,
+    "won": 4,
+    "drawn": 4,
+    "lost": 1,
+    "goal_for": 13,
+    "goal_against": 8,
+    "goal_difference": 5,
+    "points_percentage": 59.3,
+    "position_variation": 0,
+    "last_results": "['d', 'v', 'e', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 887,
+  "fields": {
+    "championship_table": 50,
+    "team": 84,
+    "position": 4,
+    "points": 14,
+    "games": 9,
+    "won": 4,
+    "drawn": 2,
+    "lost": 3,
+    "goal_for": 13,
+    "goal_against": 11,
+    "goal_difference": 2,
+    "points_percentage": 51.9,
+    "position_variation": 0,
+    "last_results": "['d', 'v', 'd', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 888,
+  "fields": {
+    "championship_table": 50,
+    "team": 33,
+    "position": 5,
+    "points": 14,
+    "games": 9,
+    "won": 4,
+    "drawn": 2,
+    "lost": 3,
+    "goal_for": 11,
+    "goal_against": 10,
+    "goal_difference": 1,
+    "points_percentage": 51.9,
+    "position_variation": 0,
+    "last_results": "['v', 'd', 'e', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 889,
+  "fields": {
+    "championship_table": 50,
+    "team": 57,
+    "position": 6,
+    "points": 14,
+    "games": 9,
+    "won": 3,
+    "drawn": 5,
+    "lost": 1,
+    "goal_for": 15,
+    "goal_against": 11,
+    "goal_difference": 4,
+    "points_percentage": 51.9,
+    "position_variation": 0,
+    "last_results": "['e', 'v', 'e', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 890,
+  "fields": {
+    "championship_table": 50,
+    "team": 44,
+    "position": 7,
+    "points": 14,
+    "games": 9,
+    "won": 3,
+    "drawn": 5,
+    "lost": 1,
+    "goal_for": 10,
+    "goal_against": 8,
+    "goal_difference": 2,
+    "points_percentage": 51.9,
+    "position_variation": 0,
+    "last_results": "['e', 'e', 'e', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 891,
+  "fields": {
+    "championship_table": 50,
+    "team": 185,
+    "position": 8,
+    "points": 13,
+    "games": 9,
+    "won": 4,
+    "drawn": 1,
+    "lost": 4,
+    "goal_for": 8,
+    "goal_against": 11,
+    "goal_difference": -3,
+    "points_percentage": 48.1,
+    "position_variation": 0,
+    "last_results": "['v', 'd', 'v', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 892,
+  "fields": {
+    "championship_table": 50,
+    "team": 63,
+    "position": 9,
+    "points": 12,
+    "games": 9,
+    "won": 3,
+    "drawn": 3,
+    "lost": 3,
+    "goal_for": 12,
+    "goal_against": 8,
+    "goal_difference": 4,
+    "points_percentage": 44.4,
+    "position_variation": 0,
+    "last_results": "['v', 'd', 'e', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 893,
+  "fields": {
+    "championship_table": 50,
+    "team": 22,
+    "position": 10,
+    "points": 12,
+    "games": 9,
+    "won": 3,
+    "drawn": 3,
+    "lost": 3,
+    "goal_for": 12,
+    "goal_against": 11,
+    "goal_difference": 1,
+    "points_percentage": 44.4,
+    "position_variation": 0,
+    "last_results": "['v', 'v', 'e', 'd', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 894,
+  "fields": {
+    "championship_table": 50,
+    "team": 18,
+    "position": 11,
+    "points": 12,
+    "games": 9,
+    "won": 3,
+    "drawn": 3,
+    "lost": 3,
+    "goal_for": 10,
+    "goal_against": 9,
+    "goal_difference": 1,
+    "points_percentage": 44.4,
+    "position_variation": 0,
+    "last_results": "['d', 'e', 'v', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 895,
+  "fields": {
+    "championship_table": 50,
+    "team": 115,
+    "position": 12,
+    "points": 12,
+    "games": 9,
+    "won": 3,
+    "drawn": 3,
+    "lost": 3,
+    "goal_for": 10,
+    "goal_against": 12,
+    "goal_difference": -2,
+    "points_percentage": 44.4,
+    "position_variation": 0,
+    "last_results": "['v', 'v', 'd', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 896,
+  "fields": {
+    "championship_table": 50,
+    "team": 26,
+    "position": 13,
+    "points": 11,
+    "games": 9,
+    "won": 3,
+    "drawn": 2,
+    "lost": 4,
+    "goal_for": 8,
+    "goal_against": 9,
+    "goal_difference": -1,
+    "points_percentage": 40.7,
+    "position_variation": 0,
+    "last_results": "['e', 'v', 'v', 'd', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 897,
+  "fields": {
+    "championship_table": 50,
+    "team": 6,
+    "position": 14,
+    "points": 11,
+    "games": 9,
+    "won": 3,
+    "drawn": 2,
+    "lost": 4,
+    "goal_for": 10,
+    "goal_against": 13,
+    "goal_difference": -3,
+    "points_percentage": 40.7,
+    "position_variation": 0,
+    "last_results": "['v', 'd', 'd', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 898,
+  "fields": {
+    "championship_table": 50,
+    "team": 204,
+    "position": 15,
+    "points": 11,
+    "games": 10,
+    "won": 3,
+    "drawn": 2,
+    "lost": 5,
+    "goal_for": 8,
+    "goal_against": 12,
+    "goal_difference": -4,
+    "points_percentage": 36.7,
+    "position_variation": 3,
+    "last_results": "['d', 'e', 'd', 'd', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 899,
+  "fields": {
+    "championship_table": 50,
+    "team": 64,
+    "position": 16,
+    "points": 10,
+    "games": 9,
+    "won": 2,
+    "drawn": 4,
+    "lost": 3,
+    "goal_for": 10,
+    "goal_against": 10,
+    "goal_difference": 0,
+    "points_percentage": 37.0,
+    "position_variation": -1,
+    "last_results": "['d', 'd', 'e', 'e', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 900,
+  "fields": {
+    "championship_table": 50,
+    "team": 105,
+    "position": 17,
+    "points": 10,
+    "games": 9,
+    "won": 2,
+    "drawn": 4,
+    "lost": 3,
+    "goal_for": 10,
+    "goal_against": 12,
+    "goal_difference": -2,
+    "points_percentage": 37.0,
+    "position_variation": -1,
+    "last_results": "['d', 'e', 'e', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 901,
+  "fields": {
+    "championship_table": 50,
+    "team": 43,
+    "position": 18,
+    "points": 10,
+    "games": 9,
+    "won": 2,
+    "drawn": 4,
+    "lost": 3,
+    "goal_for": 9,
+    "goal_against": 14,
+    "goal_difference": -5,
+    "points_percentage": 37.0,
+    "position_variation": -1,
+    "last_results": "['e', 'v', 'd', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 902,
+  "fields": {
+    "championship_table": 50,
+    "team": 98,
+    "position": 19,
+    "points": 7,
+    "games": 9,
+    "won": 1,
+    "drawn": 4,
+    "lost": 4,
+    "goal_for": 6,
+    "goal_against": 12,
+    "goal_difference": -6,
+    "points_percentage": 25.9,
+    "position_variation": 0,
+    "last_results": "['d', 'd', 'v', 'e', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 903,
+  "fields": {
+    "championship_table": 50,
+    "team": 131,
+    "position": 20,
+    "points": 5,
+    "games": 9,
+    "won": 1,
+    "drawn": 2,
+    "lost": 6,
+    "goal_for": 6,
+    "goal_against": 12,
+    "goal_difference": -6,
+    "points_percentage": 18.5,
+    "position_variation": 0,
+    "last_results": "['e', 'd', 'd', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 904,
+  "fields": {
+    "championship_table": 51,
+    "team": 56,
+    "position": 1,
+    "points": 19,
+    "games": 10,
+    "won": 5,
+    "drawn": 4,
+    "lost": 1,
+    "goal_for": 17,
+    "goal_against": 5,
+    "goal_difference": 12,
+    "points_percentage": 63.3,
+    "position_variation": 1,
+    "last_results": "['v', 'v', 'v', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 905,
+  "fields": {
+    "championship_table": 51,
+    "team": 65,
+    "position": 2,
+    "points": 18,
+    "games": 10,
+    "won": 5,
+    "drawn": 3,
+    "lost": 2,
+    "goal_for": 13,
+    "goal_against": 9,
+    "goal_difference": 4,
+    "points_percentage": 60.0,
+    "position_variation": -1,
+    "last_results": "['e', 'e', 'e', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 906,
+  "fields": {
+    "championship_table": 51,
+    "team": 185,
+    "position": 3,
+    "points": 16,
+    "games": 10,
+    "won": 5,
+    "drawn": 1,
+    "lost": 4,
+    "goal_for": 11,
+    "goal_against": 12,
+    "goal_difference": -1,
+    "points_percentage": 53.3,
+    "position_variation": 5,
+    "last_results": "['d', 'v', 'v', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 907,
+  "fields": {
+    "championship_table": 51,
+    "team": 30,
+    "position": 4,
+    "points": 16,
+    "games": 10,
+    "won": 4,
+    "drawn": 4,
+    "lost": 2,
+    "goal_for": 16,
+    "goal_against": 13,
+    "goal_difference": 3,
+    "points_percentage": 53.3,
+    "position_variation": -1,
+    "last_results": "['v', 'e', 'v', 'e', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 908,
+  "fields": {
+    "championship_table": 51,
+    "team": 84,
+    "position": 5,
+    "points": 15,
+    "games": 10,
+    "won": 4,
+    "drawn": 3,
+    "lost": 3,
+    "goal_for": 14,
+    "goal_against": 12,
+    "goal_difference": 2,
+    "points_percentage": 50.0,
+    "position_variation": -1,
+    "last_results": "['v', 'd', 'v', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 909,
+  "fields": {
+    "championship_table": 51,
+    "team": 57,
+    "position": 6,
+    "points": 15,
+    "games": 10,
+    "won": 3,
+    "drawn": 6,
+    "lost": 1,
+    "goal_for": 16,
+    "goal_against": 12,
+    "goal_difference": 4,
+    "points_percentage": 50.0,
+    "position_variation": 0,
+    "last_results": "['v', 'e', 'e', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 910,
+  "fields": {
+    "championship_table": 51,
+    "team": 44,
+    "position": 7,
+    "points": 15,
+    "games": 10,
+    "won": 3,
+    "drawn": 6,
+    "lost": 1,
+    "goal_for": 11,
+    "goal_against": 9,
+    "goal_difference": 2,
+    "points_percentage": 50.0,
+    "position_variation": 0,
+    "last_results": "['e', 'e', 'e', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 911,
+  "fields": {
+    "championship_table": 51,
+    "team": 26,
+    "position": 8,
+    "points": 14,
+    "games": 10,
+    "won": 4,
+    "drawn": 2,
+    "lost": 4,
+    "goal_for": 13,
+    "goal_against": 12,
+    "goal_difference": 1,
+    "points_percentage": 46.7,
+    "position_variation": 5,
+    "last_results": "['v', 'v', 'd', 'd', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 912,
+  "fields": {
+    "championship_table": 51,
+    "team": 33,
+    "position": 9,
+    "points": 14,
+    "games": 10,
+    "won": 4,
+    "drawn": 2,
+    "lost": 4,
+    "goal_for": 11,
+    "goal_against": 12,
+    "goal_difference": -1,
+    "points_percentage": 46.7,
+    "position_variation": -4,
+    "last_results": "['d', 'e', 'e', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 913,
+  "fields": {
+    "championship_table": 51,
+    "team": 63,
+    "position": 10,
+    "points": 13,
+    "games": 10,
+    "won": 3,
+    "drawn": 4,
+    "lost": 3,
+    "goal_for": 13,
+    "goal_against": 9,
+    "goal_difference": 4,
+    "points_percentage": 43.3,
+    "position_variation": -1,
+    "last_results": "['d', 'e', 'd', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 914,
+  "fields": {
+    "championship_table": 51,
+    "team": 64,
+    "position": 11,
+    "points": 13,
+    "games": 10,
+    "won": 3,
+    "drawn": 4,
+    "lost": 3,
+    "goal_for": 11,
+    "goal_against": 10,
+    "goal_difference": 1,
+    "points_percentage": 43.3,
+    "position_variation": 4,
+    "last_results": "['d', 'e', 'e', 'd', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 915,
+  "fields": {
+    "championship_table": 51,
+    "team": 105,
+    "position": 12,
+    "points": 13,
+    "games": 10,
+    "won": 3,
+    "drawn": 4,
+    "lost": 3,
+    "goal_for": 12,
+    "goal_against": 12,
+    "goal_difference": 0,
+    "points_percentage": 43.3,
+    "position_variation": 4,
+    "last_results": "['e', 'e', 'e', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 916,
+  "fields": {
+    "championship_table": 51,
+    "team": 115,
+    "position": 13,
+    "points": 13,
+    "games": 10,
+    "won": 3,
+    "drawn": 4,
+    "lost": 3,
+    "goal_for": 11,
+    "goal_against": 13,
+    "goal_difference": -2,
+    "points_percentage": 43.3,
+    "position_variation": -1,
+    "last_results": "['v', 'd', 'e', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 917,
+  "fields": {
+    "championship_table": 51,
+    "team": 18,
+    "position": 14,
+    "points": 12,
+    "games": 10,
+    "won": 3,
+    "drawn": 3,
+    "lost": 4,
+    "goal_for": 10,
+    "goal_against": 10,
+    "goal_difference": 0,
+    "points_percentage": 40.0,
+    "position_variation": -3,
+    "last_results": "['e', 'v', 'v', 'd', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 918,
+  "fields": {
+    "championship_table": 51,
+    "team": 22,
+    "position": 15,
+    "points": 12,
+    "games": 10,
+    "won": 3,
+    "drawn": 3,
+    "lost": 4,
+    "goal_for": 12,
+    "goal_against": 15,
+    "goal_difference": -3,
+    "points_percentage": 40.0,
+    "position_variation": -5,
+    "last_results": "['v', 'e', 'd', 'd', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 919,
+  "fields": {
+    "championship_table": 51,
+    "team": 6,
+    "position": 16,
+    "points": 11,
+    "games": 10,
+    "won": 3,
+    "drawn": 2,
+    "lost": 5,
+    "goal_for": 11,
+    "goal_against": 15,
+    "goal_difference": -4,
+    "points_percentage": 36.7,
+    "position_variation": -2,
+    "last_results": "['d', 'd', 'd', 'e', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 920,
+  "fields": {
+    "championship_table": 51,
+    "team": 204,
+    "position": 17,
+    "points": 11,
+    "games": 10,
+    "won": 3,
+    "drawn": 2,
+    "lost": 5,
+    "goal_for": 8,
+    "goal_against": 12,
+    "goal_difference": -4,
+    "points_percentage": 36.7,
+    "position_variation": 1,
+    "last_results": "['d', 'e', 'd', 'd', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 921,
+  "fields": {
+    "championship_table": 51,
+    "team": 98,
+    "position": 18,
+    "points": 10,
+    "games": 10,
+    "won": 2,
+    "drawn": 4,
+    "lost": 4,
+    "goal_for": 8,
+    "goal_against": 13,
+    "goal_difference": -5,
+    "points_percentage": 33.3,
+    "position_variation": 1,
+    "last_results": "['d', 'v', 'e', 'd', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 922,
+  "fields": {
+    "championship_table": 51,
+    "team": 43,
+    "position": 19,
+    "points": 10,
+    "games": 10,
+    "won": 2,
+    "drawn": 4,
+    "lost": 4,
+    "goal_for": 10,
+    "goal_against": 17,
+    "goal_difference": -7,
+    "points_percentage": 33.3,
+    "position_variation": -2,
+    "last_results": "['v', 'd', 'e', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 923,
+  "fields": {
+    "championship_table": 51,
+    "team": 131,
+    "position": 20,
+    "points": 6,
+    "games": 10,
+    "won": 1,
+    "drawn": 3,
+    "lost": 6,
+    "goal_for": 7,
+    "goal_against": 13,
+    "goal_difference": -6,
+    "points_percentage": 20.0,
+    "position_variation": 0,
+    "last_results": "['d', 'd', 'e', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 924,
+  "fields": {
+    "championship_table": 52,
+    "team": 56,
+    "position": 1,
+    "points": 25,
+    "games": 12,
+    "won": 7,
+    "drawn": 4,
+    "lost": 1,
+    "goal_for": 23,
+    "goal_against": 7,
+    "goal_difference": 16,
+    "points_percentage": 69.4,
+    "position_variation": 0,
+    "last_results": "['v', 'e', 'v', 'v', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 925,
+  "fields": {
+    "championship_table": 52,
+    "team": 65,
+    "position": 2,
+    "points": 25,
+    "games": 13,
+    "won": 7,
+    "drawn": 4,
+    "lost": 2,
+    "goal_for": 17,
+    "goal_against": 10,
+    "goal_difference": 7,
+    "points_percentage": 64.1,
+    "position_variation": 0,
+    "last_results": "['v', 'd', 'v', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 926,
+  "fields": {
+    "championship_table": 52,
+    "team": 185,
+    "position": 3,
+    "points": 21,
+    "games": 13,
+    "won": 6,
+    "drawn": 3,
+    "lost": 4,
+    "goal_for": 13,
+    "goal_against": 13,
+    "goal_difference": 0,
+    "points_percentage": 53.8,
+    "position_variation": 1,
+    "last_results": "['e', 'v', 'e', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 927,
+  "fields": {
+    "championship_table": 52,
+    "team": 30,
+    "position": 4,
+    "points": 21,
+    "games": 13,
+    "won": 5,
+    "drawn": 6,
+    "lost": 2,
+    "goal_for": 19,
+    "goal_against": 14,
+    "goal_difference": 5,
+    "points_percentage": 53.8,
+    "position_variation": 2,
+    "last_results": "['e', 'd', 'e', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 928,
+  "fields": {
+    "championship_table": 52,
+    "team": 44,
+    "position": 5,
+    "points": 21,
+    "games": 13,
+    "won": 5,
+    "drawn": 6,
+    "lost": 2,
+    "goal_for": 18,
+    "goal_against": 14,
+    "goal_difference": 4,
+    "points_percentage": 53.8,
+    "position_variation": -2,
+    "last_results": "['v', 'e', 'v', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 929,
+  "fields": {
+    "championship_table": 52,
+    "team": 26,
+    "position": 6,
+    "points": 18,
+    "games": 13,
+    "won": 5,
+    "drawn": 3,
+    "lost": 5,
+    "goal_for": 15,
+    "goal_against": 14,
+    "goal_difference": 1,
+    "points_percentage": 46.2,
+    "position_variation": 5,
+    "last_results": "['d', 'v', 'd', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 930,
+  "fields": {
+    "championship_table": 52,
+    "team": 22,
+    "position": 7,
+    "points": 18,
+    "games": 13,
+    "won": 5,
+    "drawn": 3,
+    "lost": 5,
+    "goal_for": 16,
+    "goal_against": 18,
+    "goal_difference": -2,
+    "points_percentage": 46.2,
+    "position_variation": 7,
+    "last_results": "['d', 'd', 'd', 'v', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 931,
+  "fields": {
+    "championship_table": 52,
+    "team": 63,
+    "position": 8,
+    "points": 18,
+    "games": 13,
+    "won": 4,
+    "drawn": 6,
+    "lost": 3,
+    "goal_for": 18,
+    "goal_against": 13,
+    "goal_difference": 5,
+    "points_percentage": 46.2,
+    "position_variation": 0,
+    "last_results": "['e', 'e', 'e', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 932,
+  "fields": {
+    "championship_table": 52,
+    "team": 57,
+    "position": 9,
+    "points": 18,
+    "games": 12,
+    "won": 4,
+    "drawn": 6,
+    "lost": 2,
+    "goal_for": 17,
+    "goal_against": 13,
+    "goal_difference": 4,
+    "points_percentage": 50.0,
+    "position_variation": -4,
+    "last_results": "['e', 'e', 'e', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 933,
+  "fields": {
+    "championship_table": 52,
+    "team": 64,
+    "position": 10,
+    "points": 18,
+    "games": 13,
+    "won": 4,
+    "drawn": 6,
+    "lost": 3,
+    "goal_for": 18,
+    "goal_against": 15,
+    "goal_difference": 3,
+    "points_percentage": 46.2,
+    "position_variation": -1,
+    "last_results": "['d', 'v', 'e', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 934,
+  "fields": {
+    "championship_table": 52,
+    "team": 6,
+    "position": 11,
+    "points": 17,
+    "games": 13,
+    "won": 5,
+    "drawn": 2,
+    "lost": 6,
+    "goal_for": 15,
+    "goal_against": 19,
+    "goal_difference": -4,
+    "points_percentage": 43.6,
+    "position_variation": -4,
+    "last_results": "['e', 'd', 'v', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 935,
+  "fields": {
+    "championship_table": 52,
+    "team": 98,
+    "position": 12,
+    "points": 16,
+    "games": 13,
+    "won": 4,
+    "drawn": 4,
+    "lost": 5,
+    "goal_for": 15,
+    "goal_against": 18,
+    "goal_difference": -3,
+    "points_percentage": 41.0,
+    "position_variation": 5,
+    "last_results": "['d', 'v', 'v', 'd', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 936,
+  "fields": {
+    "championship_table": 52,
+    "team": 105,
+    "position": 13,
+    "points": 16,
+    "games": 13,
+    "won": 3,
+    "drawn": 7,
+    "lost": 3,
+    "goal_for": 13,
+    "goal_against": 13,
+    "goal_difference": 0,
+    "points_percentage": 41.0,
+    "position_variation": 2,
+    "last_results": "['e', 'v', 'e', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 937,
+  "fields": {
+    "championship_table": 52,
+    "team": 18,
+    "position": 14,
+    "points": 15,
+    "games": 13,
+    "won": 4,
+    "drawn": 3,
+    "lost": 6,
+    "goal_for": 13,
+    "goal_against": 15,
+    "goal_difference": -2,
+    "points_percentage": 38.5,
+    "position_variation": -4,
+    "last_results": "['d', 'd', 'd', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 938,
+  "fields": {
+    "championship_table": 52,
+    "team": 84,
+    "position": 15,
+    "points": 15,
+    "games": 13,
+    "won": 4,
+    "drawn": 3,
+    "lost": 6,
+    "goal_for": 16,
+    "goal_against": 19,
+    "goal_difference": -3,
+    "points_percentage": 38.5,
+    "position_variation": -3,
+    "last_results": "['e', 'e', 'd', 'd', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 939,
+  "fields": {
+    "championship_table": 52,
+    "team": 33,
+    "position": 16,
+    "points": 15,
+    "games": 13,
+    "won": 4,
+    "drawn": 3,
+    "lost": 6,
+    "goal_for": 11,
+    "goal_against": 14,
+    "goal_difference": -3,
+    "points_percentage": 38.5,
+    "position_variation": -3,
+    "last_results": "['v', 'd', 'd', 'e', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 940,
+  "fields": {
+    "championship_table": 52,
+    "team": 115,
+    "position": 17,
+    "points": 14,
+    "games": 13,
+    "won": 3,
+    "drawn": 5,
+    "lost": 5,
+    "goal_for": 13,
+    "goal_against": 17,
+    "goal_difference": -4,
+    "points_percentage": 35.9,
+    "position_variation": -1,
+    "last_results": "['v', 'e', 'e', 'd', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 941,
+  "fields": {
+    "championship_table": 52,
+    "team": 204,
+    "position": 18,
+    "points": 13,
+    "games": 13,
+    "won": 3,
+    "drawn": 4,
+    "lost": 6,
+    "goal_for": 9,
+    "goal_against": 15,
+    "goal_difference": -6,
+    "points_percentage": 33.3,
+    "position_variation": 0,
+    "last_results": "['d', 'v', 'e', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 942,
+  "fields": {
+    "championship_table": 52,
+    "team": 131,
+    "position": 19,
+    "points": 10,
+    "games": 13,
+    "won": 2,
+    "drawn": 4,
+    "lost": 7,
+    "goal_for": 10,
+    "goal_against": 16,
+    "goal_difference": -6,
+    "points_percentage": 25.6,
+    "position_variation": 1,
+    "last_results": "['v', 'e', 'e', 'd', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 943,
+  "fields": {
+    "championship_table": 52,
+    "team": 43,
+    "position": 20,
+    "points": 10,
+    "games": 13,
+    "won": 2,
+    "drawn": 4,
+    "lost": 7,
+    "goal_for": 12,
+    "goal_against": 24,
+    "goal_difference": -12,
+    "points_percentage": 25.6,
+    "position_variation": -1,
+    "last_results": "['v', 'd', 'd', 'd', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 944,
+  "fields": {
+    "championship_table": 53,
+    "team": 56,
+    "position": 1,
+    "points": 28,
+    "games": 13,
+    "won": 8,
+    "drawn": 4,
+    "lost": 1,
+    "goal_for": 25,
+    "goal_against": 8,
+    "goal_difference": 17,
+    "points_percentage": 71.8,
+    "position_variation": 0,
+    "last_results": "['e', 'v', 'v', 'v', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 945,
+  "fields": {
+    "championship_table": 53,
+    "team": 65,
+    "position": 2,
+    "points": 25,
+    "games": 13,
+    "won": 7,
+    "drawn": 4,
+    "lost": 2,
+    "goal_for": 17,
+    "goal_against": 10,
+    "goal_difference": 7,
+    "points_percentage": 64.1,
+    "position_variation": 0,
+    "last_results": "['v', 'd', 'v', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 946,
+  "fields": {
+    "championship_table": 53,
+    "team": 185,
+    "position": 3,
+    "points": 21,
+    "games": 13,
+    "won": 6,
+    "drawn": 3,
+    "lost": 4,
+    "goal_for": 13,
+    "goal_against": 13,
+    "goal_difference": 0,
+    "points_percentage": 53.8,
+    "position_variation": 1,
+    "last_results": "['e', 'v', 'e', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 947,
+  "fields": {
+    "championship_table": 53,
+    "team": 30,
+    "position": 4,
+    "points": 21,
+    "games": 13,
+    "won": 5,
+    "drawn": 6,
+    "lost": 2,
+    "goal_for": 19,
+    "goal_against": 14,
+    "goal_difference": 5,
+    "points_percentage": 53.8,
+    "position_variation": 2,
+    "last_results": "['e', 'd', 'e', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 948,
+  "fields": {
+    "championship_table": 53,
+    "team": 44,
+    "position": 5,
+    "points": 21,
+    "games": 13,
+    "won": 5,
+    "drawn": 6,
+    "lost": 2,
+    "goal_for": 18,
+    "goal_against": 14,
+    "goal_difference": 4,
+    "points_percentage": 53.8,
+    "position_variation": -2,
+    "last_results": "['v', 'e', 'v', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 949,
+  "fields": {
+    "championship_table": 53,
+    "team": 26,
+    "position": 6,
+    "points": 18,
+    "games": 13,
+    "won": 5,
+    "drawn": 3,
+    "lost": 5,
+    "goal_for": 15,
+    "goal_against": 14,
+    "goal_difference": 1,
+    "points_percentage": 46.2,
+    "position_variation": 5,
+    "last_results": "['d', 'v', 'd', 'e', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 950,
+  "fields": {
+    "championship_table": 53,
+    "team": 22,
+    "position": 7,
+    "points": 18,
+    "games": 13,
+    "won": 5,
+    "drawn": 3,
+    "lost": 5,
+    "goal_for": 16,
+    "goal_against": 18,
+    "goal_difference": -2,
+    "points_percentage": 46.2,
+    "position_variation": 7,
+    "last_results": "['d', 'd', 'd', 'v', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 951,
+  "fields": {
+    "championship_table": 53,
+    "team": 63,
+    "position": 8,
+    "points": 18,
+    "games": 13,
+    "won": 4,
+    "drawn": 6,
+    "lost": 3,
+    "goal_for": 18,
+    "goal_against": 13,
+    "goal_difference": 5,
+    "points_percentage": 46.2,
+    "position_variation": 0,
+    "last_results": "['e', 'e', 'e', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 952,
+  "fields": {
+    "championship_table": 53,
+    "team": 57,
+    "position": 9,
+    "points": 18,
+    "games": 13,
+    "won": 4,
+    "drawn": 6,
+    "lost": 3,
+    "goal_for": 18,
+    "goal_against": 15,
+    "goal_difference": 3,
+    "points_percentage": 46.2,
+    "position_variation": -4,
+    "last_results": "['e', 'e', 'v', 'd', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 953,
+  "fields": {
+    "championship_table": 53,
+    "team": 64,
+    "position": 10,
+    "points": 18,
+    "games": 13,
+    "won": 4,
+    "drawn": 6,
+    "lost": 3,
+    "goal_for": 18,
+    "goal_against": 15,
+    "goal_difference": 3,
+    "points_percentage": 46.2,
+    "position_variation": -1,
+    "last_results": "['d', 'v', 'e', 'v', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 954,
+  "fields": {
+    "championship_table": 53,
+    "team": 6,
+    "position": 11,
+    "points": 17,
+    "games": 13,
+    "won": 5,
+    "drawn": 2,
+    "lost": 6,
+    "goal_for": 15,
+    "goal_against": 19,
+    "goal_difference": -4,
+    "points_percentage": 43.6,
+    "position_variation": -4,
+    "last_results": "['e', 'd', 'v', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 955,
+  "fields": {
+    "championship_table": 53,
+    "team": 98,
+    "position": 12,
+    "points": 16,
+    "games": 13,
+    "won": 4,
+    "drawn": 4,
+    "lost": 5,
+    "goal_for": 15,
+    "goal_against": 18,
+    "goal_difference": -3,
+    "points_percentage": 41.0,
+    "position_variation": 5,
+    "last_results": "['d', 'v', 'v', 'd', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 956,
+  "fields": {
+    "championship_table": 53,
+    "team": 105,
+    "position": 13,
+    "points": 16,
+    "games": 13,
+    "won": 3,
+    "drawn": 7,
+    "lost": 3,
+    "goal_for": 13,
+    "goal_against": 13,
+    "goal_difference": 0,
+    "points_percentage": 41.0,
+    "position_variation": 2,
+    "last_results": "['e', 'v', 'e', 'e', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 957,
+  "fields": {
+    "championship_table": 53,
+    "team": 18,
+    "position": 14,
+    "points": 15,
+    "games": 13,
+    "won": 4,
+    "drawn": 3,
+    "lost": 6,
+    "goal_for": 13,
+    "goal_against": 15,
+    "goal_difference": -2,
+    "points_percentage": 38.5,
+    "position_variation": -4,
+    "last_results": "['d', 'd', 'd', 'v', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 958,
+  "fields": {
+    "championship_table": 53,
+    "team": 84,
+    "position": 15,
+    "points": 15,
+    "games": 13,
+    "won": 4,
+    "drawn": 3,
+    "lost": 6,
+    "goal_for": 16,
+    "goal_against": 19,
+    "goal_difference": -3,
+    "points_percentage": 38.5,
+    "position_variation": -3,
+    "last_results": "['e', 'e', 'd', 'd', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 959,
+  "fields": {
+    "championship_table": 53,
+    "team": 33,
+    "position": 16,
+    "points": 15,
+    "games": 13,
+    "won": 4,
+    "drawn": 3,
+    "lost": 6,
+    "goal_for": 11,
+    "goal_against": 14,
+    "goal_difference": -3,
+    "points_percentage": 38.5,
+    "position_variation": -3,
+    "last_results": "['v', 'd', 'd', 'e', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 960,
+  "fields": {
+    "championship_table": 53,
+    "team": 115,
+    "position": 17,
+    "points": 14,
+    "games": 13,
+    "won": 3,
+    "drawn": 5,
+    "lost": 5,
+    "goal_for": 13,
+    "goal_against": 17,
+    "goal_difference": -4,
+    "points_percentage": 35.9,
+    "position_variation": -1,
+    "last_results": "['v', 'e', 'e', 'd', 'd']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 961,
+  "fields": {
+    "championship_table": 53,
+    "team": 204,
+    "position": 18,
+    "points": 13,
+    "games": 13,
+    "won": 3,
+    "drawn": 4,
+    "lost": 6,
+    "goal_for": 9,
+    "goal_against": 15,
+    "goal_difference": -6,
+    "points_percentage": 33.3,
+    "position_variation": 0,
+    "last_results": "['d', 'v', 'e', 'd', 'e']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 962,
+  "fields": {
+    "championship_table": 53,
+    "team": 131,
+    "position": 19,
+    "points": 10,
+    "games": 13,
+    "won": 2,
+    "drawn": 4,
+    "lost": 7,
+    "goal_for": 10,
+    "goal_against": 16,
+    "goal_difference": -6,
+    "points_percentage": 25.6,
+    "position_variation": 1,
+    "last_results": "['v', 'e', 'e', 'd', 'v']"
+  }
+},
+{
+  "model": "standings.standings",
+  "pk": 963,
+  "fields": {
+    "championship_table": 53,
+    "team": 43,
+    "position": 20,
+    "points": 10,
+    "games": 13,
+    "won": 2,
+    "drawn": 4,
+    "lost": 7,
+    "goal_for": 12,
+    "goal_against": 24,
+    "goal_difference": -12,
+    "points_percentage": 25.6,
+    "position_variation": -1,
+    "last_results": "['v', 'd', 'd', 'd', 'd']"
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 4,
+  "fields": {
+    "championship_table": 4,
+    "user": 24,
+    "total_points": 68
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 14,
+  "fields": {
+    "championship_table": 4,
+    "user": 44,
+    "total_points": 68
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 24,
+  "fields": {
+    "championship_table": 4,
+    "user": 74,
+    "total_points": 47
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 34,
+  "fields": {
+    "championship_table": 4,
+    "user": 84,
+    "total_points": 55
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 44,
+  "fields": {
+    "championship_table": 4,
+    "user": 94,
+    "total_points": 22
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 54,
+  "fields": {
+    "championship_table": 4,
+    "user": 104,
+    "total_points": 65
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 64,
+  "fields": {
+    "championship_table": 4,
+    "user": 114,
+    "total_points": 38
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 74,
+  "fields": {
+    "championship_table": 4,
+    "user": 124,
+    "total_points": 32
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 84,
+  "fields": {
+    "championship_table": 4,
+    "user": 134,
+    "total_points": 54
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 94,
+  "fields": {
+    "championship_table": 4,
+    "user": 144,
+    "total_points": 88
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 104,
+  "fields": {
+    "championship_table": 4,
+    "user": 154,
+    "total_points": 53
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 114,
+  "fields": {
+    "championship_table": 4,
+    "user": 164,
+    "total_points": 73
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 124,
+  "fields": {
+    "championship_table": 14,
+    "user": 24,
+    "total_points": 63
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 134,
+  "fields": {
+    "championship_table": 14,
+    "user": 44,
+    "total_points": 96
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 144,
+  "fields": {
+    "championship_table": 14,
+    "user": 74,
+    "total_points": 71
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 154,
+  "fields": {
+    "championship_table": 14,
+    "user": 84,
+    "total_points": 86
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 164,
+  "fields": {
+    "championship_table": 14,
+    "user": 94,
+    "total_points": 47
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 174,
+  "fields": {
+    "championship_table": 14,
+    "user": 104,
+    "total_points": 97
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 184,
+  "fields": {
+    "championship_table": 14,
+    "user": 114,
+    "total_points": 82
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 194,
+  "fields": {
+    "championship_table": 14,
+    "user": 124,
+    "total_points": 57
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 204,
+  "fields": {
+    "championship_table": 14,
+    "user": 134,
+    "total_points": 132
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 214,
+  "fields": {
+    "championship_table": 14,
+    "user": 144,
+    "total_points": 102
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 224,
+  "fields": {
+    "championship_table": 14,
+    "user": 154,
+    "total_points": 59
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 234,
+  "fields": {
+    "championship_table": 14,
+    "user": 164,
+    "total_points": 103
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 244,
+  "fields": {
+    "championship_table": 24,
+    "user": 24,
+    "total_points": 76
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 254,
+  "fields": {
+    "championship_table": 24,
+    "user": 44,
+    "total_points": 61
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 264,
+  "fields": {
+    "championship_table": 24,
+    "user": 74,
+    "total_points": 109
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 274,
+  "fields": {
+    "championship_table": 24,
+    "user": 84,
+    "total_points": 131
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 284,
+  "fields": {
+    "championship_table": 24,
+    "user": 94,
+    "total_points": 53
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 294,
+  "fields": {
+    "championship_table": 24,
+    "user": 104,
+    "total_points": 113
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 304,
+  "fields": {
+    "championship_table": 24,
+    "user": 114,
+    "total_points": 61
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 314,
+  "fields": {
+    "championship_table": 24,
+    "user": 124,
+    "total_points": 81
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 324,
+  "fields": {
+    "championship_table": 24,
+    "user": 134,
+    "total_points": 121
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 334,
+  "fields": {
+    "championship_table": 24,
+    "user": 144,
+    "total_points": 83
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 344,
+  "fields": {
+    "championship_table": 24,
+    "user": 154,
+    "total_points": 59
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 354,
+  "fields": {
+    "championship_table": 24,
+    "user": 164,
+    "total_points": 105
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 364,
+  "fields": {
+    "championship_table": 34,
+    "user": 24,
+    "total_points": 77
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 374,
+  "fields": {
+    "championship_table": 34,
+    "user": 44,
+    "total_points": 54
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 384,
+  "fields": {
+    "championship_table": 34,
+    "user": 74,
+    "total_points": 92
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 394,
+  "fields": {
+    "championship_table": 34,
+    "user": 84,
+    "total_points": 70
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 404,
+  "fields": {
+    "championship_table": 34,
+    "user": 94,
+    "total_points": 36
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 414,
+  "fields": {
+    "championship_table": 34,
+    "user": 104,
+    "total_points": 77
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 424,
+  "fields": {
+    "championship_table": 34,
+    "user": 114,
+    "total_points": 71
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 434,
+  "fields": {
+    "championship_table": 34,
+    "user": 124,
+    "total_points": 77
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 444,
+  "fields": {
+    "championship_table": 34,
+    "user": 134,
+    "total_points": 102
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 454,
+  "fields": {
+    "championship_table": 34,
+    "user": 144,
+    "total_points": 87
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 464,
+  "fields": {
+    "championship_table": 34,
+    "user": 154,
+    "total_points": 98
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 474,
+  "fields": {
+    "championship_table": 34,
+    "user": 164,
+    "total_points": 137
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 484,
+  "fields": {
+    "championship_table": 50,
+    "user": 24,
+    "total_points": 65
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 485,
+  "fields": {
+    "championship_table": 50,
+    "user": 44,
+    "total_points": 128
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 486,
+  "fields": {
+    "championship_table": 50,
+    "user": 74,
+    "total_points": 113
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 487,
+  "fields": {
+    "championship_table": 50,
+    "user": 84,
+    "total_points": 78
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 488,
+  "fields": {
+    "championship_table": 50,
+    "user": 94,
+    "total_points": 68
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 489,
+  "fields": {
+    "championship_table": 50,
+    "user": 104,
+    "total_points": 124
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 490,
+  "fields": {
+    "championship_table": 50,
+    "user": 114,
+    "total_points": 109
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 491,
+  "fields": {
+    "championship_table": 50,
+    "user": 124,
+    "total_points": 92
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 492,
+  "fields": {
+    "championship_table": 50,
+    "user": 134,
+    "total_points": 136
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 493,
+  "fields": {
+    "championship_table": 50,
+    "user": 144,
+    "total_points": 121
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 494,
+  "fields": {
+    "championship_table": 50,
+    "user": 154,
+    "total_points": 79
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 495,
+  "fields": {
+    "championship_table": 50,
+    "user": 164,
+    "total_points": 118
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 496,
+  "fields": {
+    "championship_table": 51,
+    "user": 24,
+    "total_points": 42
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 497,
+  "fields": {
+    "championship_table": 51,
+    "user": 44,
+    "total_points": 59
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 498,
+  "fields": {
+    "championship_table": 51,
+    "user": 74,
+    "total_points": 73
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 499,
+  "fields": {
+    "championship_table": 51,
+    "user": 84,
+    "total_points": 56
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 500,
+  "fields": {
+    "championship_table": 51,
+    "user": 94,
+    "total_points": 32
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 501,
+  "fields": {
+    "championship_table": 51,
+    "user": 104,
+    "total_points": 44
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 502,
+  "fields": {
+    "championship_table": 51,
+    "user": 114,
+    "total_points": 40
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 503,
+  "fields": {
+    "championship_table": 51,
+    "user": 124,
+    "total_points": 66
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 504,
+  "fields": {
+    "championship_table": 51,
+    "user": 134,
+    "total_points": 81
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 505,
+  "fields": {
+    "championship_table": 51,
+    "user": 144,
+    "total_points": 69
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 506,
+  "fields": {
+    "championship_table": 51,
+    "user": 154,
+    "total_points": 52
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 507,
+  "fields": {
+    "championship_table": 51,
+    "user": 164,
+    "total_points": 145
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 508,
+  "fields": {
+    "championship_table": 52,
+    "user": 24,
+    "total_points": 78
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 509,
+  "fields": {
+    "championship_table": 52,
+    "user": 44,
+    "total_points": 50
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 510,
+  "fields": {
+    "championship_table": 52,
+    "user": 74,
+    "total_points": 113
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 511,
+  "fields": {
+    "championship_table": 52,
+    "user": 84,
+    "total_points": 101
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 512,
+  "fields": {
+    "championship_table": 52,
+    "user": 94,
+    "total_points": 62
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 513,
+  "fields": {
+    "championship_table": 52,
+    "user": 104,
+    "total_points": 125
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 514,
+  "fields": {
+    "championship_table": 52,
+    "user": 114,
+    "total_points": 133
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 515,
+  "fields": {
+    "championship_table": 52,
+    "user": 124,
+    "total_points": 123
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 516,
+  "fields": {
+    "championship_table": 52,
+    "user": 134,
+    "total_points": 60
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 517,
+  "fields": {
+    "championship_table": 52,
+    "user": 144,
+    "total_points": 56
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 518,
+  "fields": {
+    "championship_table": 52,
+    "user": 154,
+    "total_points": 78
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 519,
+  "fields": {
+    "championship_table": 52,
+    "user": 164,
+    "total_points": 123
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 520,
+  "fields": {
+    "championship_table": 53,
+    "user": 24,
+    "total_points": 78
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 521,
+  "fields": {
+    "championship_table": 53,
+    "user": 44,
+    "total_points": 50
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 522,
+  "fields": {
+    "championship_table": 53,
+    "user": 74,
+    "total_points": 113
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 523,
+  "fields": {
+    "championship_table": 53,
+    "user": 84,
+    "total_points": 101
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 524,
+  "fields": {
+    "championship_table": 53,
+    "user": 94,
+    "total_points": 62
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 525,
+  "fields": {
+    "championship_table": 53,
+    "user": 104,
+    "total_points": 125
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 526,
+  "fields": {
+    "championship_table": 53,
+    "user": 114,
+    "total_points": 133
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 527,
+  "fields": {
+    "championship_table": 53,
+    "user": 124,
+    "total_points": 123
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 528,
+  "fields": {
+    "championship_table": 53,
+    "user": 134,
+    "total_points": 60
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 529,
+  "fields": {
+    "championship_table": 53,
+    "user": 144,
+    "total_points": 56
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 530,
+  "fields": {
+    "championship_table": 53,
+    "user": 154,
+    "total_points": 78
+  }
+},
+{
+  "model": "ranking.betranking",
+  "pk": 531,
+  "fields": {
+    "championship_table": 53,
+    "user": 164,
+    "total_points": 123
+  }
+}
+]
